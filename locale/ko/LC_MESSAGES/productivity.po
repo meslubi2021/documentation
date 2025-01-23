@@ -7,7 +7,7 @@
 # JH CHOI <hwangtog@gmail.com>, 2024
 # Daye Jeong, 2024
 # Wil Odoo, 2024
-# Sarah Park, 2024
+# Sarah Park, 2025
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-02 16:24+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Sarah Park, 2024\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,7 +99,7 @@ msgstr ""
 msgid ""
 "Events created in synced calendars automatically appear across the "
 "integrated platforms."
-msgstr ""
+msgstr "행사가 동기화된 캘린더에서 생성된 경우에는 통합 플랫폼에 자동으로 표시됩니다."
 
 #: ../../content/applications/productivity/calendar.rst:39
 msgid ":doc:`Synchronize Outlook calendar with Odoo <calendar/outlook>`"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar.rst-1
 msgid "The full event form for a new calendar event."
-msgstr ""
+msgstr "새 캘린더 행사에 대한 전체 행사 양식입니다."
 
 #: ../../content/applications/productivity/calendar.rst:97
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Timezone`: Select the timezone for which this meeting time is "
 "specified."
-msgstr ""
+msgstr ":guilabel:`시간대`: 해당 회의 시간이 지정된 시간대를 선택합니다."
 
 #: ../../content/applications/productivity/calendar.rst:109
 msgid ""
@@ -270,6 +270,8 @@ msgid ""
 " meeting should recur, the :guilabel:`End date` of when the recurrences "
 "should stop, or if the meetings should recur :guilabel:`Forever`."
 msgstr ""
+":guilabel:`다음까지`: 이 회의를 반복해서 진행할 :guilabel:`반복 횟수`, 반복이 중지되는 :guilabel:`종료일`"
+" 또는 회의를 계속 반복되게 하려면 :guilabel:`기한 없음` 을 선택합니다."
 
 #: ../../content/applications/productivity/calendar.rst:117
 msgid ""
@@ -289,7 +291,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Privacy`: Toggle between visibility options to control who can "
 "view the event."
-msgstr ""
+msgstr ":guilabel:`개인 정보`: 토글로 공개 여부를 전환하여 행사를 볼 수 있는 사람을 관리합니다."
 
 #: ../../content/applications/productivity/calendar.rst:123
 msgid ""
@@ -301,7 +303,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Description`: Add additional information or details about the "
 "meeting."
-msgstr ""
+msgstr ":guilabel:`설명`: 회의에 대해 추가적인 내용이나 세부 정보를 추가합니다."
 
 #: ../../content/applications/productivity/calendar.rst:126
 msgid ""
@@ -365,7 +367,7 @@ msgstr "캘린더 앱에 있는 공유 가능 창입니다."
 
 #: ../../content/applications/productivity/calendar.rst:162
 msgid "Several configuration options are available on the appointment form:"
-msgstr ""
+msgstr "약속 양식에서 여러 가지 환경설정 옵션을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/calendar.rst:164
 msgid ""
@@ -458,7 +460,7 @@ msgstr ":ref:`calendar/appointment-messages`"
 msgid ""
 "Click the :guilabel:`Preview` button to see how the appointment link looks "
 "for attendees."
-msgstr ""
+msgstr ":guilabel:`미리보기` 버튼을 클릭하면 참석자에게 약속 링크가 어떻게 보이는지 확인할 수 있습니다."
 
 #: ../../content/applications/productivity/calendar.rst:201
 msgid ""
@@ -502,7 +504,7 @@ msgstr ":guilabel:`옵션` 탭에서 추가로 환경설정을 할 수 있습니
 msgid ""
 ":guilabel:`Website`: Specify which website this meeting invitation will be "
 "published on."
-msgstr ""
+msgstr ":guilabel:`웹사이트`: 해당 회의 초대장을 게시할 웹사이트를 지정합니다."
 
 #: ../../content/applications/productivity/calendar.rst:226
 msgid ""
@@ -602,7 +604,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Allow Guests`: Tick the checkbox to allow attendees to invite "
 "guests."
-msgstr ""
+msgstr ":guilabel:`게스트 허용`: 참석자가 게스트를 초대할 수 있게 하려면 확인란에 표시합니다."
 
 #: ../../content/applications/productivity/calendar.rst:260
 msgid "Questions tab"
@@ -951,25 +953,25 @@ msgstr "Google 캘린더를 Odoo 캘린더와 동기화하면 다음과 같이 �
 msgid ""
 "Creating an event in Odoo causes Google to send an invitation to all event "
 "attendees."
-msgstr "Odoo에서 이벤트를 생성하면 Google에서 모든 이벤트 참석자에게 초대를 보냅니다."
+msgstr "Odoo에서 행사를 생성하면 Google에서 모든 행사 참석자에게 초대를 보냅니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:150
 msgid ""
 "Deleting an event in Odoo causes Google to send a cancellation to all event "
 "attendees."
-msgstr "Odoo에서 이벤트를 삭제하면 Google에서 모든 이벤트 참석자에게 취소 알림을 보냅니다."
+msgstr "Odoo에서 행사를 삭제하면 Google에서 모든 행사 참석자에게 취소 알림을 보냅니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:151
 msgid ""
 "Adding a contact to an event causes Google to send an invitation to all "
 "event attendees."
-msgstr "이벤트에 연락처를 추가하면 Google에서 모든 이벤트 참석자에게 초대를 보냅니다."
+msgstr "행사에 연락처를 추가하면 Google에서 모든 행사 참석자에게 초대를 보냅니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:152
 msgid ""
 "Removing a contact from an event causes Google to send a cancellation to all"
 " event attendees."
-msgstr "이벤트에서 연락처를 삭제하면 Google에서 모든 이벤트 참석자에게 취소 알림을 보냅니다."
+msgstr "행사에 있는 연락처를 삭제하면 Google에서 모든 행사 참석자에게 취소 알림을 보냅니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:154
 msgid ""
@@ -1004,12 +1006,12 @@ msgstr ""
 #: ../../content/applications/productivity/calendar/google.rst-1
 #: ../../content/applications/productivity/calendar/outlook.rst-1
 msgid "Reset buttons highlighted on the calendar tab of the user."
-msgstr ""
+msgstr "사용자의 캘린더 탭에서 재설정 버튼이 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:172
 #: ../../content/applications/productivity/calendar/outlook.rst:225
 msgid "Next, click :guilabel:`Reset Account` under the correct calendar."
-msgstr ""
+msgstr "다음으로 알맞은 캘린더 아래에서 :guilabel:`계정 초기화` 를 클릭합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:175
 #: ../../content/applications/productivity/calendar/outlook.rst:228
@@ -1020,7 +1022,7 @@ msgstr "초기화 옵션"
 msgid ""
 "The following reset options are available for troubleshooting Google "
 "calendar sync with Odoo:"
-msgstr ""
+msgstr "다음과 같은 초기화 옵션으로 Odoo와 Google 캘린더를 동기화할 때 발생하는 문제를 해결할 수 있습니다."
 
 #: ../../content/applications/productivity/calendar/google.rst-1
 msgid "Google calendar reset options in Odoo."
@@ -1034,25 +1036,25 @@ msgstr ":guilabel:`사용자의 기존 행사`:"
 #: ../../content/applications/productivity/calendar/google.rst:185
 #: ../../content/applications/productivity/calendar/outlook.rst:239
 msgid ":guilabel:`Leave them untouched`: no changes to the events."
-msgstr ""
+msgstr ":guilabel:`변경하지 않음`: 행사에 변경 사항이 없습니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:186
 msgid ""
 ":guilabel:`Delete from the current Google Calendar account`: delete the "
 "events from *Google Calendar*."
-msgstr ""
+msgstr ":guilabel:`현재 Google 캘린더 계정에서 삭제`: *Google 캘린더* 에서 행사를 삭제합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:188
 #: ../../content/applications/productivity/calendar/outlook.rst:242
 msgid ""
 ":guilabel:`Delete from Odoo`: delete the events from the Odoo calendar."
-msgstr ""
+msgstr ":guilabel:`Odoo에서 제거`: Odoo 캘린더에서 행사를 삭제합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:189
 msgid ""
 ":guilabel:`Delete from both`: delete the events from both *Google Calendar* "
 "and Odoo calendar."
-msgstr ""
+msgstr ":guilabel:`둘 다 삭제`: *Google 캘린더* 및 Odoo 캘린더 양쪽에서 모두 행사를 삭제합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:191
 #: ../../content/applications/productivity/calendar/outlook.rst:246
@@ -1063,13 +1065,14 @@ msgstr ":guilabel:`다음 동기화`:"
 msgid ""
 ":guilabel:`Synchronize only new events`: sync new events on *Google "
 "Calendar* and/or Odoo calendar."
-msgstr ""
+msgstr ":guilabel:`새 행사만 동기화`: *Google 캘린더* 및/또는 Odoo 캘린더에 있는 새 행사를 동기화합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:195
 msgid ""
 ":guilabel:`Synchronize all existing events`: sync all events on *Google "
 "Calendar* and/or Odoo calendar."
 msgstr ""
+":guilabel:`모든 기존 행사 동기화`: *Google 캘린더* 및/또는 Odoo 캘린더에 있는 모든 행사를 동기화합니다."
 
 #: ../../content/applications/productivity/calendar/google.rst:198
 #: ../../content/applications/productivity/calendar/outlook.rst:253
@@ -1253,6 +1256,8 @@ msgid ""
 "<https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-"
 "register-app>`_."
 msgstr ""
+"Microsoft *Entra ID* 로 로그인한 후 `애플리케이션을 등록합니다 <https://docs.microsoft.com/en-"
+"us/azure/active-directory/develop/quickstart-register-app>`_."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:35
 msgid ""
@@ -1264,11 +1269,11 @@ msgstr ""
 msgid ""
 "Microsoft Azure management page with + Add and App Registration menu "
 "highlighted."
-msgstr ""
+msgstr "Microsoft Azure 관리 페이지에 + 추가 및 앱 등록 메뉴가 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:42
 msgid "Enter a unique :guilabel:`Name` for the connected application."
-msgstr ""
+msgstr "연결된 애플리케이션에 고유한 :guilabel:`이름` 을 입력합니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:44
 msgid ""
@@ -1346,6 +1351,8 @@ msgid ""
 "Application client ID highlighted in the essentials section of the newly created\n"
 "application."
 msgstr ""
+"새로 생성된 애플리케이션의 필수 섹션에 있는 애플리케이션 클라이언트 ID가\n"
+"강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:85
 msgid "Create client secret"
@@ -1392,7 +1399,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst:105
 msgid "Finally, click :guilabel:`Add` to :guilabel:`Add a client secret`."
-msgstr ""
+msgstr "마지막으로 :guilabel:`클라이언트 비밀번호 추가` 에 :guilabel:`추가` 를 클릭합니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:108
 msgid ""
@@ -1405,7 +1412,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst:112
 msgid "Copy the :guilabel:`Value` for use in the next section."
-msgstr ""
+msgstr "다음 섹션에서 사용할 수 있도록 :guilabel:`값` 을 복사합니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:115
 msgid ""
@@ -1442,7 +1449,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst-1
 msgid "The \"Client ID\" in the Microsoft Azure portal."
-msgstr ""
+msgstr "Microsoft Azure 포털에 있는 \"클라이언트 ID\" 입니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:139
 msgid ""
@@ -1452,13 +1459,14 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst-1
 msgid "The \"Client Secret\" token to be copied from Microsoft to Odoo."
-msgstr ""
+msgstr "Microsoft에서 Odoo로 복사할 \"클라이언트 비밀번호\" 토큰입니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:146
 msgid ""
 "Finally, on the Odoo :menuselection:`Settings --> General Settings` page, "
 "click :guilabel:`Save`."
 msgstr ""
+"마지막으로 Odoo :menuselection:`설정 --> 일반 설정` 페이지에서 :guilabel:`저장` 을 클릭합니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:151
 msgid "Sync with Outlook"
@@ -1509,7 +1517,7 @@ msgstr ""
 msgid ""
 "In summary, once a user synchronizes their Outlook calendar with the Odoo "
 "calendar:"
-msgstr ""
+msgstr "요약하면, Outlook 일정을 Odoo 일정과 동기화할 경우:"
 
 #: ../../content/applications/productivity/calendar/outlook.rst:174
 msgid ""
@@ -1545,7 +1553,7 @@ msgstr ""
 msgid ""
 "Removing a contact from an event causes Outlook to send a cancellation to "
 "all event attendees."
-msgstr ""
+msgstr "행사에 있는 연락처를 삭제하면 Outlook에서 모든 행사 참석자에게 취소 알림을 보냅니다."
 
 #: ../../content/applications/productivity/calendar/outlook.rst:182
 msgid "Sync Odoo Calendar and Outlook"
@@ -1666,18 +1674,22 @@ msgid ""
 ":ref:`Deduplicates <data_cleaning/deduplication>`: merges or removes "
 "duplicate entries to ensure data is unique."
 msgstr ""
+":ref:`중복 제거 <data_cleaning/deduplication>`: 중복된 항목을 병합하거나 제거하여 데이터의가 고유하게 "
+"유지될 수 있도록 합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:10
 msgid ""
 ":ref:`Recycles <data_cleaning/recycle>`: identifies outdated records to "
 "either archive or delete them."
-msgstr ""
+msgstr ":ref:`재사용 <data_cleaning/recycle>`: 오래된 레코드를 파악하여 보관하거나 삭제합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:12
 msgid ""
 ":ref:`Merges <data_cleaning/merge-action-manager>`: combines multiple "
 "similar entries into one streamlined record."
 msgstr ""
+":ref:`병합 <data_cleaning/merge-action-manager>`: 유사한 항목 여러 개를 하나의 레코드로 결합하여 "
+"간소화합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:14
 msgid ""
@@ -1730,7 +1742,7 @@ msgstr "`data_recycle`"
 msgid ""
 "Base module to enable the recycle feature, available on Odoo Community "
 "edition."
-msgstr ""
+msgstr "Odoo 커뮤니티 에디션에서 재사용 기능을 사용할 수 있도록 활성화하는 기본 모듈입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:39
 msgid ":guilabel:`Data Cleaning`"
@@ -1784,7 +1796,7 @@ msgstr "`data_merge_helpdesk`"
 
 #: ../../content/applications/productivity/data_cleaning.rst:59
 msgid "Enables the merge feature for the *Helpdesk* app."
-msgstr ""
+msgstr "*헬프데스크* 앱의 병합 기능을 활성화합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:60
 msgid ":guilabel:`Project Merge action`"
@@ -1796,7 +1808,7 @@ msgstr "`data_merge_project`"
 
 #: ../../content/applications/productivity/data_cleaning.rst:62
 msgid "Enables the merge feature for the *Projects* app."
-msgstr ""
+msgstr "*프로젝트* 앱의 병합 기능을 활성화합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:63
 msgid ":guilabel:`UTM Deduplication`"
@@ -1808,7 +1820,7 @@ msgstr "`data_merge_utm`"
 
 #: ../../content/applications/productivity/data_cleaning.rst:65
 msgid "Enables the merge feature for the *UTM Tracker* app."
-msgstr ""
+msgstr "*UTM 트래커* 앱의 병합 기능을 활성화합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:66
 msgid ":guilabel:`WMS Accounting Merge`"
@@ -1862,22 +1874,22 @@ msgstr ""
 #: ../../content/applications/productivity/data_cleaning.rst:91
 msgid ""
 ":guilabel:`Created On`: the date and time the original record was created."
-msgstr ""
+msgstr ":guilabel:`생성일`: 원래 레코드가 생성된 날짜와 시간입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:92
 msgid ":guilabel:`Name`: the name or title of the original record."
-msgstr ""
+msgstr ":guilabel:`잉름`: 원본 레코드의 이름 또는 제목입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:93
 msgid ""
 ":guilabel:`Field Values`: the original record's values for the fields used "
 "to detect duplicates."
-msgstr ""
+msgstr ":guilabel:`필드 값`: 중복값 찾기 필드에 대한 원본 레코드의 값입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:94
 msgid ""
 ":guilabel:`Used In`: lists other models referencing the original record."
-msgstr ""
+msgstr ":guilabel:`사용 대상`: 원본 레코드를 참조하는 다른 모델을 표시합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:95
 msgid ":guilabel:`ID`: the original record's unique ID."
@@ -1893,7 +1905,7 @@ msgstr ""
 msgid ""
 "Select a specific rule in the :guilabel:`RULE` sidebar to filter the "
 "duplicate records."
-msgstr ""
+msgstr ":guilabel:`규칙` 사이드바에서 특정 규칙을 선택하면 중복 레코드를 필터링할 수 있습니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:104
 msgid "Merge duplicate records"
@@ -1941,6 +1953,7 @@ msgid ""
 "View discarded groupings by selecting the :guilabel:`Discarded` filter from "
 "the :ref:`Search... <search/filters>` bar."
 msgstr ""
+"삭제된 그룹을 확인하려면 :ref:`검색... <search/filters>` 표시줄에서 :guilabel:`폐기됨` 필터를 선택합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:128
 msgid "Deduplication rules"
@@ -2049,7 +2062,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:176
 msgid ":guilabel:`Exact Match`: the characters in the text match exactly."
-msgstr ""
+msgstr ":guilabel:`정확히 일치`: 텍스트의 문자가 정확히 일치합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:177
 msgid ""
@@ -2065,7 +2078,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:185
 msgid "A few more fields are available for an advanced configuration."
-msgstr ""
+msgstr "고급 환경설정에 몇 가지 필드를 더 추가할 수 있습니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:187
 msgid ""
@@ -2110,7 +2123,7 @@ msgstr ""
 msgid ""
 "Click on the :icon:`fa-clone` :guilabel:`Duplicates` smart button to manage "
 "these records."
-msgstr ""
+msgstr ":icon:`fa-clone` :guilabel:`중복` 스마트 버튼을 클릭하면 이러한 레코드를 관리할 수 있습니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:212
 msgid "Recycle records"
@@ -2135,7 +2148,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst-1
 msgid "Field Recycle Records dashboard in the Data Cleaning application."
-msgstr ""
+msgstr "데이터 정리 애플리케이션의 필드 재사용 레코드 현황판입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:224
 msgid ""
@@ -2152,11 +2165,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:230
 msgid ":guilabel:`Record ID`: the ID of the original record."
-msgstr ""
+msgstr ":guilabel:`레코드 ID`: 원본 레코드의 ID입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:231
 msgid ":guilabel:`Record Name`: the name or title of the original record."
-msgstr ""
+msgstr ":guilabel:`레코드 이름`: 원래 레코드의 이름 또는 제목입니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:233
 msgid ""
@@ -2241,7 +2254,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Time Field`: select a field from the model to base the time "
 "(:dfn:`Delta`)."
-msgstr ""
+msgstr ":guilabel:`시간 필드`: 모델에서 기준 시간이 될 필드를 선택합니다(:dfn:`델타`)."
 
 #: ../../content/applications/productivity/data_cleaning.rst:274
 msgid ""
@@ -2254,6 +2267,8 @@ msgid ""
 ":guilabel:`Delta Unit`: select the unit of time (:guilabel:`Days`, "
 ":guilabel:`Weeks`, :guilabel:`Months`, or :guilabel:`Years`)."
 msgstr ""
+":guilabel:`델타 단위`: 시간 단위(:guilabel:`일`, :guilabel:`주`, :guilabel:`월` 또는 "
+":guilabel:`연도`)를 선택합니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:278
 msgid "Then, select a :guilabel:`Recycle Mode`:"
@@ -2269,7 +2284,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Automatic`: automatically merges recycled groupings, without "
 "notifying users."
-msgstr ""
+msgstr ":guilabel:`자동`: 재사용된 그룹을 자동으로 병합하며, 알림이 가지 않습니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:284
 msgid ""
@@ -2364,7 +2379,7 @@ msgstr ""
 msgid ""
 "Click the :icon:`fa-bars` :guilabel:`Records` smart button to manage these "
 "records."
-msgstr ""
+msgstr ":icon:`fa-bars` :guilabel:`레코드` 스마트 버튼을 클릭하면 이러한 레코드를 관리할 수 있습니다."
 
 #: ../../content/applications/productivity/data_cleaning.rst:328
 msgid "Field cleaning"
@@ -2404,12 +2419,15 @@ msgid ""
 "enables communication through a persistent chat window that works across "
 "applications, or through the dedicated *Discuss* dashboard."
 msgstr ""
+"Odoo **메일 및 채팅** 은 내부 커뮤니케이션용 앱으로, 메시지나 메모, 파일 공유 및 화상 통화를 통해 소통할 수 있도록 해 "
+"줍니다. **메일 및 채팅** 에서는 채팅 창을 통해 애플리케이션을 넘나들며 지속적으로 소통할 수 있으며, 전용 *메일 및 채팅* "
+"현황판을 통해서도 커뮤니케이션을 할 수 있습니다."
 
 #: ../../content/applications/productivity/discuss.rst:12
 msgid ""
 "Upon opening the :menuselection:`Discuss app`, the :guilabel:`Discuss` "
 "dashboard appears."
-msgstr ""
+msgstr ":menuselection:`메일 및 채팅 앱` 을 열면 :guilabel:`메일 및 채팅` 현황판이 표시됩니다."
 
 #: ../../content/applications/productivity/discuss.rst:15
 msgid "Inbox, starred, and history"
@@ -2419,7 +2437,7 @@ msgstr "받은 편지함, 별표 및 이력"
 msgid ""
 "Upon opening the :menuselection:`Discuss app`, the *Discuss* dashboard "
 "appears."
-msgstr ""
+msgstr ":menuselection:`메일 및 채팅 앱` 을 열면 *메일 및 채팅* 현황판이 표시됩니다."
 
 #: ../../content/applications/productivity/discuss.rst:19
 msgid ""
@@ -2476,19 +2494,20 @@ msgstr ""
 msgid ""
 ":icon:`fa-reply` :guilabel:`(Reply)`: reply to the direct message in a "
 "thread."
-msgstr ""
+msgstr ":icon:`fa-reply` :guilabel:`(답글)`: 스레드에서 직접 메시지에 답글을 달 수 있습니다."
 
 #: ../../content/applications/productivity/discuss.rst:44
 msgid ""
 ":icon:`fa-star-o` :guilabel:`(Mark as Todo)`: add the message to the "
 ":guilabel:`Starred` tab."
 msgstr ""
+":icon:`fa-star-o` :guilabel:`(할 일로 표시)`: :guilabel:`별표` 탭에 메시지를 추가합니다."
 
 #: ../../content/applications/productivity/discuss.rst:45
 msgid ""
 ":icon:`fa-ellipsis-h` :guilabel:`(Expand)`: reveals more message actions, "
 "including:"
-msgstr ""
+msgstr ":icon:`fa-ellipsis-h` :guilabel:`(확장)`: 다음과 같은 추가 메시지 작업을 표시합니다."
 
 #: ../../content/applications/productivity/discuss.rst:47
 msgid ":icon:`fa-thumb-tack` :guilabel:`Pin`"
@@ -2523,6 +2542,9 @@ msgid ""
 ":guilabel:`Start a Call` to begin a meeting. See the :ref:`Meetings "
 "<discuss/meetings>` section for more information about meetings."
 msgstr ""
+":icon:`fa-bell` :guilabel:`알림 설정` 을 클릭하여 대화와 관련된 기본 알림 설정을 하거나, :icon:`fa-"
+"phone` :guilabel:`통화 시작` 을 클릭하여 회의를 시작할 수 있습니다. 회의에 대한 자세한 내용은 :ref:`회의 "
+"<discuss/meetings>` 섹션을 참조하세요."
 
 #: ../../content/applications/productivity/discuss.rst:62
 msgid ""
@@ -2530,6 +2552,8 @@ msgid ""
 "message to change the group name, and choose to add a description in the "
 "adjacent :guilabel:`Add a description` field."
 msgstr ""
+"다이렉트 메시지 창 상단에서 다이렉트 메시지 이름을 클릭하여 그룹 이름을 변경한 후, 옆에 있는 :guilabel:`설명 추가` 필드를 "
+"선택하여 설명을 추가합니다."
 
 #: ../../content/applications/productivity/discuss.rst-1
 msgid "View of the conversation actions."
@@ -2557,7 +2581,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst:80
 msgid "The color of the circle represents the user's status:"
-msgstr ""
+msgstr "원의 색상으로 사용자의 상태를 나타냅니다."
 
 #: ../../content/applications/productivity/discuss.rst:82
 msgid "Green = online"
@@ -2592,6 +2616,8 @@ msgid ""
 "conversation. The direct message conversation's history is visible when "
 "another direct message with the same person, or group, is created."
 msgstr ""
+"대화를 종료해도 대화에 있는 다이렉트 메시지는 **삭제되지 않습니다**. 다이렉트 메시지의 대화 기록은 같은 사람이나 그룹과 다른 "
+"다이렉트 메시지를 작성하면 확인할 수 있습니다."
 
 #: ../../content/applications/productivity/discuss.rst:101
 msgid "Meetings"
@@ -2613,11 +2639,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst-1
 msgid "View of a Meeting in Odoo Discuss."
-msgstr ""
+msgstr "Odoo 메일 및 채팅에서 회의 보기"
 
 #: ../../content/applications/productivity/discuss.rst:111
 msgid "Once a meeting has been started, the following buttons can be used:"
-msgstr ""
+msgstr "회의가 시작되면 다음 버튼을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/discuss.rst:114
 msgid "Icon"
@@ -2711,7 +2737,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst-1
 msgid "View of the Preferences tab for Odoo Discuss."
-msgstr ""
+msgstr "Odoo 회의 및 채팅의 환경설정 탭 보기"
 
 #: ../../content/applications/productivity/discuss.rst:144
 msgid ""
@@ -2742,10 +2768,12 @@ msgid ""
 " speech bubbles that are consistently present in the upper-right corner of "
 "the database header."
 msgstr ""
+"**메일 및 채팅** 애플리케이션을 통해 모든 Odoo 애플리케이션에서 커뮤니케이션을 할 수 있습니다. 채팅 및 채널을 확인하거나 새로 "
+"메시지를 시작하려면 데이터베이스 머리글 오른쪽 상단에 계속 표시되어 있는 말풍선을 선택합니다."
 
 #: ../../content/applications/productivity/discuss.rst-1
 msgid "Use Discuss across other applications by clicking the speech bubbles."
-msgstr ""
+msgstr "말풍선을 클릭하면 다른 애플리케이션에서도 메일 및 채팅 앱을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/discuss.rst:163
 msgid ":doc:`discuss/team_communication`"
@@ -2794,7 +2822,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst-1
 msgid "A live chat conversation using a canned response."
-msgstr ""
+msgstr "실시간 채팅 대화에서 미리 준비된 답변을 사용하는 모습"
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:19
 msgid ""
@@ -2834,7 +2862,7 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/canned_responses.rst-1
 msgid ""
 "A list of canned responses emphasizing the shortcut and substitution fields."
-msgstr ""
+msgstr "미리 준비된 답변에서 바로가기 및 대체 필드가 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:42
 msgid ""
@@ -2927,7 +2955,7 @@ msgstr ""
 msgid ""
 "Access to shared responses is granted on the :ref:`groups <access-"
 "rights/groups>` level."
-msgstr ""
+msgstr "공유용 답변에 대한 액세스는 :ref:`groups <access-rights/groups>` 수준에서 부여됩니다."
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:87
 msgid ""
@@ -3009,7 +3037,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:0
 msgid "A live chat window with a list of all available canned responses."
-msgstr ""
+msgstr "미리 준비되어 있는 답변을 활용할 수 있는 실시간 채팅 창입니다."
 
 #: ../../content/applications/productivity/discuss/canned_responses.rst:132
 msgid ":doc:`Chatter <chatter>`"
@@ -3044,7 +3072,7 @@ msgstr ""
 msgid ""
 "Chatter composers also enable users to log notes, upload files, and schedule"
 " activities."
-msgstr ""
+msgstr "메시지창에 있는 작성창에서 메모를 기록하거나 파일을 업로드하며 활동을 예약할 수도 있습니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:16
 msgid "Chatter thread"
@@ -3075,7 +3103,7 @@ msgstr "변경 사항이 발생한 날짜입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:28
 msgid "The email address as it was previously listed."
-msgstr ""
+msgstr "이전에 표시되었던 이메일 주소입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:29
 msgid "The updated email address."
@@ -3096,7 +3124,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst-1
 msgid "A close up of a chatter thread of an OdooBot created contact record."
-msgstr ""
+msgstr "Odoo 봇에서 생성된 연락처 레코드의 메시지창 스레드가 클로즈업된 모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:46
 msgid "Add followers"
@@ -3201,7 +3229,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst:97
 msgid "The Edit Subscription window on a Helpdesk ticket."
-msgstr ""
+msgstr "헬프데스크 티켓의 구독 편집 창"
 
 #: ../../content/applications/productivity/discuss/chatter.rst:97
 msgid ""
@@ -3337,7 +3365,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst:171
 msgid "A chatter composer with emphasis on the expand icon."
-msgstr ""
+msgstr "메시지창에 있는 작성창에서 확장 아이콘이 강조된 모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:171
 msgid "The expand icon in a chatter composer."
@@ -3375,7 +3403,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst-1
 msgid "The expanded full chatter composer in the CRM application."
-msgstr ""
+msgstr "CRM 애플리케이션에서 전체 메시지창의 작성창이 확정되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:191
 msgid "Edit sent messages"
@@ -3404,7 +3432,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst-1
 msgid "The edit message option in a chatter thread."
-msgstr ""
+msgstr "메시지창 스레드의 메시지 편집 옵션"
 
 #: ../../content/applications/productivity/discuss/chatter.rst:207
 msgid ""
@@ -3529,7 +3557,7 @@ msgstr ""
 msgid ""
 "Add any additional information in the optional :guilabel:`Log a note...` "
 "field."
-msgstr ""
+msgstr "선택 사항으로 :guilabel:`메모 기록...` 필드에 별도 정보를 추가합니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:270
 msgid ""
@@ -3592,11 +3620,11 @@ msgstr ""
 msgid ""
 "**Green** icons indicate an activity with a due date scheduled in the "
 "future."
-msgstr ""
+msgstr "**초록색** 아이콘은 향후 마감일이 예정되어 있는 활동을 나타냅니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst-1
 msgid "A chatter thread with planned activities with varying due dates."
-msgstr ""
+msgstr "메시지창 스레드에 있는 계획된 활동에 다양한 마감일이 있는모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:295
 msgid ""
@@ -3630,7 +3658,7 @@ msgstr "활동이 완료로 표시되면, 팝업창에 포함된 활동 유형, 
 #: ../../content/applications/productivity/discuss/chatter.rst-1
 msgid ""
 "A chatter thread with a completed activity, included additional details."
-msgstr ""
+msgstr "메시지창 스레드에 추가 세부 정보가 포함된 완료된 활동이 있는 모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:317
 msgid "Attach files"
@@ -3698,7 +3726,7 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/chatter.rst:0
 msgid ""
 "A chatter thread with a file attached and the Attach files button added."
-msgstr ""
+msgstr "메시지창 스레드에 파일이 첨부되어 파일 첨부 버튼이 추가되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:354
 msgid "Integrations"
@@ -3779,7 +3807,7 @@ msgstr "Google 번역"
 msgid ""
 "*Google Translate* can be used to translate user-generated text in the Odoo "
 "chatter."
-msgstr ""
+msgstr "*Google 번역* 을 사용하면 Odoo 메시지창에 사용자가 입력한 텍스트를 번역할 수 있습니다."
 
 #: ../../content/applications/productivity/discuss/chatter.rst:396
 msgid ""
@@ -3834,7 +3862,7 @@ msgstr ":doc:`활동 <../../essentials/activities>`"
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:3
 msgid "Configure ICE servers with Twilio"
-msgstr "Twilio로 ICE 서버 환경설정"
+msgstr "Twilio로 ICE 서버 환경설정하기"
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:5
 msgid ""
@@ -3883,13 +3911,13 @@ msgstr ""
 msgid ""
 "For :guilabel:`Which Twilio product are you here to use?`, select "
 ":guilabel:`Video`."
-msgstr ""
+msgstr ":guilabel:`어떤 Twilio 제품을 사용할까요?`에서 :guilabel:`동영상` 을 선택합니다."
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:26
 msgid ""
 "For :guilabel:`What do you plan to build with Twilio?`, select "
 ":guilabel:`Other`."
-msgstr ""
+msgstr ":guilabel:`Twilio로 무엇을 구축할까요?`에서 :guilabel:`기타` 를 선택합니다."
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:27
 msgid ""
@@ -3901,7 +3929,7 @@ msgstr ""
 msgid ""
 "For :guilabel:`What is your goal today?`, select :guilabel:`3rd party "
 "integrations`."
-msgstr ""
+msgstr ":guilabel:`오늘의 목표는 무엇인가요?` 에서 :guilabel:`외부 통합` 을 선택합니다."
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst-1
 msgid "The Twilio welcome page."
@@ -3911,11 +3939,11 @@ msgstr "Twilio 환영 메시지입니다."
 msgid ""
 "If necessary, change the billing country. Finally, click :guilabel:`Get "
 "Started with Twilio`."
-msgstr ""
+msgstr "필요한 경우 청구 국가를 변경합니다. 마지막으로 :guilabel:`Twilio 시작하기` 를 클릭합니다."
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:37
 msgid "Locate the Twilio Account SID and Auth Token"
-msgstr ""
+msgstr "Twilio 계정 SID 및 인증 토큰 찾기"
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:39
 msgid ""
@@ -3952,7 +3980,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst-1
 msgid "Enable the \"Use Twilio ICE servers\" option in Odoo General Settings."
-msgstr ""
+msgstr "Odoo 일반 설정에서 \"Twilio ICE 서버 사용\" 옵션을 활성화합니다."
 
 #: ../../content/applications/productivity/discuss/ice_servers.rst:61
 msgid "Define a list of custom ICE servers"
@@ -4062,7 +4090,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/team_communication.rst-1
 msgid "View of a channel's settings form in Odoo Discuss."
-msgstr ""
+msgstr "Odoo 메일 및 채팅의 채널 설정 양식 보기입니다."
 
 #: ../../content/applications/productivity/discuss/team_communication.rst:42
 msgid "Privacy and Members tabs"
@@ -4095,7 +4123,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/team_communication.rst-1
 msgid "View of Discuss' option to invite members in Odoo Discuss."
-msgstr ""
+msgstr "Odoo 메일 및 채팅에서 멤버를 초대하는 메일 및 채팅 보기 옵션이 추가되었습니다.."
 
 #: ../../content/applications/productivity/discuss/team_communication.rst:60
 msgid ""
@@ -4200,7 +4228,7 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/team_communication.rst-1
 msgid ""
 "Channel linked in chatter with the channel open on the lower right quadrant."
-msgstr ""
+msgstr "메시지창에 링크된 채널이 오른쪽 아래 면에 열려 있는 모습입니다."
 
 #: ../../content/applications/productivity/discuss/team_communication.rst:113
 msgid ":doc:`../discuss`"
@@ -4233,6 +4261,9 @@ msgid ""
 "<https://www.odoo.com/slides/slide/accounting-integration-and-workflow-"
 "actions-6853?fullscreen=1>`_"
 msgstr ""
+"`Odoo 튜토리얼: 회계 앱에서 문서 사용하기 [동영상] "
+"<https://www.odoo.com/slides/slide/accounting-integration-and-workflow-"
+"actions-6853?fullscreen=1>`_"
 
 #: ../../content/applications/productivity/documents.rst:13
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:17
@@ -4309,12 +4340,16 @@ msgid ""
 ":guilabel:`Parent Workspace`: if you want to create a sub-workspace, select "
 "its :guilabel:`Parent Workspace`."
 msgstr ""
+":guilabel:`상위 작업 공간`: 하위 작업 공간을 생성하려면 해당 공간에 대한 :guilabel:`상위 작업 공간` 을 "
+"선택합니다."
 
 #: ../../content/applications/productivity/documents.rst:50
 msgid ""
 "Three tabs are available: :ref:`Tags <documents/tags>`, :ref:`Access Rights "
 "<documents/access-rights>`, and :ref:`Description <documents/description>`."
 msgstr ""
+"세 가지 :ref:`태그 <documents/tags>``, :ref:`액세스 권한 <documents/access-rights>`, "
+":ref:`설명 <documents/description>` 탭을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/documents.rst:56
 #: ../../content/applications/productivity/sign.rst:297
@@ -4410,7 +4445,7 @@ msgstr ":icon:`fa-download` (:guilabel:`다운로드`);"
 msgid ""
 ":icon:`fa-share-alt` (:guilabel:`Share this selection`): a share URL is "
 "copied to your clipboard;"
-msgstr ""
+msgstr ":icon:`fa-share-alt` (:guilabel:`이 선택 항목 공유`): 공유 URL이 클립보드에 복사됩니다."
 
 #: ../../content/applications/productivity/documents.rst:107
 msgid ""
@@ -4524,7 +4559,7 @@ msgstr "추가 기능"
 msgid ""
 "Select a workspace and click the :guilabel:`New` button to access additional"
 " features:"
-msgstr ""
+msgstr "작업 공간을 선택한 후 :guilabel:`새로 만들기` 버튼을 클릭하면 추가 기능에 액세스할 수 있습니다."
 
 #: ../../content/applications/productivity/documents.rst:163
 msgid "Upload"
@@ -4650,7 +4685,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:226
 msgid "Click :guilabel:`Copy Link & Close` to copy the URL to your clipboard."
-msgstr ""
+msgstr ":guilabel:`링크 복사 및 닫기` 를 클릭하여 URL을 클립보드에 복사합니다."
 
 #: ../../content/applications/productivity/documents.rst:229
 msgid ""
@@ -4828,7 +4863,7 @@ msgstr ""
 #: ../../content/applications/productivity/documents.rst:314
 msgid ""
 ":guilabel:`Contact`: the files must be associated with the contact set here;"
-msgstr ""
+msgstr ":guilabel:`연락처`: 파일은 반드시 여기에 설정되어 있는 연락처에 연결되어야 합니다."
 
 #: ../../content/applications/productivity/documents.rst:316
 msgid ""
@@ -4899,11 +4934,11 @@ msgstr "활동 설정"
 msgid ""
 "Go to the :guilabel:`Actions` section to set up your action. You can "
 "simultaneously:"
-msgstr ""
+msgstr ":guilabel:`작업` 섹션으로 이동하여 작업을 설정합니다. 이와 동시에 다음과 같이 진행할 수 있습니다:"
 
 #: ../../content/applications/productivity/documents.rst:353
 msgid "**Move to Workspace**: move the file to any workspace;"
-msgstr ""
+msgstr "**작업 공간으로 이동**: 파일을 임의 작업 공간으로 이동합니다."
 
 #: ../../content/applications/productivity/documents.rst:354
 msgid ""
@@ -4931,7 +4966,7 @@ msgstr "**서명 PDF 서식**: 새로운 서명 서식을 만들어 발송합니
 
 #: ../../content/applications/productivity/documents.rst:360
 msgid "**PDF to sign**: create a Sign template to sign directly;"
-msgstr ""
+msgstr "**서명할 PDF**: 직접 서명할 수 있도록 전자 서명 템플릿을 생성합니다."
 
 #: ../../content/applications/productivity/documents.rst:361
 msgid "**Applicant**: create a new HR application you can edit directly;"
@@ -4965,7 +5000,7 @@ msgstr "**대변전표**: OCR 및 AI로 파일에서 정보를 스크랩하여 �
 msgid ""
 "**Miscellaneous Operations**: create an entry in the Miscellaneous "
 "Operations journal;"
-msgstr ""
+msgstr "**기타 작업**: 기타 작업 전표에 항목을 생성합니다."
 
 #: ../../content/applications/productivity/documents.rst:370
 msgid "**Bank Statement**: import a bank statement;"
@@ -4999,7 +5034,7 @@ msgstr "**태그 설정**: 원하는 수만큼 태그를 추가, 제거, 및 교
 msgid ""
 "To set up activities related to your actions, go to the "
 ":guilabel:`Activities` section:"
-msgstr ""
+msgstr "작업과 관련된 활동을 설정하려면 :guilabel:`활동` 섹션으로 이동합니다."
 
 #: ../../content/applications/productivity/documents.rst:380
 msgid ""
@@ -5103,7 +5138,7 @@ msgstr "텍스트 편집기"
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:27
 msgid "To stylize the text using the text editor, select the text to format."
-msgstr ""
+msgstr "텍스트 편집기를 사용하여 텍스트 스타일을 지정하려면 서식을 지정할 텍스트를 선택합니다."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:29
 msgid "Then, you can:"
@@ -5161,7 +5196,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:47
 msgid "Click the **chain** icon to insert or edit an URL link."
-msgstr ""
+msgstr "URL 링크를 삽입하거나 편집하려면 **체인** 아이콘을 클릭합니다."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst-1
 msgid "Text editor's toolbox"
@@ -5175,7 +5210,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:56
 msgid "Changing a paragraph into lists (unordered, ordered, checklists)."
-msgstr ""
+msgstr "문단을 목록으로 변경하기(순서 없음, 순서 있음, 체크리스트)."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:57
 msgid ""
@@ -5233,6 +5268,8 @@ msgid ""
 "To associate Unsplash with your database, please refer to "
 ":doc:`/applications/general/integrations/unsplash`."
 msgstr ""
+"Unsplash를 데이터베이스와 연결하려면 :doc:`/applications/general/integrations/unsplash` 를"
+" 참조하세요."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:80
 msgid ""
@@ -5292,7 +5329,7 @@ msgstr "명령어 목록"
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:108
 msgid "Commands are divided into multiple categories depending on their use."
-msgstr ""
+msgstr "명령어는 사용 목적에 따라 여러 가지 카테고리로 나뉩니다."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:111
 msgid "Structure"
@@ -5515,7 +5552,7 @@ msgstr ":guilabel:`목차`"
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:217
 msgid "Add a table of content with the article's headings."
-msgstr ""
+msgstr "기사 제목과 함께 목차를 추가합니다."
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:218
 msgid ":guilabel:`Index`"
@@ -5646,7 +5683,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/management.rst-1
 msgid "Menu with tools for the management of articles"
-msgstr ""
+msgstr "기사 관리용 도구가 있는 메뉴"
 
 #: ../../content/applications/productivity/knowledge/management.rst:18
 msgid "Creation, sharing, and removal of articles"
@@ -5668,7 +5705,7 @@ msgstr ""
 #: ../../content/applications/productivity/knowledge/management.rst:29
 msgid ""
 "Create private articles quickly with the Alt/Option + C keyboard shortcut."
-msgstr ""
+msgstr "Alt/Option + C 키보드 단축키를 이용하면 비공개 기사를 빠르게 작성할 수 있습니다."
 
 #: ../../content/applications/productivity/knowledge/management.rst:34
 msgid "Sharing"
@@ -5704,7 +5741,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/management.rst-1
 msgid "pop-up window to invite users to access a Knowledge article"
-msgstr ""
+msgstr "사용자가 지식 문서에 액세스할 수 있는 초대 팝업창"
 
 #: ../../content/applications/productivity/knowledge/management.rst:54
 msgid "Share online"
@@ -5724,7 +5761,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/management.rst-1
 msgid "Sharing menu with URL for online sharing and the list of members."
-msgstr ""
+msgstr "공유 메뉴에서 온라인으로 공유할 URL과 멤버 목록이 나타나 있는 모습입니다."
 
 #: ../../content/applications/productivity/knowledge/management.rst:68
 msgid "Removal"
@@ -5732,7 +5769,7 @@ msgstr "재고 삭제"
 
 #: ../../content/applications/productivity/knowledge/management.rst:70
 msgid "To remove an article, you can either **delete** it or **archive** it."
-msgstr ""
+msgstr "기사를 제거하려면 **삭제** 하거나 **보관** 하면 됩니다."
 
 #: ../../content/applications/productivity/knowledge/management.rst:72
 msgid ""
@@ -5824,11 +5861,11 @@ msgstr ""
 msgid ""
 ":guilabel:`Private`: Articles displayed in that category are only available "
 "to you."
-msgstr ""
+msgstr ":guilabel:`비공개`: 해당 카테고리에 있는 기사는 본인만 볼 수 있습니다."
 
 #: ../../content/applications/productivity/knowledge/management.rst-1
 msgid "Categories displayed in the left sidebar of Odoo Knowledge"
-msgstr ""
+msgstr "Odoo 지식 센터에서 왼쪽 사이드바에 표시되는 카테고리"
 
 #: ../../content/applications/productivity/knowledge/properties.rst:3
 msgid "Properties"
@@ -5871,7 +5908,7 @@ msgstr "속성 필드 유형의 드롭다운"
 
 #: ../../content/applications/productivity/knowledge/properties.rst:25
 msgid "The different types assess what the field content can be:"
-msgstr ""
+msgstr "다양한 유형으로 필드 콘텐츠에 대한 내용을 평가합니다."
 
 #: ../../content/applications/productivity/knowledge/properties.rst:32
 #: ../../content/applications/productivity/knowledge/properties.rst:58
@@ -5961,7 +5998,7 @@ msgstr ":guilabel:`태그`"
 
 #: ../../content/applications/productivity/knowledge/properties.rst:68
 msgid "Allows creating and applying as many tags as needed."
-msgstr ""
+msgstr "얼마든지 수많은 태그를 생성하여 적용할 수 있습니다."
 
 #: ../../content/applications/productivity/knowledge/properties.rst:70
 msgid ""
@@ -6020,7 +6057,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/knowledge/properties.rst:97
 msgid "Once a property field is deleted, you cannot retrieve it."
-msgstr ""
+msgstr "속성 필드가 삭제되면 검색할 수 없습니다."
 
 #: ../../content/applications/productivity/knowledge/properties.rst:100
 msgid "Hide the property panel"
@@ -6029,7 +6066,7 @@ msgstr "속성 패널 숨기기"
 #: ../../content/applications/productivity/knowledge/properties.rst:102
 msgid ""
 "To hide the property sidebar panel, click the gear :guilabel:`(⚙)` button."
-msgstr ""
+msgstr "속성 사이드바 패널을 숨기려면 톱니바퀴 :guilabel:`(⚙)` 버튼을 클릭합니다."
 
 #: ../../content/applications/productivity/sign.rst:3
 msgid "Sign"
@@ -6147,7 +6184,7 @@ msgstr "이메일 및 SMS 승인(활성화된 경우)"
 msgid ""
 "Strong identity proof through itsme® (available in Belgium and the "
 "Netherlands)"
-msgstr ""
+msgstr "itsme®를 통한 강력한 신원 증명 기능(벨기에 및 네덜란드에서 사용 가능)"
 
 #: ../../content/applications/productivity/sign.rst:55
 msgid ""
@@ -6197,7 +6234,7 @@ msgstr ""
 msgid ""
 "Overall, to be recognized as valid, electronic signatures have to meet five "
 "criteria:"
-msgstr ""
+msgstr "대체로, 전자 서명이 유효하게 작동하기 위해서는 다섯 가지 기준에 부합해야 합니다."
 
 #: ../../content/applications/productivity/sign.rst:77
 msgid ""
@@ -6212,7 +6249,7 @@ msgstr ""
 msgid ""
 "The signer must first express or imply their **consent to conduct business "
 "electronically**."
-msgstr ""
+msgstr "서명을 할 때는 반드시 먼저 **전자적 업무 수행에 동의** 한다는 것에 명시적 혹은 암묵적으로 동의해야 합니다."
 
 #: ../../content/applications/productivity/sign.rst:80
 msgid ""
@@ -6568,7 +6605,7 @@ msgstr ""
 msgid ""
 "Roles are available by going to :menuselection:`Sign --> Configuration --> "
 "Roles`."
-msgstr ""
+msgstr "역할은 :menuselection:`서명 --> 환경 설정 --> 역할` 로 이동하여 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/sign.rst:208
 msgid ""
@@ -6738,7 +6775,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign.rst-1
 msgid "Adding the visual security frame to a signature."
-msgstr ""
+msgstr "서명에 시각적 보안 프레임을 추가합니다."
 
 #: ../../content/applications/productivity/sign.rst:299
 msgid ""
@@ -6797,7 +6834,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign.rst-1
 msgid "Toggle the switch to specify the signing order."
-msgstr ""
+msgstr "스위치 토글을 전환하여 서명 순서를 지정합니다."
 
 #: ../../content/applications/productivity/sign.rst:327
 msgid ""
@@ -6866,19 +6903,19 @@ msgstr ":guilabel:`텍스트`: 단문형 텍스트를 입력합니다."
 
 #: ../../content/applications/productivity/sign.rst:355
 msgid ":guilabel:`Multiline Text`: users enter text on multiple lines."
-msgstr ""
+msgstr ":guilabel:`다중 행 텍스트`: 텍스트를 여러 개의 줄에 입력합니다."
 
 #: ../../content/applications/productivity/sign.rst:356
 msgid ""
 ":guilabel:`Checkbox`: users can tick a box (e.g., to mark their approval or "
 "consent)."
-msgstr ""
+msgstr ":guilabel:`확인란`: 확인란에 선택하여 표시합니다(예: 승인 또는 동의 표시)."
 
 #: ../../content/applications/productivity/sign.rst:357
 msgid ""
 ":guilabel:`Selection`: users choose a single option from a variety of "
 "options."
-msgstr ""
+msgstr ":guilabel:`선택`: 사용자는 다양한 옵션 중에서 하나를 선택합니다."
 
 #: ../../content/applications/productivity/sign.rst:359
 msgid ""
@@ -6941,8 +6978,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Algeria."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 알제리에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 알제리에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/algeria.rst:11
 msgid "Legal framework for electronic signatures in Algeria"
@@ -7375,7 +7412,7 @@ msgstr ""
 msgid ""
 "**Multiple authentication means**: authentication by SMS, email, geoIP or "
 "handwritten electronic signature."
-msgstr ""
+msgstr "**다중 인증 수단**: SMS, 이메일, geoIP 또는 자필 전자 서명을 통한 인증이 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:43
 #: ../../content/applications/productivity/sign/angola.rst:45
@@ -7429,7 +7466,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/uzbekistan.rst:43
 #: ../../content/applications/productivity/sign/vietnam.rst:45
 msgid "Types of documents you can sign with Odoo Sign"
-msgstr ""
+msgstr "Odoo 전자 서명으로 서명할 수 있는 문서 유형"
 
 #: ../../content/applications/productivity/sign/algeria.rst:45
 #: ../../content/applications/productivity/sign/angola.rst:47
@@ -7541,7 +7578,7 @@ msgstr ""
 msgid ""
 "**Contracts and agreements**: business contracts, employment agreements, and"
 " service contracts."
-msgstr ""
+msgstr "**계약서 및 합의서**: 비즈니스 계약, 고용 계약 및 서비스 계약입니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:48
 #: ../../content/applications/productivity/sign/angola.rst:50
@@ -7597,7 +7634,7 @@ msgstr ""
 msgid ""
 "**Financial documents**: loan agreements, investment documents, and "
 "financial reports."
-msgstr ""
+msgstr "**재무 문서**: 대출 계약서, 투자 문서 및 재무 보고서가 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:49
 #: ../../content/applications/productivity/sign/angola.rst:51
@@ -7653,7 +7690,7 @@ msgstr ""
 msgid ""
 "**HR documents**: employee onboarding forms, non-disclosure agreements "
 "(NDAs), and performance reviews."
-msgstr ""
+msgstr "**HR 문서**: 직원 온보딩 양식, 비밀유지서약서(NDA), 성과 평가 등이 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:51
 #: ../../content/applications/productivity/sign/angola.rst:53
@@ -7709,7 +7746,7 @@ msgstr ""
 msgid ""
 "**Commercial transactions**: purchase orders, sales agreements, and supplier"
 " contracts."
-msgstr ""
+msgstr "**비즈니스 거래**: 구매발주서, 판매 계약서 및 공급업체 계약서가 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:54
 #: ../../content/applications/productivity/sign/angola.rst:56
@@ -7763,7 +7800,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/uzbekistan.rst:54
 #: ../../content/applications/productivity/sign/vietnam.rst:56
 msgid "Potential exceptions"
-msgstr "가능한 예외"
+msgstr "예외적인 상황"
 
 #: ../../content/applications/productivity/sign/algeria.rst:56
 msgid ""
@@ -7881,7 +7918,7 @@ msgstr ""
 msgid ""
 "**Real estate transactions**: some property transactions may still require "
 "notarized handwritten signatures."
-msgstr ""
+msgstr "**부동산 거래**: 일부 부동산 거래에는 여전히 공증된 자필 서명이 필수일 수 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:63
 #: ../../content/applications/productivity/sign/angola.rst:65
@@ -7937,7 +7974,7 @@ msgstr ""
 msgid ""
 "**Government forms**: specific government forms and applications may mandate"
 " physical signatures."
-msgstr ""
+msgstr "**정부 양식**: 특정 정부 양식 및 신청서에서는 실제 서명이 필수인 경우도 있습니다."
 
 #: ../../content/applications/productivity/sign/algeria.rst:65
 #: ../../content/applications/productivity/sign/angola.rst:67
@@ -8057,8 +8094,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Angola."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 앙골라에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 앙골라에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/angola.rst:11
 msgid "Legal framework for electronic signatures in Angola"
@@ -8125,8 +8162,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Argentina."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 아르헨티나에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 아르헨티나에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/argentina.rst:11
 msgid "Legal framework for electronic signatures in Argentina"
@@ -8193,8 +8230,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Australia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 호주에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 호주에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/australia.rst:11
 msgid "Legal framework for electronic signatures in Australia"
@@ -8271,8 +8308,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Azerbaijan."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 아제르바이잔에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 "
-"수 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 아제르바이잔에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
+" 있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/azerbaijan.rst:11
 msgid "Legal framework for electronic signatures in Azerbaijan"
@@ -8335,8 +8372,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Bangladesh."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 방글라데시에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 방글라데시에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/bangladesh.rst:11
 msgid "Legal framework for electronic signatures in Bangladesh"
@@ -8400,8 +8437,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Brazil."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 브라질에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 브라질에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/brazil.rst:11
 msgid "Legal framework for electronic signatures in Brazil"
@@ -8476,8 +8513,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Canada."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 캐나다에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 캐나다에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/canada.rst:11
 msgid "Legal framework for electronic signatures in Canada"
@@ -8545,8 +8582,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Chile."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 칠레에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 칠레에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/chile.rst:11
 msgid "Legal framework for electronic signatures in Chile"
@@ -8615,8 +8652,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in China."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 중국에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 중국에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/china.rst:11
 msgid "Legal framework for electronic signatures in China"
@@ -8677,7 +8714,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Colombia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 콜롬비아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 콜롬비아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/colombia.rst:11
@@ -8751,7 +8788,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/dominican_republic.rst:11
 msgid "Legal framework for electronic signatures in the Dominican Republic"
-msgstr ""
+msgstr "전자 서명과 관련한 도미니카 공화국의 법률 체계"
 
 #: ../../content/applications/productivity/sign/dominican_republic.rst:13
 msgid ""
@@ -8814,7 +8851,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Ecuador."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 에콰도르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 에콰도르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/ecuador.rst:11
@@ -8871,8 +8908,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Egypt."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 이집트에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 이집트에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/egypt.rst:11
 msgid "Legal framework for electronic signatures in Egypt"
@@ -8934,8 +8971,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Ethiopia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 에티오피아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 에티오피아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/ethiopia.rst:11
 msgid "Legal framework for electronic signatures in Ethiopia"
@@ -9062,7 +9099,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Guatemala."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 과테말라에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 과테말라에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/guatemala.rst:11
@@ -9131,7 +9168,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/hong_kong.rst:11
 msgid "Legal framework for electronic signatures in Hong Kong"
-msgstr ""
+msgstr "전자 서명과 관련한 홍콩의 법률 체계"
 
 #: ../../content/applications/productivity/sign/hong_kong.rst:13
 msgid ""
@@ -9145,7 +9182,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/hong_kong.rst:25
 msgid "How Odoo Sign complies with Hong Kong regulations"
-msgstr ""
+msgstr "Odoo 전자 서명에서 홍콩 규정을 준수하는 방식"
 
 #: ../../content/applications/productivity/sign/hong_kong.rst:27
 msgid ""
@@ -9182,8 +9219,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in India."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 인도에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 인도에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/india.rst:11
 msgid "Legal framework for electronic signatures in India"
@@ -9255,8 +9292,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Indonesia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 인도네시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 인도네시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/indonesia.rst:11
 msgid "Legal framework for electronic signatures in Indonesia"
@@ -9331,8 +9368,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Iran."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 이란에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 이란에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/iran.rst:11
 msgid "Legal framework for electronic signatures in Iran"
@@ -9389,8 +9426,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Iraq."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 이라크에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 이라크에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/iraq.rst:11
 msgid "Legal framework for electronic signatures in Iraq"
@@ -9462,7 +9499,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Israel."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 이스라엘에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 이스라엘에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/israel.rst:11
@@ -9523,8 +9560,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Japan."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 일본에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 일본에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/japan.rst:11
 msgid "Legal framework for electronic signatures in Japan"
@@ -9587,8 +9624,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Kazakhstan."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 카자흐스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 카자흐스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/kazakhstan.rst:11
 msgid "Legal framework for electronic signatures in Kazakhstan"
@@ -9647,8 +9684,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Kenya."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 케냐에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 케냐에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/kenya.rst:11
 msgid "Legal framework for electronic signatures in Kenya"
@@ -9705,7 +9742,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Kuwait."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 쿠웨이트에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 쿠웨이트에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/kuwait.rst:11
@@ -9764,8 +9801,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Malaysia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 말레이시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 말레이시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/malaysia.rst:11
 msgid "Legal framework for electronic signatures in Malaysia"
@@ -9836,8 +9873,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Mexico."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 멕시코에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 멕시코에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/mexico.rst:11
 msgid "Legal framework for electronic signatures in Mexico"
@@ -9906,8 +9943,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Morocco."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 모로코에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 모로코에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/morocco.rst:11
 msgid "Legal framework for electronic signatures in Morocco"
@@ -9966,7 +10003,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/new_zealand.rst:11
 msgid "Legal framework for electronic signatures in New Zealand"
-msgstr ""
+msgstr "전자 서명과 관련한 뉴질랜드의 법률 체계"
 
 #: ../../content/applications/productivity/sign/new_zealand.rst:13
 msgid ""
@@ -9990,7 +10027,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/new_zealand.rst:26
 msgid "How Odoo Sign complies with New Zealand regulations"
-msgstr ""
+msgstr "Odoo 전자 서명에서 뉴질랜드 규정을 준수하는 방식"
 
 #: ../../content/applications/productivity/sign/new_zealand.rst:28
 msgid ""
@@ -10027,8 +10064,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Nigeria."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 나이지리아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 나이지리아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/nigeria.rst:11
 msgid "Legal framework for electronic signatures in Nigeria"
@@ -10084,7 +10121,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Norway."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 노르웨이에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 노르웨이에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/norway.rst:11
@@ -10149,8 +10186,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Oman."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 오만에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 오만에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/oman.rst:11
 msgid "Legal framework for electronic signatures in Oman"
@@ -10204,7 +10241,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Pakistan."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 파키스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 파키스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/pakistan.rst:11
@@ -10269,8 +10306,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Peru."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 페루에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 페루에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/peru.rst:11
 msgid "Legal framework for electronic signatures in Peru"
@@ -10344,7 +10381,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/philippines.rst:11
 msgid "Legal framework for electronic signatures in the Philippines"
-msgstr ""
+msgstr "전자 서명과 관련한 필리핀의 법률 체계"
 
 #: ../../content/applications/productivity/sign/philippines.rst:13
 msgid ""
@@ -10409,8 +10446,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Qatar."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 카타르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 카타르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/qatar.rst:11
 msgid "Legal framework for electronic signatures in Qatar"
@@ -10472,8 +10509,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Russia."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 러시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 러시아에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/russia.rst:11
 msgid "Legal framework for electronic signatures in Russia"
@@ -10548,7 +10585,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/saudi_arabia.rst:11
 msgid "Legal framework for electronic signatures in Saudi Arabia"
-msgstr ""
+msgstr "전자 서명과 관련한 사우디아라비아의 법률 체계"
 
 #: ../../content/applications/productivity/sign/saudi_arabia.rst:13
 msgid ""
@@ -10610,7 +10647,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Singapore."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 싱가포르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 싱가포르에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/singapore.rst:11
@@ -10674,7 +10711,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/south_africa.rst:11
 msgid "Legal framework for electronic signatures in South Africa"
-msgstr ""
+msgstr "전자 서명과 관련한 남아프리카 공화국의 법률 체계"
 
 #: ../../content/applications/productivity/sign/south_africa.rst:13
 msgid ""
@@ -10697,7 +10734,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/south_africa.rst:26
 msgid "How Odoo Sign complies with South African regulations"
-msgstr ""
+msgstr "Odoo 전자 서명에서 남아프리카 공화국 규정을 준수하는 방식"
 
 #: ../../content/applications/productivity/sign/south_africa.rst:28
 msgid ""
@@ -10737,7 +10774,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/south_korea.rst:11
 msgid "Legal framework for electronic signatures in South Korea"
-msgstr ""
+msgstr "전자 서명과 관련한 대한민국의 법률 체계"
 
 #: ../../content/applications/productivity/sign/south_korea.rst:13
 msgid ""
@@ -10770,7 +10807,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/south_korea.rst:28
 msgid "How Odoo Sign complies with South Korean regulations"
-msgstr ""
+msgstr "Odoo 전자 서명에서 대한민국 규정을 준수하는 방식"
 
 #: ../../content/applications/productivity/sign/south_korea.rst:30
 msgid ""
@@ -10807,8 +10844,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Switzerland."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 스위스에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 스위스에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/switzerland.rst:11
 msgid "Legal framework for electronic signatures in Switzerland"
@@ -10873,8 +10910,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Thailand."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 태국에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
-" 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 태국에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는 "
+"파트너입니다. "
 
 #: ../../content/applications/productivity/sign/thailand.rst:11
 msgid "Legal framework for electronic signatures in Thailand"
@@ -10931,7 +10968,7 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Turkey."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 튀르키에에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+":doc:`Odoo 전자 서명 <../sign>` 은 튀르키에에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
 "있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/turkey.rst:11
@@ -10999,8 +11036,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Ukraine."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 우크라이나에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
-" 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 우크라이나에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
+"있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/ukraine.rst:11
 msgid "Legal framework for electronic signatures in Ukraine"
@@ -11047,7 +11084,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/united_arab_emirates.rst:5
 msgid "Odoo Sign legality in the United Arab Emirates"
-msgstr ""
+msgstr "아랍에미리트에서의 Odoo 전자 서명 적법성"
 
 #: ../../content/applications/productivity/sign/united_arab_emirates.rst:7
 msgid ""
@@ -11057,7 +11094,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/united_arab_emirates.rst:11
 msgid "Legal framework for electronic signatures in the United Arab Emirates"
-msgstr ""
+msgstr "전자 서명과 관련한 아랍에미리트의 법률 체계"
 
 #: ../../content/applications/productivity/sign/united_arab_emirates.rst:13
 msgid ""
@@ -11132,7 +11169,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/united_kingdom.rst:11
 msgid "Legal framework for electronic signatures in the United Kingdom"
-msgstr ""
+msgstr "전자 서명과 관련한 영국의 법률 체계"
 
 #: ../../content/applications/productivity/sign/united_kingdom.rst:13
 msgid ""
@@ -11168,7 +11205,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/sign/united_kingdom.rst:32
 msgid "How Odoo Sign complies with the United Kingdom regulations"
-msgstr ""
+msgstr "Odoo 전자 서명에서 영국 규정을 준수하는 방식"
 
 #: ../../content/applications/productivity/sign/united_kingdom.rst:34
 msgid ""
@@ -11205,8 +11242,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Uzbekistan."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 우즈베키스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 "
-"수 있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 우즈베키스탄에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수"
+" 있는 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/uzbekistan.rst:11
 msgid "Legal framework for electronic signatures in Uzbekistan"
@@ -11269,8 +11306,8 @@ msgid ""
 ":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
 "and legally compliant electronic signatures in Vietnam."
 msgstr ""
-":doc:``Odoo 전자 서명 <../sign>` 은 베트남에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 "
-"있는 파트너입니다. "
+":doc:`Odoo 전자 서명 <../sign>` 은 베트남에서 안전하고 효율적이며 법률을 준수하는 전자 서명을 보장하는 신뢰할 수 있는"
+" 파트너입니다. "
 
 #: ../../content/applications/productivity/sign/vietnam.rst:11
 msgid "Legal framework for electronic signatures in Vietnam"
@@ -11341,7 +11378,7 @@ msgstr ""
 msgid ""
 ":doc:`Insert and link your Odoo data (pivots, graphs, lists, and menus) "
 "<spreadsheet/insert>`."
-msgstr ""
+msgstr ":doc:`Odoo 데이터(피벗, 그래프, 목록 및 메뉴)를 삽입한 후 연결합니다 <spreadsheet/insert>`."
 
 #: ../../content/applications/productivity/spreadsheet.rst:20
 msgid ":doc:`Use global filters <spreadsheet/global_filters>`."
@@ -11354,7 +11391,7 @@ msgstr ":doc:`수식과 함수 사용하기 <spreadsheet/functions>`."
 #: ../../content/applications/productivity/spreadsheet.rst:22
 msgid ""
 ":doc:`Use default templates or create new ones <spreadsheet/templates>`."
-msgstr ""
+msgstr ":doc:`기본 템플릿을 사용하거나 새로 템플릿을 생성하세요 <spreadsheet/templates>`."
 
 #: ../../content/applications/productivity/spreadsheet.rst:23
 msgid "Format data."
@@ -11372,7 +11409,7 @@ msgstr "용어 사전"
 msgid ""
 "Some of Spreadsheet's main :abbr:`UI (user interface)` elements are "
 "highlighted and defined below."
-msgstr ""
+msgstr "스프레드시트의 일부 주요 :abbr:`UI(사용자 인터페이스)` 요소가 강조 표시되어 있으며 또한 아래에 정의되어 있습니다."
 
 #: ../../content/applications/productivity/spreadsheet.rst-1
 msgid "Spreadsheet main UI elements"
@@ -11416,7 +11453,7 @@ msgstr "Functions"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:5
 msgid "Spreadsheet functions are divided in the following categories:"
-msgstr ""
+msgstr "스프레드시트 함수는 다음과 같은 카테고리로 나뉩니다."
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:7
 msgid ":ref:`Array <functions/array>`"
@@ -12216,7 +12253,7 @@ msgstr "YEARFRAC(start_date, end_date, [day_count_convention])"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:176
 msgid "Exact number of years between two dates (not compatible with Excel)"
-msgstr ""
+msgstr "두 날짜 사이의 정확한 연도 수(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:177
 msgid "MONTH.START(date)"
@@ -12224,7 +12261,7 @@ msgstr "MONTH.START(date)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:178
 msgid "First day of the month preceding a date (not compatible with Excel)"
-msgstr ""
+msgstr "해당 날짜 이전 달의 첫 번째 날짜(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:179
 msgid "MONTH.END(date)"
@@ -12232,7 +12269,7 @@ msgstr "MONTH.END(date)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:180
 msgid "Last day of the month following a date (not compatible with Excel)"
-msgstr ""
+msgstr "해당 날짜 다음 달의 마지막 날짜(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:181
 msgid "QUARTER(date)"
@@ -12241,7 +12278,7 @@ msgstr "QUARTER(date)"
 #: ../../content/applications/productivity/spreadsheet/functions.rst:182
 msgid ""
 "Quarter of the year a specific date falls in (not compatible with Excel)"
-msgstr ""
+msgstr "특정 날짜가 속한 연도의 분기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:183
 msgid "QUARTER.START(date)"
@@ -13298,7 +13335,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:424
 msgid "Get the value from a pivot (not compatible with Excel)"
-msgstr ""
+msgstr "피벗에서 값 가져오기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:425
 msgid "PIVOT.HEADER(pivot_id, [domain_field_name, ...], [domain_value, ...])"
@@ -13306,7 +13343,7 @@ msgstr "PIVOT.HEADER(pivot_id, [domain_field_name, ...], [domain_value, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:426
 msgid "Get the header of a pivot (not compatible with Excel)"
-msgstr ""
+msgstr "피벗의 헤더 가져오기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:427
 msgid ""
@@ -13316,7 +13353,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:428
 msgid "Get a pivot table (not compatible with Excel)"
-msgstr ""
+msgstr "피벗 테이블 가져오기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:429
 msgid "ROW([cell_reference])"
@@ -13625,7 +13662,7 @@ msgstr "COUNTUNIQUE(value1, [value2, ...])"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:490
 msgid "Counts number of unique values in a range (not compatible with Excel)"
-msgstr ""
+msgstr "범위에서 고유한 값의 개수 계산(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:491
 msgid ""
@@ -14088,7 +14125,7 @@ msgstr "FORMAT.LARGE.NUMBER(value, [unit])"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:578
 msgid "Apply a large number format (not compatible with Excel)"
-msgstr ""
+msgstr "큰 숫자 형식 적용(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:583
 msgid "Odoo"
@@ -14162,7 +14199,7 @@ msgstr "ODOO.ACCOUNT.GROUP(type)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:602
 msgid "Returns the account ids of a given group (not compatible with Excel)"
-msgstr ""
+msgstr "지정된 그룹의 계정 ID 반환(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:603
 msgid "ODOO.CURRENCY.RATE(currency_from, currency_to, [date])"
@@ -14183,7 +14220,7 @@ msgstr "ODOO.LIST(list_id, index, field_name)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:606
 msgid "Get the value from a list (not compatible with Excel)"
-msgstr ""
+msgstr "목록에서 값 가져오기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:607
 msgid "ODOO.LIST.HEADER(list_id, field_name)"
@@ -14191,7 +14228,7 @@ msgstr "ODOO.LIST.HEADER(list_id, field_name)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:608
 msgid "Get the header of a list (not compatible with Excel)"
-msgstr ""
+msgstr "목록의 헤더 가져오기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:609
 msgid "ODOO.FILTER.VALUE(filter_name)"
@@ -14200,7 +14237,7 @@ msgstr "ODOO.FILTER.VALUE(filter_name)"
 #: ../../content/applications/productivity/spreadsheet/functions.rst:610
 msgid ""
 "Return the current value of a spreadsheet filter (not compatible with Excel)"
-msgstr ""
+msgstr "스프레드시트 필터의 현재 값 반환(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:615
 msgid "Operators"
@@ -14212,7 +14249,7 @@ msgstr "ADD(value1, value2)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:624
 msgid "Sum of two numbers (not compatible with Excel)"
-msgstr ""
+msgstr "두 숫자의 합(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:625
 msgid "CONCAT(value1, value2)"
@@ -14232,7 +14269,7 @@ msgstr "DIVIDE(dividend, divisor)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:628
 msgid "One number divided by another (not compatible with Excel)"
-msgstr ""
+msgstr "한 숫자를 다른 숫자로 나누기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:629
 msgid "EQ(value1, value2)"
@@ -14256,7 +14293,7 @@ msgstr "GTE(value1, value2)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:634
 msgid "Greater than or equal to (not compatible with Excel)"
-msgstr ""
+msgstr "크거나 같음(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:635
 msgid "LT(value1, value2)"
@@ -14272,7 +14309,7 @@ msgstr "LTE(value1, value2)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:638
 msgid "Less than or equal to (not compatible with Excel)"
-msgstr ""
+msgstr "작거나 같음(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:639
 msgid "MINUS(value1, value2)"
@@ -14280,7 +14317,7 @@ msgstr "MINUS(value1, value2)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:640
 msgid "Difference of two numbers (not compatible with Excel)"
-msgstr ""
+msgstr "두 숫자의 차(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:641
 msgid "MULTIPLY(factor1, factor2)"
@@ -14288,7 +14325,7 @@ msgstr "MULTIPLY(factor1, factor2)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:642
 msgid "Product of two numbers (not compatible with Excel)"
-msgstr ""
+msgstr "두 숫자의 곱(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:643
 msgid "NE(value1, value2)"
@@ -14304,7 +14341,7 @@ msgstr "POW(base, exponent)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:646
 msgid "A number raised to a power (not compatible with Excel)"
-msgstr ""
+msgstr "숫자의 거듭제곱(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:647
 msgid "UMINUS(value)"
@@ -14312,7 +14349,7 @@ msgstr "UMINUS(value)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:648
 msgid "A number with the sign reversed (not compatible with Excel)"
-msgstr ""
+msgstr "부호가 반전된 숫자(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:649
 msgid "UNARY.PERCENT(percentage)"
@@ -14320,7 +14357,7 @@ msgstr "UNARY.PERCENT(percentage)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:650
 msgid "Value interpreted as a percentage (not compatible with Excel)"
-msgstr ""
+msgstr "백분율 변환 값(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:651
 msgid "UPLUS(value)"
@@ -14328,7 +14365,7 @@ msgstr "UPLUS(value)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:652
 msgid "A specified number, unchanged (not compatible with Excel)"
-msgstr ""
+msgstr "지정된 숫자로, 변경되지 않음(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:657
 msgid "Statistical"
@@ -14502,7 +14539,7 @@ msgstr "GROWTH(known_data_y, [known_data_x], [new_data_x], [b])"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:692
 msgid "Fits points to exponential growth trend (not compatible with Excel)"
-msgstr ""
+msgstr "지수 증가 추세에 포인트 맞추기(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:693
 msgid "INTERCEPT(data_y, data_x)"
@@ -14560,7 +14597,7 @@ msgstr "MATTHEWS(data_x, data_y)"
 msgid ""
 "Compute the Matthews correlation coefficient of a dataset (not compatible "
 "with Excel)"
-msgstr ""
+msgstr "데이터 집합의 매튜스 상관 계수 계산(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:703
 msgid "MAX(value1, [value2, ...])"
@@ -14712,7 +14749,7 @@ msgstr "POLYFIT.COEFFS(data_y, data_x, order, [intercept])"
 msgid ""
 "Compute the coefficients of polynomial regression of the dataset (not "
 "compatible with Excel)"
-msgstr ""
+msgstr "데이터 집합의 다항식 회귀 계수 계산(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:727
 msgid "POLYFIT.FORECAST(x, data_y, data_x, order, [intercept])"
@@ -14816,7 +14853,7 @@ msgstr "SPEARMAN(data_y, data_x)"
 msgid ""
 "Compute the Spearman rank correlation coefficient of a dataset (not "
 "compatible with Excel)"
-msgstr ""
+msgstr "데이터 세트의 스피어만 순위 상관 계수 계산(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:745
 msgid "STDEV(value1, [value2, ...])"
@@ -14910,7 +14947,7 @@ msgstr "TREND(known_data_y, [known_data_x], [new_data_x], [b])"
 msgid ""
 "Fits points to linear trend derived via least-squares (not compatible with "
 "Excel)"
-msgstr ""
+msgstr "최소 제곱법을 통해 도출된 선형 추세에 중점(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:761
 msgid "VAR(value1, [value2, ...])"
@@ -15058,7 +15095,7 @@ msgstr "JOIN(delimiter, value_or_array1, [value_or_array2, ...])"
 #: ../../content/applications/productivity/spreadsheet/functions.rst:796
 msgid ""
 "Concatenates elements of arrays with delimiter (not compatible with Excel)"
-msgstr ""
+msgstr "배열 요소를 구분 기호로 연결(Excel과 호환되지 않음)"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:797
 msgid "LEFT(text, [number_of_characters])"
@@ -15269,7 +15306,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst-1
 msgid "The global filters menu sidebar on a spreadsheet."
-msgstr ""
+msgstr "스프레드시트에 있는 전체 필터 메뉴 사이드바입니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:24
 msgid "Add filters"
@@ -15333,13 +15370,13 @@ msgstr ""
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:54
 msgid ""
 "First, enter a name for the new date filter in the :guilabel:`Label` field."
-msgstr ""
+msgstr "먼저 새 날짜 필터의 이름을 :guilabel:`라벨` 필드에 입력합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:56
 msgid ""
 "Then, select one of the three period options in the :guilabel:`Time range` "
 "field:"
-msgstr ""
+msgstr "그런 다음 :guilabel:`시간 범위` 필드에 있는 세 가지 기간 옵션 중 하나를 선택합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:58
 msgid ""
@@ -15363,7 +15400,7 @@ msgstr ""
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:65
 msgid ""
 "Optionally, set a :guilabel:`Default value` for the :guilabel:`Time range`."
-msgstr ""
+msgstr "선택 사항으로, :guilabel:`기간 범위` 에 대한 :guilabel:`기본값` 을 설정합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:68
 msgid ""
@@ -15408,6 +15445,8 @@ msgid ""
 "The options available are: :guilabel:`Previous`, :guilabel:`Before "
 "Previous`, :guilabel:`Next`, :guilabel:`After Next`."
 msgstr ""
+"사용 가능한 옵션에는 :guilabel:`이전`, :guilabel:`이전 전`, :guilabel:`다음`, :guilabel:`다음 "
+"이후` 가 있습니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:86
 msgid ""
@@ -15438,7 +15477,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:0
 msgid "A date filter with a period offset of \"Next\" configured."
-msgstr ""
+msgstr "기간 오프셋이 \"다음\" 으로 설정되어 있는 날짜 필터입니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:104
 msgid "Relation"
@@ -15461,18 +15500,18 @@ msgstr ""
 msgid ""
 "First, enter a name for the new relation filter in the :guilabel:`Label` "
 "field."
-msgstr ""
+msgstr "먼저 새 관계 필터의 이름을 :guilabel:`라벨` 필드에 입력합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:114
 msgid ""
 "Then, select or search for a model from the :guilabel:`Related model` field."
-msgstr ""
+msgstr "그런 다음 :guilabel:`관련 모델` 필드에서 모델을 선택하거나 검색합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:116
 msgid ""
 "Once a model is selected, the :guilabel:`Default value` and :guilabel:`Field"
 " matching` fields appear."
-msgstr ""
+msgstr "모델을 선택하면 :guilabel:`기본값` 및 :guilabel:`필드 매칭` 필드가 나타납니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:119
 msgid ""
@@ -15524,7 +15563,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:0
 msgid "A relation filter with the Contact model configured."
-msgstr ""
+msgstr "관계 필터에 연락처 모델이 설정되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:149
 msgid ""
@@ -15544,7 +15583,7 @@ msgstr ""
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:155
 msgid ""
 "First, enter a name for the new text filter in the :guilabel:`Label` field."
-msgstr ""
+msgstr "먼저 새 텍스트 필터의 이름을 :guilabel:`라벨` 필드에 입력합니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:157
 msgid ""
@@ -15588,7 +15627,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:0
 msgid "A dynamic text filter with a restricted range."
-msgstr ""
+msgstr "제한된 범위의 동적 텍스트 필터입니다."
 
 #: ../../content/applications/productivity/spreadsheet/global_filters.rst:186
 msgid "Manage filters"
@@ -15749,7 +15788,7 @@ msgstr ""
 msgid ""
 "Spreadsheet templates allow you to quickly create spreadsheets without "
 "starting from scratch."
-msgstr ""
+msgstr "스프레드시트 템플릿을 사용하면 처음부터 시작하지 않고도 스프레드시트를 빠르게 생성할 수 있습니다."
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst:7
 msgid ""
@@ -15858,7 +15897,7 @@ msgstr ""
 msgid ""
 "Enable :guilabel:`Recurring Revenues` by going to :menuselection:`CRM --> "
 "Configuration --> Settings`."
-msgstr ""
+msgstr ":guilabel:`CRM --> 환경설정 --> 설정` 으로 이동하여 `반복 수익` 을 활성화합니다."
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst-1
 msgid "Extract of a pipeline revenue report"
@@ -15873,7 +15912,7 @@ msgstr ""
 #: ../../content/applications/productivity/spreadsheet/templates.rst:71
 msgid ""
 "To compute the revenue performance, fill in the monthly revenue targets."
-msgstr ""
+msgstr "수익 실적을 계산하려면 월별 수익 목표를 입력하세요."
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst:73
 msgid ""
@@ -15930,7 +15969,7 @@ msgstr "판매: 판매 수수료"
 msgid ""
 "This report presents the monthly commission earned or due to each "
 "salesperson."
-msgstr ""
+msgstr "이 보고서에서 각 영업 담당자의 월별 혹은 지급 예정 커미션을 확인할 수 있습니다."
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst-1
 msgid "Extract of a sales commission report"
@@ -15974,7 +16013,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst:122
 msgid "Templates are available to all users on the database."
-msgstr ""
+msgstr "데이터베이스에 있는 모든 사용자가 템플릿을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/spreadsheet/templates.rst:127
 msgid "Manage and edit templates"
@@ -16005,7 +16044,7 @@ msgstr "할 일"
 
 #: ../../content/applications/productivity/to_do.rst:5
 msgid "To-do assists you in organizing and managing personal tasks."
-msgstr ""
+msgstr "할 일을 통해 개인 작업을 정리하고 관리할 수 있습니다."
 
 #: ../../content/applications/productivity/to_do.rst:8
 msgid "Creating to-dos"
@@ -16030,7 +16069,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/to_do.rst:18
 msgid "Adding :guilabel:`Assignees` shares the to-do with the users selected."
-msgstr ""
+msgstr ":guilabel:`배정 대상` 을 추가하면 선택한 사용자와 할 일을 공유합니다."
 
 #: ../../content/applications/productivity/to_do.rst:19
 msgid ""
@@ -16134,7 +16173,7 @@ msgstr ":guilabel:`마감일` 을 선택합니다."
 
 #: ../../content/applications/productivity/to_do.rst:73
 msgid "Choose who the activity should be :guilabel:`Assigned to`."
-msgstr ""
+msgstr "활동을 :guilabel:`배정` 받을 사람을 선택하세요."
 
 #: ../../content/applications/productivity/to_do.rst:74
 msgid ""
@@ -16164,7 +16203,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/to_do.rst-1
 msgid "Example of a \"My Tasks\" pipeline in the Project app"
-msgstr ""
+msgstr "프로젝트 앱의 \"내 작업\" 파이프라인 예시"
 
 #: ../../content/applications/productivity/to_do.rst:92
 msgid ""
@@ -16181,6 +16220,8 @@ msgid ""
 "For more information, reference the `Odoo eLearning (video tutorials) on "
 "VoIP <https://www.odoo.com/slides/voip-voice-over-ip-315>`_"
 msgstr ""
+"자세한 내용은 `VoIP 관련 Odoo 온라인 학습(동영상 튜토리얼) <https://www.odoo.com/slides/voip-"
+"voice-over-ip-315>`_ 을 참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox.rst:5
 msgid "Axivox configuration"
@@ -16201,6 +16242,8 @@ msgid ""
 " `Axivox <https://www.axivox.com/>`_. In that case, a VoIP server is **not**"
 " necessary, as the infrastructure is hosted and managed by Axivox."
 msgstr ""
+"Odoo VoIP(인터넷 프로토콜을 통한 음성 통화)는 `Axivox <https://www.axivox.com/>`_ 와 함께 "
+"작동되도록 설정할 수 있습니다. 이 경우 VoIP 서버는 **필요하지 않으며**, 인프라는 Axivox에서 호스팅 및 관리합니다."
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:12
 msgid ""
@@ -16228,6 +16271,8 @@ msgid ""
 ":guilabel:`OnSIP Domain`: set the domain created by Axivox for the account "
 "(e.g., `yourcompany.axivox.com`)"
 msgstr ""
+":guilabel:`OnSIP 도메인`: 계정에 대해 Axivox에서 생성한 도메인을 설정합니다(예: "
+"`yourcompany.axivox.com`)"
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:27
 msgid ":guilabel:`WebSocket`: type in `wss://pabx.axivox.com:3443`"
@@ -16239,7 +16284,7 @@ msgstr ":guilabel:`VoIP 환경`: :guilabel:`생산` 으로 설정"
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst-1
 msgid "Integration of Axivox as VoIP provider in an Odoo database."
-msgstr ""
+msgstr "Axivox를 Odoo 데이터베이스에서 VoIP 공급업체로 통합합니다."
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:35
 msgid ""
@@ -16278,6 +16323,7 @@ msgid ""
 ":guilabel:`VoIP username` / :guilabel:`Extension number`: (Axivox) "
 ":guilabel:`SIP username`"
 msgstr ""
+":guilabel:`VoIP 사용자 이름` / :guilabel:`내선 번호`: (Axivox) :guilabel:`SIP 사용자 이름`"
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:50
 msgid ":guilabel:`OnSip Auth Username`: (Axivox) :guilabel:`SIP username`"
@@ -16291,7 +16337,7 @@ msgstr ":guilabel:`VoIP 비밀번호`: (Axivox) :guilabel:`SIP 비밀번호`"
 msgid ""
 ":guilabel:`Call from another device`: option to always transfer phone calls "
 "to handset"
-msgstr ""
+msgstr ":guilabel:`다른 장치에서 전화 걸기`: 항상 전화 통화를 핸드셋으로 전환하는 옵션입니다."
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:53
 msgid ":guilabel:`External device number`: SIP external phone extension"
@@ -16299,7 +16345,7 @@ msgstr ":guilabel:`외부 장치 번호`: SIP 외부 전화 내선"
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:54
 msgid ":guilabel:`Reject incoming calls`: option to reject all incoming calls"
-msgstr ""
+msgstr ":guilabel:`수신 전화 거부`: 모든 수신 통화를 거부할 수 있는 옵션입니다."
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:55
 msgid ""
@@ -16309,7 +16355,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst-1
 msgid "Integration of Axivox user in the Odoo user preference."
-msgstr ""
+msgstr "Odoo 사용자 환경 \\설정에서 Axivox 사용자를 통합합니다."
 
 #: ../../content/applications/productivity/voip/axivox/axivox_config.rst:62
 msgid ""
@@ -16396,7 +16442,7 @@ msgstr ""
 msgid ""
 "Once the :guilabel:`New queue` page appears, enter the :guilabel:`Name` of "
 "the queue."
-msgstr ""
+msgstr ":guilabel:`새 대기열` 페이지가 표시되면 대기열의 :guilabel:`이름` 을 입력합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:35
 msgid "Internal extension"
@@ -16424,7 +16470,7 @@ msgstr ""
 msgid ""
 "The following choices are available in the :guilabel:`Strategy` drop-down "
 "menu:"
-msgstr ""
+msgstr "다음 선택 사항은 :guilabel:`전략` 드롭다운 메뉴에서 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:48
 msgid ":guilabel:`Call all available agents`"
@@ -16433,11 +16479,11 @@ msgstr ":guilabel:`가능한 모든 상담원에게 전화`"
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:49
 msgid ""
 ":guilabel:`Calls the agent who has received the call for the longest time`"
-msgstr ""
+msgstr ":guilabel:`가장 장시간 전화를 받은 상담원에게 전화 걸기`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:50
 msgid ":guilabel:`Calls the agent who has received the least call`"
-msgstr ""
+msgstr ":guilabel:`수신 전화가 가장 적은 상담원에게 전화 걸기`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:51
 msgid ":guilabel:`Call a random agent`"
@@ -16451,7 +16497,7 @@ msgstr ":guilabel:`에이전트에게 차례대로 전화 걸기`"
 msgid ""
 ":guilabel:`Call agents one after the other starting with the first in the "
 "list`"
-msgstr ""
+msgstr ":guilabel:`목록에 있는 첫 번째 상담원부터 차례대로 통화합니다`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:55
 msgid ""
@@ -16549,7 +16595,7 @@ msgstr "상담원 연결"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:106
 msgid "There are three ways call agents can connect to an Axivox call queue:"
-msgstr ""
+msgstr "전화 상담원이 Axivox 통화 대기열에 연결하는 방법에는 세 가지가 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:108
 msgid "Dynamic agents connect automatically."
@@ -16560,16 +16606,19 @@ msgid ""
 "Manager logs in specific agent(s), via the `Axivox management console "
 "<https://manage.axivox.com>`_."
 msgstr ""
+"관리자가 `Axivox 관리 콘솔 <https://manage.axivox.com>`_ 을 통해 특정 상담원으로 로그인합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:111
 msgid "Agent connects to the queue in Odoo, via the *VoIP* widget."
-msgstr ""
+msgstr "상담원이 *VoIP* 위젯을 통해 Odoo 대기열에 연결합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:114
 msgid ""
 "See the documentation on setting :ref:`voip/axivox/dynamic-agents` in the "
 "`Axivox management console <https://manage.axivox.com>`_."
 msgstr ""
+"`Axivox 관리 콘솔 <https://manage.axivox.com>`_ 에서 :ref:`voip/axivox/dynamic-"
+"agents` 를 설정하는 방법에 대한 문서를 확인해 보세요."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:118
 msgid "Connect via Axivox queue"
@@ -16600,30 +16649,30 @@ msgstr ":guilabel:`이름`: 대기열의 이름입니다."
 msgid ""
 ":guilabel:`Extension`: number of the extension to be dialed to reach the "
 "queue."
-msgstr ""
+msgstr ":guilabel:`내선`: 대기열에 들어가려면 전화를 걸어야 하는 내선 번호입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:129
 msgid ":guilabel:`Agent Connection`: number to dial to log into the queue."
-msgstr ""
+msgstr ":guilabel:`상담원 연결`: 대기열에 로그인하기 위해 연결할 번호입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:130
 msgid ""
 ":guilabel:`Agent disconnection`: number to dial to log out of the queue."
-msgstr ""
+msgstr ":guilabel:`상담원 연결 해제`: 대기열에서 로그아웃하려면 걸어야 하는 번호입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:131
 msgid ":guilabel:`Connected Agents`: name of agent connected to the queue."
-msgstr ""
+msgstr ":guilabel:`연결된 상담원`: 대기열에 연결된 상담원의 이름입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:133
 msgid ""
 "The following buttons are also available on the :guilabel:`Queues` "
 "dashboard:"
-msgstr ""
+msgstr "다음 버튼은 :guilabel:`대기열` 현황판에서도 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:135
 msgid ":guilabel:`Connect an agent`: manually connect an agent to the queue."
-msgstr ""
+msgstr ":guilabel:`상담원 연결`: 대기열에 수동으로 상담원을 연결합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:136
 msgid ":guilabel:`Report`: run a report on the queue."
@@ -16635,7 +16684,7 @@ msgstr ":guilabel:`삭제`: 대기열을 삭제합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:138
 msgid ":guilabel:`Edit`: make changes to the settings of the queue."
-msgstr ""
+msgstr ":guilabel:`편집`: 대기열 설정을 변경합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:140
 msgid ""
@@ -16645,7 +16694,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:143
 msgid "If they are static agents, they **always** show up as connected."
-msgstr ""
+msgstr "정적 상담원인 경우 **항상** 연결됨으로 표시됩니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:145
 msgid ""
@@ -16663,7 +16712,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:154
 msgid ""
 "For more information on static and dynamic agents, see this documentation:"
-msgstr ""
+msgstr "정적 및 동적 상담원에 대한 자세한 내용은 다음의 문서를 참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:156
 msgid ":ref:`voip/axivox/static-agents`"
@@ -16701,7 +16750,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:170
 msgid ""
 "When the custom configurations have been entered, click :guilabel:`Apply`."
-msgstr ""
+msgstr "사용자 지정 환경설정 입력이 완료되면, :guilabel:`적용` 을 클릭합니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:172
 msgid ""
@@ -16745,7 +16794,7 @@ msgstr ":guilabel:`대기열에 들어오는 대기자가 있습니다`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:185
 msgid ":guilabel:`The caller exits the queue (no agent is connected)`"
-msgstr ""
+msgstr ":guilabel:`발신자가 대기열을 종료(연결된 상담원이 없음)`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:186
 msgid ":guilabel:`The caller exits the queue (timeout)`"
@@ -16757,7 +16806,7 @@ msgstr ":guilabel:`응답이 없습니다`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:188
 msgid ":guilabel:`No one is answering, the caller hangs up`"
-msgstr ""
+msgstr ":guilabel:`응답이 없음, 발신자가 전화를 끊음`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:189
 msgid ":guilabel:`Transfer`"
@@ -16769,7 +16818,7 @@ msgstr ":guilabel:`블라인드 전송`"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst-1
 msgid "Event types in the Axivox queue reporting feature."
-msgstr ""
+msgstr "Axivox 대기열 보고 기능에 있는 행사 유형입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:196
 msgid ""
@@ -16792,7 +16841,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst-1
 msgid "Axivox queue report with result, event type, and period highlighted."
-msgstr ""
+msgstr "Axivox 대기열 보고서에서 결과, 행사 유형 및 기간이 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:209
 msgid "Connect to queue on Odoo"
@@ -16821,7 +16870,7 @@ msgstr ""
 msgid ""
 "For more information on the Odoo *VoIP* widget, see this documentation: "
 ":doc:`../voip_widget`"
-msgstr ""
+msgstr "Odoo *VoIP* 위젯에 대한 자세한 내용은 :doc:`../voip_widget` 문서를 참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:223
 msgid ""
@@ -16949,8 +16998,8 @@ msgid ""
 "for the conference is dialed. Immediately after dialing the extension, a "
 "digital receptionist prompts for the :guilabel:`Access code`."
 msgstr ""
-"다음으로, 회의실에 보안을 해야 하는 경우 :guilabel:`액세스 코드`를 설정하세요. 이 번호는 회의용 내선 번호로 전화를 걸었을 "
-"때 회의에 들어 갈 수 있는 비밀번호입니다. 내선 번호를 누르면 바로 디지털 안내로 :guilabel:`액세스 코드`를 입력하라는 "
+"다음으로, 회의실에 보안을 해야 하는 경우 :guilabel:`액세스 코드` 를 설정합니다. 이 번호는 회의용 내선 번호로 전화를 걸어서"
+" 회의에 입장할 수 있는 비밀번호입니다. 내선 번호를 누르면 바로 디지털 안내 센터에서 :guilabel:`액세스 코드` 를 입력하라는 "
 "메시지가 나옵니다."
 
 #: ../../content/applications/productivity/voip/axivox/conference_calls.rst:37
@@ -17078,7 +17127,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/conference_calls.rst-1
 msgid "Connecting to a conference extension using the Odoo VoIP widget."
-msgstr ""
+msgstr "Odoo VoIP 위젯을 사용하여 회의 내선에 연결합니다."
 
 #: ../../content/applications/productivity/voip/axivox/conference_calls.rst:97
 msgid ""
@@ -17155,14 +17204,14 @@ msgstr ""
 msgid ""
 ":guilabel:`Record`: recording feature is enabled (requires plan change, "
 "enabled in Axivox settings)."
-msgstr ""
+msgstr ":guilabel:`녹음`: 녹음 기능을 사용할 수 있습니다(요금제 변경 필요, Axivox 설정에서 사용 설정)."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:35
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:166
 msgid ""
 ":guilabel:`Caller ID`: replace the caller ID by the called number or free "
 "text."
-msgstr ""
+msgstr ":guilabel:`발신자 ID`: 발신자 ID를 발신 번호나 임의 텍스트로 바꿉니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:37
 msgid ""
@@ -17259,8 +17308,8 @@ msgid ""
 "numbers to an action, or by using a *Digital Receptionist* to automatically "
 "route or listen for an extension, based on a key input from the caller."
 msgstr ""
-"Axivox 다이얼 플랜의 기본 라우팅 요소에서는 내선 기반 라우팅을 사용할 수 있습니다. *메뉴*를 추가하여 숫자별로 다이얼을 작업에 "
-"연결하거나 *디지털 안내*를 사용하여 발신자가 키를 입력하면 자동으로 내선 번호를 라우팅하거나 수신하는 방식으로 진행할 수 있습니다."
+"Axivox 다이얼 플랜의 기본 라우팅 요소에서는 내선 기반 라우팅을 사용할 수 있습니다. *메뉴* 를 추가하여 숫자별 다이얼을 작업에 "
+"연결하거나 *디지털 안내 센터* 를 통해 발신자가 키를 입력하면 자동으로 내선 번호를 라우팅하거나 수신하는 방식으로 진행할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:86
 msgid ""
@@ -17268,8 +17317,8 @@ msgid ""
 "Receptionist* does **not** need to be pre-configured numerically with "
 "actions. Instead, it acts as a virtual receptionist."
 msgstr ""
-"두 가지 요소의 주요 차이점은 *디지털 안내*에서 작업을 숫자로 미리 설정할 필요가 **없다**는 것입니다. 그 대신 가상 안내 센터 "
-"역할을 합니다."
+"두 가지 요소 사이의 주된 차이점은 *디지털 안내 센터* 에서 작업을 미리 숫자로 설정할 필요가 **없다**는 것입니다. 그 대신 가상 "
+"안내 센터 역할을 합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:89
 msgid ""
@@ -17303,7 +17352,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:102
 msgid "Digital receptionist scenario"
-msgstr "디지털 상담원 사례"
+msgstr "디지털 안내 센터 사례"
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:104
 msgid ""
@@ -17318,8 +17367,8 @@ msgid ""
 "receptionist, to be on-call all the time. With that element in place, calls "
 "now reach their destination, without a real person interjecting."
 msgstr ""
-"*디지털 상담원* 을 설정해 두면 팀이나 실시간 상담원이 항상 대기할 필요가 없습니다. 이 요소를 적용하면 이제 실제 사람이 개입하지 "
-"않고도 통화가 대상에게 도달합니다."
+"*디지털 안내 센터* 를 설정해 두면 회사나 실시간 상담원 측에서 항상 대기 상태로 있지 않아도 됩니다. 이 요소를 적용하면 이제 실제 "
+"사람이 개입하지 않고도 통화 상대방과 연락할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:111
 msgid ""
@@ -17372,7 +17421,7 @@ msgid ""
 ":guilabel:`Play a file` element, which states, 'That is not a valid "
 "extension'."
 msgstr ""
-"첫 번째 :guilabel:`파일 재생` 요소 다음에 :guilabel:`디지털 리셉셔니스트` 요소를 추가한 다음, 또 다른 "
+"첫 번째 :guilabel:`파일 재생` 요소 다음에 :guilabel:`디지털 안내 센터` 요소를 추가한 다음, 또 다른 "
 ":guilabel:`파일 재생` 요소로 '올바른 내선 번호가 아닙니다' 라는 내용을 추가합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:134
@@ -17389,7 +17438,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:0
 msgid "A digital receptionist element highlighted in an example dial plan."
-msgstr ""
+msgstr "다이얼 플랜 예시에서 디지털 안내 센터 요소가 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:144
 msgid ""
@@ -17438,7 +17487,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Access List`: create a tailored access list, with VIP customer "
 "preference."
-msgstr ""
+msgstr ":guilabel:`액세스 목록`: VIP 고객 선호도에 따라 맞춤형 액세스 목록을 생성합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:165
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:154
@@ -17527,7 +17576,7 @@ msgstr ""
 msgid ""
 "Dispatcher configuration panel, with name, regular expression and add a line"
 " highlighted."
-msgstr ""
+msgstr "디스패처 환경설정 패널에 이름, 정규 표현식 및 추가 줄이 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:208
 msgid "`02\\\\d+`: validates the numbers starting with `02`"
@@ -17541,7 +17590,7 @@ msgstr "`00\\\\d+`: `00`으로 시작하는 모든 번호를 승인합니다."
 msgid ""
 "`0052\\\\d+` validates all numbers beginning with `0052` (Mexico country "
 "code)"
-msgstr ""
+msgstr "`0052\\\\d+`는 `0052`(멕시코 국가 코드)로 시작하는 모든 번호에 대해 검증을 실시합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:211
 msgid ""
@@ -17576,7 +17625,7 @@ msgstr ""
 msgid ""
 "Attach these routes to any :guilabel:`New element` in the "
 ":guilabel:`Dialplan Editor` pop-up window."
-msgstr ""
+msgstr "이와 같은 경로를 :guilabel:`새 요소` 에 연결하여 :guilabel:`다이얼플랜 에디터` 팝업창에 표시합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:227
 msgid ""
@@ -17637,11 +17686,11 @@ msgstr ":guilabel:`시간/분` - `0:0~23:59`"
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:255
 msgid ":guilabel:`Day of the week` - `All to All`"
-msgstr ""
+msgstr ":guilabel:`요일` - `전체에서 전체로`"
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:256
 msgid ":guilabel:`Day of the month` - `From 4 to 4`"
-msgstr ""
+msgstr ":guilabel:`매월 특정일` - `4일부터 4일까지`"
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:257
 msgid ":guilabel:`Month` - `July`"
@@ -17718,7 +17767,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst-1
 msgid ""
 "Access list element configuration with the allow/deny fields highlighted."
-msgstr ""
+msgstr "요소 환경설정에서 허용/거부 필드가 강조 표시되어 있는 액세스 목록입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:298
 msgid "`2\\\\d\\\\d`: validates numbers from `200 to 299`"
@@ -17759,7 +17808,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst-1
 msgid "Access list element highlighted in an example dial plan."
-msgstr ""
+msgstr "다이얼 플랜 예시에서 액세스 목록 요소가 강조 표시된 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:318
 msgid "Switches"
@@ -17768,7 +17817,7 @@ msgstr "스위치"
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:320
 msgid ""
 "A *Switch* element in Axivox is a simple activated/deactivated route action."
-msgstr ""
+msgstr "Axivox에 있는 *스위치* 요소는 단순한 활성화/비활성화 경로 동작입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:322
 msgid ""
@@ -17874,7 +17923,7 @@ msgstr ""
 msgid ""
 "Switch configuration in a dial plan, with inactive and active routes "
 "highlighted."
-msgstr ""
+msgstr "다이얼 플랜의 스위치 환경설정에서 비활성 및 활성 경로가 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:373
 msgid "Multi-switch"
@@ -17898,6 +17947,8 @@ msgid ""
 "Toggle to the :guilabel:`Multi-switch` tab to create, or set, a pre-"
 "configured :guilabel:`Multi-Switch` element."
 msgstr ""
+":guilabel:`멀티 스위치` 탭으로 토글을 전환하면 미리 설정되어 있는 :guilabel:`멀티 스위치` 요소를 생성하거나 설정할 "
+"수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst:384
 msgid ""
@@ -17961,7 +18012,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/dial_plan_advanced.rst-1
 msgid ""
 "Multi-switch configuration in a dial plan, with chosen route highlighted."
-msgstr ""
+msgstr "다이얼 플랜의 멀티 스위치 환경설정에서 선택한 경로가 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:3
 msgid "Dial plan basics"
@@ -18044,11 +18095,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:46
 msgid ":guilabel:`Delete`: this action deletes the attached dial plan."
-msgstr ""
+msgstr ":guilabel:`삭제`: 이 작업을 실행하면 추가한 다이얼 플랜이 삭제됩니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:47
 msgid ":guilabel:`Edit`: this action allows the user to edit the dial plan."
-msgstr ""
+msgstr ":guilabel:`편집`: 이 작업을 통해 다이얼 플랜을 편집할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:48
 msgid ""
@@ -18236,7 +18287,7 @@ msgstr ":guilabel:`통화`: 내선 또는 대기열에 전화를 겁니다"
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:128
 msgid ":guilabel:`Play a file`: play an audio file or voice greeting."
-msgstr ""
+msgstr ":guilabel:`파일 재생`: 오디오 파일 또는 음성 인사말을 재생합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:129
 msgid ":guilabel:`Voicemail`: forward to a voicemail (terminal)."
@@ -18255,7 +18306,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:132
 msgid ""
 ":guilabel:`Conference`: add a conference room for a caller to connect to."
-msgstr ""
+msgstr ":guilabel:`회의`: 발신자가 연결될 회의실을 추가합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:137
 msgid ""
@@ -18267,7 +18318,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Menu`: add a dial-by-number directory and configure downstream "
 "actions (not terminal)."
-msgstr ""
+msgstr ":guilabel:`메뉴`: 번호별 다이얼 디렉토리를 추가하고 다운스트림 작업(터미널이 아님)을 설정합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:141
 msgid ""
@@ -18279,11 +18330,11 @@ msgstr ""
 msgid ""
 ":guilabel:`Digital Receptionist`: attach a virtual dispatcher to listen for "
 "extensions to connect to."
-msgstr ""
+msgstr ":guilabel:`디지털 안내 센터`: 접속할 내선 번호을 수신할 가상 디스패처로 연결합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:149
 msgid "These are the more advanced elements that route calls in Axivox:"
-msgstr ""
+msgstr "다음은 Axivox에서 통화가 라우팅되는 고급 요소입니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:151
 msgid ""
@@ -18295,11 +18346,11 @@ msgstr ""
 msgid ""
 ":guilabel:`Access List`: create a tailored access list with VIP customer "
 "preference."
-msgstr ""
+msgstr ":guilabel:`액세스 목록`: VIP 고객 추가 설정으로 맞춤형 액세스 목록을 만듭니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:162
 msgid "The following are more advanced elements (not routing) in Axivox:"
-msgstr ""
+msgstr "다음은 Axivox의 고급 요소입니다(라우팅이 아님)."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:169
 msgid ""
@@ -18349,6 +18400,7 @@ msgid ""
 "Finally, :guilabel:`Save` the changes, and click :guilabel:`Apply changes` "
 "in the upper-right corner."
 msgstr ""
+"마지막으로 변경 사항을 :guilabel:`저장` 한 후 오른쪽 상단에 있는 :guilabel:`변경 사항 적용` 을 클릭합니다."
 
 #: ../../content/applications/productivity/voip/axivox/dial_plan_basics.rst:191
 msgid "Basic dial plan scenario"
@@ -18796,12 +18848,12 @@ msgstr ""
 msgid ""
 ":guilabel:`General`: basic information, including the extension of the user,"
 " can be set."
-msgstr ""
+msgstr ":guilabel:`일반`: 사용자의 내선 번호 외 기본 정보를 설정할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:79
 msgid ""
 ":guilabel:`Forwardings`: internal forwards on 'no answer' or busy signals."
-msgstr ""
+msgstr ":guilabel:`착신 전환`: '응답 없음' 또는 통화 중 신호가 있는 경우 내부로 전달합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:80
 msgid ":guilabel:`Follow Me`: external forward configuration."
@@ -18811,19 +18863,21 @@ msgstr ":guilabel:`팔로우하기`: 외부 전달 환경설정입니다."
 msgid ""
 ":guilabel:`Keys`: set hot-keys within the :abbr:`VoIP (Voice over Internet "
 "Protocol)` system."
-msgstr ""
+msgstr ":guilabel:`키`: :abbr:`VoIP(인터넷 프로토콜을 통한 음성 통화)` 시스템 내에서 단축키를 설정합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:82
 msgid ""
 ":guilabel:`SIP Identifiers`: :abbr:`SIP (Session Initiation Protocol)` "
 "username and password for external configuration."
 msgstr ""
+":guilabel:`SIP 식별자`: 외부 환경설정용 :abbr:`SIP(Session Initiation Protocol)` 사용자 "
+"이름과 비밀번호입니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:84
 msgid ""
 ":guilabel:`Permissions`: set access rights for users in the Axivox "
 "management console."
-msgstr ""
+msgstr ":guilabel:`권한`: Axivox 관리 콘솔에서 사용자의 액세스 권한을 설정합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:87
 msgid "General tab"
@@ -18840,7 +18894,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:93
 msgid "In the :guilabel:`Name` field, input the employee name."
-msgstr ""
+msgstr ":guilabel:`이름` 필드에 직원 이름을 입력합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:95
 msgid ""
@@ -18873,16 +18927,20 @@ msgid ""
 "For a list of comprehensive country codes, visit: `https://countrycode.org "
 "<https://countrycode.org>`_."
 msgstr ""
+"국가 코드에 대한 전체 목록은 `https://countrycode.org <https://countrycode.org>`_ 에서 "
+"확인하세요."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst-1
 msgid "General tab layout in the Axivox management console."
-msgstr ""
+msgstr "Axivox 관리 콘솔의 일반 탭 레이아웃입니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:113
 msgid ""
 "In the :guilabel:`Voicemail` field, select either :guilabel:`Yes` or "
 ":guilabel:`No` from the drop-down menu."
 msgstr ""
+":guilabel:`음성 사서함` 필드에 있는 드롭다운 메뉴에서 :guilabel:`예` 또는 :guilabel:`아니요` 를 "
+"선택합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:116
 msgid ""
@@ -18944,7 +19002,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:145
 msgid ""
 "Forwardings are disabled when the :guilabel:`Follow Me` option is enabled."
-msgstr ""
+msgstr ":guilabel:`팔로우하기` 옵션이 활성화되면 착신 전환 기능이 비활성화됩니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:147
 msgid ""
@@ -18962,7 +19020,7 @@ msgstr ""
 msgid ""
 "Additional :guilabel:`Destinations` can be added on with different ring "
 "times."
-msgstr ""
+msgstr "별도로 :guilabel:`대상` 을 다른 벨소리 시간으로 추가할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:155
 msgid ""
@@ -18991,7 +19049,7 @@ msgstr ""
 msgid ""
 "Manage forwarding calls to different users or phone numbers in the "
 "Forwardings tab."
-msgstr ""
+msgstr "착신 전환 탭에서 다른 사용자 또는 전화번호로의 착신 전환을 관리합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:168
 msgid ""
@@ -19043,7 +19101,7 @@ msgstr ""
 msgid ""
 "Ring destinations like different users or phone numbers from the Follow Me "
 "tab."
-msgstr ""
+msgstr "팔로우하기 탭에서 다른 사용자 또는 전화번호와 같은 대상에게 전화를 겁니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:195
 msgid ""
@@ -19076,15 +19134,15 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:208
 msgid "The following options are available to set to numerical values `1-20`."
-msgstr ""
+msgstr "다음을 통해 숫자 값 `1-20`으로 설정할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:210
 msgid "These actions can be set on each number:"
-msgstr ""
+msgstr "다음 작업은 각 번호에 설정할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:212
 msgid ":guilabel:`Not configured`: the default action, which is nothing."
-msgstr ""
+msgstr ":guilabel:`설정되지 않음`: 기본값인 작업으로, 설정되어 있는 내용이 없습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:213
 msgid ""
@@ -19097,17 +19155,17 @@ msgstr ""
 msgid ""
 ":guilabel:`Quick Call`: this action allows for a speed-dial of an external "
 "number."
-msgstr ""
+msgstr ":guilabel:`빠른 통화`: 이 작업을 통해 외부 번호로 단축 다이얼 기능을 사용할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:216
 msgid ":guilabel:`Line`: this action allows the user to call another user."
-msgstr ""
+msgstr ":guilabel:`회선`: 이 작업을 통해 다른 사용자에게 전화를 걸 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:217
 msgid ""
 ":guilabel:`Switch`: this action allows the user to switch between calls from"
 " a desk-phone."
-msgstr ""
+msgstr ":guilabel:`전환`: 이 작업을 실행하면 데스크폰에서 통화를 전환할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:218
 msgid ""
@@ -19166,11 +19224,11 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:247
 msgid ""
 "See the documentation on configuring Axivox, using the SIP identifiers:"
-msgstr ""
+msgstr "SIP 식별자를 통해 Axivox 환경설정에 대한 문서를 참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:249
 msgid ":doc:`Use VoIP services in Odoo with Axivox <axivox_config>`"
-msgstr ""
+msgstr ":doc:`VoIP 서비스를 Odoo에서 Axivox와 함께 사용` <axivox_config>"
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:250
 msgid ":doc:`Axivox Mobile Integrations <../devices_integrations>`"
@@ -19187,7 +19245,7 @@ msgstr ""
 msgid ""
 "The :guilabel:`Domain` field is assigned to the company by the Axivox "
 "representative."
-msgstr ""
+msgstr ":guilabel:`도메인` 필드를 회사에 할당하는 작업은 Axivox 담당자가 진행합니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:257
 msgid ""
@@ -19200,7 +19258,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst-1
 msgid "Important credentials used for external configurations of Axivox VoIP."
-msgstr ""
+msgstr "Axivox VoIP의 외부 환경설정에 사용되는 중요한 자격 증명입니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:264
 msgid ""
@@ -19350,7 +19408,7 @@ msgstr ""
 msgid ""
 "Upon finishing the setup for a new user, an "
 ":ref:`voip/axivox/incoming_number` can be linked."
-msgstr ""
+msgstr "신규 사용자에 대한 설정이 완료되면 :ref:`voip/axivox/incoming_number` 를 연결할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst-1
 msgid ""
@@ -19373,6 +19431,8 @@ msgid ""
 "To begin using user groups, navigate to `https://manage.axivox.com "
 "<https://manage.axivox.com>`_."
 msgstr ""
+"사용자 그룹에 대한 사용을 시작하려면 `https://manage.axivox.com "
+"<https://manage.axivox.com>`_ 으로 이동하세요."
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:333
 msgid ""
@@ -19401,7 +19461,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/manage_users.rst:343
 msgid "Repeat this process to add more users to the group."
-msgstr ""
+msgstr "그룹에 사용자를 추가하려면 이 과정을 반복합니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:3
 msgid "Voicemails and audio messages"
@@ -19446,6 +19506,8 @@ msgid ""
 "From here, set the language to either: :guilabel:`Francais`, "
 ":guilabel:`English`, :guilabel:`Espanol`, or :guilabel:`Deutsch`."
 msgstr ""
+"여기에서 언어를 :guilabel:`프랑스어`, :guilabel:`영어`, :guilabel:`스페인어` 또는 "
+":guilabel:`독일어` 로 설정합니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:28
 msgid ""
@@ -19473,7 +19535,7 @@ msgstr ""
 msgid ""
 "On the left menu of the Axivox administrative panel, click into "
 ":guilabel:`Users`."
-msgstr ""
+msgstr "Axivox 관리 패널의 왼쪽 메뉴에서 :guilabel:`사용자` 를 클릭합니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:42
 msgid ""
@@ -19641,7 +19703,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:121
 msgid ""
 "Next, navigate to :menuselection:`Users`, located in the menu on the left."
-msgstr ""
+msgstr "다음으로 왼쪽 메뉴에 있는 :menuselection:`사용자` 로 이동합니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:123
 msgid ""
@@ -19678,7 +19740,7 @@ msgstr ""
 msgid ""
 "For more information on forwarding and transfers, visit "
 ":ref:`voip/axivox/forwardings_tab`."
-msgstr ""
+msgstr "착신 전환 및 이전에 대한 자세한 내용은 :ref:`voip/axivox/forwardings_tab` 을 참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:141
 msgid ""
@@ -19786,7 +19848,7 @@ msgstr "메시지를 녹음하려면 `1`을 누르세요."
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:190
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:200
 msgid "Press `2` to listen to the current message."
-msgstr ""
+msgstr "현재 메시지를 들으려면 `2`를 누르세요."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:192
 msgid ""
@@ -19832,7 +19894,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:213
 msgid "Doing so reveals a :guilabel:`Convert text to message` pop-up window."
-msgstr ""
+msgstr "그러면 :guilabel:`텍스트를 메시지로 변환` 팝업창이 나타납니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:215
 msgid ""
@@ -19863,7 +19925,7 @@ msgstr ""
 msgid ""
 "Finally, when these steps are complete, click :guilabel:`Save` to save the "
 "audio message."
-msgstr ""
+msgstr "마지막으로 이와 같은 단계가 완료되면 :guilabel:`저장` 을 클릭하여 오디오 메시지를 저장합니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:226
 msgid ""
@@ -19875,7 +19937,7 @@ msgstr ""
 msgid ""
 "Convert text to message window with voice, text, generate button and save "
 "highlighted."
-msgstr ""
+msgstr "텍스트를 메시지 창으로 변환하며 여기에 음성, 텍스트, 생성 버튼이 있는 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:233
 msgid ""
@@ -19892,6 +19954,8 @@ msgid ""
 "For more information on dial plans see this documentation: "
 ":doc:`dial_plan_basics` or :doc:`dial_plan_advanced`."
 msgstr ""
+"다이얼 플랜에 대한 자세한 내용은 :doc:`dial_plan_basics` 또는 :doc:`dial_plan_advanced` 문서를 "
+"참조하세요."
 
 #: ../../content/applications/productivity/voip/axivox/vm_audio_messages.rst:243
 msgid "Music on-hold"
@@ -19989,7 +20053,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst:24
 msgid "Once they click :guilabel:`Save`, an activity shows up in the chatter."
-msgstr ""
+msgstr ":guilabel:`저장` 을 클릭하면 활동이 메시지창에 표시됩니다."
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst:26
 msgid ""
@@ -20116,7 +20180,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst-1
 msgid "Layout of what the VoIP app looks like on the a mobile device."
-msgstr ""
+msgstr "모바일 기기에서 VoIP 앱이 표시되는 모습에 대한 레이아웃입니다."
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst:94
 msgid "Zoiper Lite"
@@ -20162,7 +20226,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst-1
 msgid "Zoiper account setup, shown in the view from a mobile device."
-msgstr ""
+msgstr "Zoiper 계정 설정이 모바일 장치의 보기에 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/devices_integrations.rst:116
 msgid ""
@@ -20408,7 +20472,7 @@ msgstr "다음으로 :guilabel:`VOIP OnSIP` 모듈을 활성화합니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst-1
 msgid "View of OnSIP app in the app search results."
-msgstr ""
+msgstr "앱 검색 결과에 있는 OnSIP 앱 보기입니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:46
 msgid "Odoo VoIP setting"
@@ -20421,6 +20485,8 @@ msgid ""
 ":guilabel:`VoIP` fields. Then, proceed to fill in those three fields with "
 "the following information:"
 msgstr ""
+"*VOIP OnSIP* 모듈을 설치한 후 :menuselection:`설정 앱` 으로 이동하여 :guilabel:`통합` 섹션까지 "
+"스크롤하여 :guilabel:`VoIP` 필드를 찾습니다. 그런 다음 세 개의 필드에 다음의 내용을 입력합니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:52
 msgid ""
@@ -20457,13 +20523,13 @@ msgstr ""
 msgid ""
 "Click on the :guilabel:`Phone Settings` tab to reveal OnSIP configuration "
 "credentials (first column)."
-msgstr ""
+msgstr ":guilabel:`전화 설정` 탭을 클릭하면 OnSIP 환경설정 자격 증명(첫 번째 열)이 표시됩니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:0
 msgid ""
 "Domain setting revealed (highlighted) on administrative panel of OnSIP management\n"
 "console."
-msgstr ""
+msgstr "OnSIP 관리 콘솔의 관리 패널에 도메인 설정(강조 표시)이 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:77
 msgid "Odoo user setting"
@@ -20491,12 +20557,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/onsip.rst:87
 msgid "In this section, fill in the fields with OnSIP credentials."
-msgstr ""
+msgstr "이 섹션에서 OnSIP 자격 증명이 필드에 입력됩니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:89
 msgid ""
 "Fill in the following fields with the associated credentials listed below:"
-msgstr ""
+msgstr "아래에 표시된 관련 자격 증명을 다음 필드에 입력합니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:91
 msgid ":guilabel:`Voip Username` = OnSIP :guilabel:`Username`"
@@ -20532,6 +20598,8 @@ msgid ""
 "Additional setup and troubleshooting steps can be found on `OnSIP's "
 "knowledge base <https://support.onsip.com/hc/en-us>`_."
 msgstr ""
+"추가 설정 및 문제 해결 단계는 `OnSIP 지식 센터 <https://support.onsip.com/hc/en-us>` 에서 확인할 "
+"수 있습니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:108
 msgid "Incoming calls"
@@ -20548,11 +20616,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/onsip.rst:113
 msgid "To ignore the call, click the red :guilabel:`📞 (phone)` icon."
-msgstr ""
+msgstr "통화를 무시하려면 빨간색 :guilabel:`📞(전화)` 아이콘을 클릭합니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst-1
 msgid "Incoming call shown in the Odoo VoIP widget."
-msgstr ""
+msgstr "Odoo VoIP 위젯에 수신된 통화가 표시됩니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:121
 msgid ":doc:`voip_widget`"
@@ -20575,7 +20643,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/onsip.rst-1
 msgid "Missing parameter message in the Odoo VoIP widget."
-msgstr ""
+msgstr "Odoo VoIP 위젯에 매개변수 메시지가 없습니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:137
 msgid "Incorrect number"
@@ -20594,11 +20662,11 @@ msgstr ""
 msgid ""
 "For example, `16505555555` (where `1` is the international prefix for the "
 "United States)."
-msgstr ""
+msgstr "예를 들어 `16505555555`와 같이 사용합니다(여기에서 `1` 은 미국의 국가 번호입니다)."
 
 #: ../../content/applications/productivity/voip/onsip.rst-1
 msgid "Incorrect number message populated in the Odoo VoIP widget."
-msgstr ""
+msgstr "Odoo VoIP 위젯에 표시되어 있는 잘못된 번호 메시지입니다."
 
 #: ../../content/applications/productivity/voip/onsip.rst:157
 msgid "OnSIP on mobile phone"
@@ -20674,7 +20742,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/transfer_forward.rst-1
 #: ../../content/applications/productivity/voip/transfer_forward.rst-1
 msgid "Using the VoIP phone widget to make calls."
-msgstr ""
+msgstr "VoIP 전화 위젯을 사용하여 전화를 겁니다."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:27
 msgid ""
@@ -20750,7 +20818,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst-1
 msgid "VoIP widget with next activities highlighted, showing tasks below."
-msgstr ""
+msgstr "다음 활동이 강조 표시된 VoIP 위젯으로, 아래 작업이 표시됩니다. "
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:70
 msgid ""
@@ -20778,7 +20846,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst-1
 msgid "Adding a call to the next activities tab in the VoIP phone widget."
-msgstr ""
+msgstr "VoIP 전화 위젯의 다음 활동 탭에 통화를 추가합니다."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:84
 msgid ""
@@ -20789,7 +20857,7 @@ msgstr ""
 #: ../../content/applications/productivity/voip/transfer_forward.rst:87
 msgid ""
 "A call can be added in the chatter of records within those applications."
-msgstr ""
+msgstr "통화를 애플리케이션 내에서 메시지창 기록에 추가할 수 있습니다."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:89
 msgid ""
@@ -20802,7 +20870,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:93
 msgid "Next, set a :guilabel:`Due Date`, and add a :guilabel:`Summary`."
-msgstr ""
+msgstr "다음으로, :guilabel:`마감일` 을 설정하고 :guilabel:`요약` 을 추가합니다."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:95
 msgid ""
@@ -20880,12 +20948,13 @@ msgid ""
 "For more information on access rights, visit: "
 ":doc:`/applications/general/users/access_rights`."
 msgstr ""
+"액세스 권한에 대한 자세한 내용은 :doc:`/applications/general/users/access_rights` 를 참조하세요."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst-1
 msgid ""
 "Transferring a call within the phone widget, with the transfer buttons "
 "highlighted."
-msgstr ""
+msgstr "전화 위젯 내에서 통화 착신 전환을 하며, 착신 전환 버튼이 강조 표시되어 있는 모습입니다."
 
 #: ../../content/applications/productivity/voip/transfer_forward.rst:137
 msgid "Forward calls"
@@ -20978,7 +21047,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:0
 msgid "\"Missing Parameter\" error message in the Odoo softphone."
-msgstr ""
+msgstr "Odoo 소프트폰의 \"매개변수 누락\" 오류 메시지"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:43
 msgid ""
@@ -20993,11 +21062,11 @@ msgstr ""
 msgid ""
 "(E.g., +16506913277, where `+1` is the international prefix for the United "
 "States.)"
-msgstr ""
+msgstr "(예: +16506913277, 여기에서 `+1`은 미국의 국가 번호입니다.)"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:0
 msgid "\"Incorrect Number\" error message in the Odoo softphone."
-msgstr ""
+msgstr "Odoo 소프트폰의 \"잘못된 번호\" 오류 메시지"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:54
 msgid "Tabs"
@@ -21074,7 +21143,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:88
 msgid "Under the :guilabel:`Document` section, from right to left:"
-msgstr ""
+msgstr ":guilabel:`문서` 섹션에서, 오른쪽부터 왼쪽으로:"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:90
 msgid ":guilabel:`✉️ (envelope)` icon: sends an email"
@@ -21082,12 +21151,12 @@ msgstr ":guilabel:`✉️ (봉투)` 아이콘: 이메일 보내기"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:91
 msgid ":guilabel:`👤 (person icon)` icon: redirects to the contact card"
-msgstr ""
+msgstr ":guilabel:`👤(사람 아이콘)` 아이콘: 연락처 카드로 리디렉션됩니다."
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:92
 msgid ""
 ":guilabel:`📄 (document)` icon: redirects to the attached record in Odoo"
-msgstr ""
+msgstr ":guilabel:`📄(문서)` 아이콘: Odoo에 첨부된 레코드로 리디렉션됩니다."
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:93
 msgid ":guilabel:`🕓 (clock)` icon: schedule an activity"
@@ -21095,7 +21164,7 @@ msgstr ":guilabel:`🕓 (시계)` 아이콘: 활동 예약하기"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:95
 msgid "Under the :guilabel:`Activity` section, from left to right:"
-msgstr ""
+msgstr ":guilabel:`활동` 섹션에서, 왼쪽부터 오른쪽으로:"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:97
 msgid ":guilabel:`✔️ (checkmark)` icon: mark activity as done"
@@ -21168,7 +21237,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/whatsapp.rst:21
 msgid "Receive and reply to WhatsApp messages directly from an Odoo database"
-msgstr ""
+msgstr "Odoo 데이터베이스에서 직접 WhatsApp 메시지를 수신하고 답장합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:22
 msgid "Create new templates with dynamic placeholders/variables"
@@ -21176,7 +21245,7 @@ msgstr "동적 자리 표시자/변수로 새 템플릿 만들기"
 
 #: ../../content/applications/productivity/whatsapp.rst:23
 msgid "Send pre-approved templates that use dynamic variables, such as:"
-msgstr ""
+msgstr "다음과 같은 동적 변수를 사용하는 사전 승인된 템플릿을 전송합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:25
 msgid "Quotations from the Sales app"
@@ -21184,7 +21253,7 @@ msgstr "전자 서명 앱에 있는 견적서"
 
 #: ../../content/applications/productivity/whatsapp.rst:26
 msgid "Receipts and invoices from the Point of Sale app"
-msgstr ""
+msgstr "POS 앱의 영수증 및 청구서"
 
 #: ../../content/applications/productivity/whatsapp.rst:27
 msgid "Tickets from the Events app"
@@ -21195,18 +21264,24 @@ msgid ""
 "`Meta Business: create message templates for the WhatsApp Business account "
 "<https://www.facebook.com/business/help/2055875911147364>`_."
 msgstr ""
+"`Meta 비즈니스: WhatsApp 비즈니스 계정에 대한 메시지 템플릿을 생성합니다 "
+"<https://www.facebook.com/business/help/2055875911147364>`_."
 
 #: ../../content/applications/productivity/whatsapp.rst:32
 msgid ""
 "`Meta Business: connect a phone number to the WhatsApp Business account "
 "<https://www.facebook.com/business/help/456220311516626>`_."
 msgstr ""
+"`Meta 비즈니스: 전화번호를 WhatsApp 비즈니스 계정 "
+"<https://www.facebook.com/business/help/456220311516626>`_ 에 연결합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:34
 msgid ""
 "`Meta Business: change the WhatsApp Business display name "
 "<https://www.facebook.com/business/help/378834799515077>`_."
 msgstr ""
+"`Meta 비즈니스: WhatsApp 비즈니스 표시 이름 변경하기 "
+"<https://www.facebook.com/business/help/378834799515077>`_."
 
 #: ../../content/applications/productivity/whatsapp.rst:37
 msgid ""
@@ -21270,7 +21345,7 @@ msgstr "Meta 개발자 계정 만들기"
 
 #: ../../content/applications/productivity/whatsapp.rst:63
 msgid "Setup an *app* and WhatsApp *product* on Meta's developer console"
-msgstr ""
+msgstr "Meta 개발자 콘솔에서 *앱* 및 WhatsApp *제품* 설정하기"
 
 #: ../../content/applications/productivity/whatsapp.rst:64
 msgid "Test the API connection."
@@ -21483,6 +21558,8 @@ msgid ""
 "For more information, see `Meta's documentation on advertising restrictions "
 "<https://www.facebook.com/business/help/975570072950669>`_."
 msgstr ""
+"자세한 내용은 `광고 제한에 대한 Meta 문서 "
+"<https://www.facebook.com/business/help/975570072950669>`_ 를 참조하세요."
 
 #: ../../content/applications/productivity/whatsapp.rst:169
 msgid "Add a WhatsApp product to the app"
@@ -21555,7 +21632,7 @@ msgstr ""
 msgid ""
 "Navigating to the WhatsApp quickstart wizard in Meta for Developer "
 "dashboard."
-msgstr ""
+msgstr "개발자 현황판에서 Meta의 WhatsApp 빠른 시작 마법사로 이동합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:206
 msgid ""
@@ -21593,7 +21670,7 @@ msgstr ":guilabel:`환경설정`"
 msgid ""
 "Click the :guilabel:`Quickstart` option, and then click :guilabel:`Start "
 "using the API`."
-msgstr ""
+msgstr ":guilabel:`빠른 시작` 옵션을 클릭한 다음 :guilabel:`API 사용 시작` 을 클릭합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:221
 msgid "API Setup"
@@ -21900,11 +21977,11 @@ msgstr "선택한 후 :guilabel:`완료` 를 클릭합니다."
 msgid ""
 "The finished :guilabel:`Webhooks` configuration will appear like this in the"
 " Meta developer console:"
-msgstr ""
+msgstr ":guilabel:`웹훅` 환경설정이 끝나면 Meta 개발자 콘솔에 다음과 같이 표시됩니다."
 
 #: ../../content/applications/productivity/whatsapp.rst-1
 msgid "WhatsApp webhooks set in the Meta developer console."
-msgstr ""
+msgstr "Meta 개발자 콘솔에서 설정된 WhatsApp 웹훅"
 
 #: ../../content/applications/productivity/whatsapp.rst:360
 msgid ""
@@ -22005,6 +22082,9 @@ msgid ""
 "<https://developers.facebook.com/docs/whatsapp/cloud-api/get-"
 "started/migrate-existing-whatsapp- number-to-a-business-account>`_."
 msgstr ""
+"`기존 WhatsApp 번호를 비즈니스 계정으로 마이그레이션합니다. "
+"<https://developers.facebook.com/docs/whatsapp/cloud-api/get-"
+"started/migrate-existing-whatsapp- number-to-a-business-account>`_."
 
 #: ../../content/applications/productivity/whatsapp.rst:405
 msgid ""
@@ -22396,7 +22476,7 @@ msgstr "위치(변수 설정 필요)"
 msgid ""
 "Navigate to the :guilabel:`Body` tab to configure the main message of the "
 "template."
-msgstr ""
+msgstr "템플릿에 기본 메시지를 설정하려면 :guilabel:`본문` 탭으로 이동합니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:592
 msgid ""
@@ -22421,7 +22501,7 @@ msgstr ""
 msgid ""
 "See this section for more information on :ref:`syncing templates "
 "<productivity/whatsapp/sync>`."
-msgstr ""
+msgstr ":ref:`템플릿 동기화 <productivity/whatsapp/sync>` 에 대한 자세한 내용은 이 섹션을 참조하세요."
 
 #: ../../content/applications/productivity/whatsapp.rst:603
 msgid ""
@@ -22973,7 +23053,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/whatsapp.rst-1
 msgid "User error populated in Odoo when a duplicate template exists."
-msgstr ""
+msgstr "중복된 템플릿이 있는 경우 Odoo에 사용자 오류가 표시됩니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:872
 msgid "Token errors"
@@ -22994,7 +23074,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/whatsapp.rst-1
 msgid "User error populated in Odoo when token expires."
-msgstr ""
+msgstr "토큰이 만료되면 Odoo에 사용자 오류가 표시됩니다."
 
 #: ../../content/applications/productivity/whatsapp.rst:886
 msgid "System user error 100"

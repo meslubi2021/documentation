@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Wil Odoo, 2024
-# Sarah Park, 2024
+# Sarah Park, 2025
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 09:20+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Sarah Park, 2024\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,7 @@ msgstr "보안 규칙"
 #: ../../content/applications/studio.rst:29
 msgid ""
 "You can also :doc:`build an app from scratch <studio/models_modules_apps>`."
-msgstr ""
+msgstr "또한 :doc:`기초부터 앱 제작하기 <studio/models_modules_apps>` 를 할 수 있습니다."
 
 #: ../../content/applications/studio.rst:33
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../content/applications/studio.rst:36
 msgid "To close Studio, click :guilabel:`Close` in the upper right corner."
-msgstr ""
+msgstr "스튜디오를 닫으려면 오른쪽 상단에 있는 :guilabel:`닫기` 를 클릭하세요."
 
 #: ../../content/applications/studio.rst:39
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
@@ -101,17 +101,19 @@ msgstr "다음과 같이 승인 규칙을 추가합니다:"
 msgid ""
 ":ref:`Open Studio <studio/access>` and switch to the required :doc:`view "
 "<views>`."
-msgstr ""
+msgstr ":ref:`스튜디오 열기 <studio/access>` 후 필요한 :doc:`보기 <views>` 로 전환합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:14
 msgid "Select the button to which the rule should be applied."
-msgstr ""
+msgstr "규칙을 적용할 버튼을 선택합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:15
 msgid ""
 "Click :icon:`fa-plus` :guilabel:`Add an approval step` in the :icon:`fa-"
 "server` :guilabel:`Properties` tab."
 msgstr ""
+":icon:`fa-server` :guilabel:`속성` 탭에 있는 :icon:`fa-plus` :guilabel:`승인 단계 추가` "
+"를 클릭합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:17
 msgid ""
@@ -121,11 +123,11 @@ msgstr ""
 
 #: ../../content/applications/studio/approval_rules.rst:20
 msgid ":guilabel:`Approvers` to specify one or several users;"
-msgstr ""
+msgstr ":guilabel:`승인권자` 로 하나 또는 여러 명의 사용자를 지정합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:21
 msgid ":guilabel:`Approver Group` to specify one user group."
-msgstr ""
+msgstr ":guilabel:`승인권자 그룹` 으로 하나의 사용자 그룹을 지정합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:24
 msgid ""
@@ -142,7 +144,7 @@ msgstr ""
 #: ../../content/applications/studio/approval_rules.rst:29
 msgid ""
 "(*optional*) Add a :guilabel:`Description` to be displayed on the button."
-msgstr ""
+msgstr "(*선택 사항*) 버튼에 표시할 :guilabel:`설명` 을 추가합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:32
 msgid ""
@@ -184,7 +186,7 @@ msgstr ""
 msgid ""
 "You can create :ref:`user groups <access-rights/groups>` specifically for "
 "approvals."
-msgstr ""
+msgstr "승인용으로 특별히 :ref:`사용자 그룹 <access-rights/groups>` 을 생성할 수 있습니다."
 
 #: ../../content/applications/studio/approval_rules.rst:53
 msgid "Use"
@@ -209,6 +211,8 @@ msgid ""
 " an activity is created for the users specified in the :guilabel:`Approvers`"
 " field, if any."
 msgstr ""
+"권한이 없는 사용자가 버튼을 클릭할 경우 오류 메시지가 표시되고 :guilabel:`승인자` 필드에 지정되어 있는 사용자에게 활동이 "
+"생성됩니다(있는 경우)."
 
 #: ../../content/applications/studio/approval_rules.rst:65
 msgid "Authorized users can:"
@@ -246,6 +250,8 @@ msgid ""
 "Clicking the :icon:`oi-view-kanban` (:guilabel:`kanban view`) icon and then "
 ":guilabel:`Delegate`."
 msgstr ""
+":icon:`oi-view-kanban` (:guilabel:`칸반 보기`) 아이콘을 클릭한 다음 :guilabel:`위임` 을 "
+"클릭합니다."
 
 #: ../../content/applications/studio/approval_rules.rst:78
 msgid ""
@@ -750,7 +756,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Compute a custom datetime field using a Python expression"
-msgstr ""
+msgstr "Python 표현식을 사용하여 사용자 지정 일시 필드 계산하기"
 
 #: ../../content/applications/studio/automated_actions.rst:236
 msgid "Create Activity"
@@ -820,7 +826,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Message`: to post the message on the record and notify the "
 "record's followers."
-msgstr ""
+msgstr ":guilabel:`메시지`: 레코드에 메시지를 게시하고 레코드 팔로워에게 안내합니다."
 
 #: ../../content/applications/studio/automated_actions.rst:266
 msgid ""
@@ -856,7 +862,7 @@ msgstr "팔로워 추가 및 팔로워 제거하기"
 #: ../../content/applications/studio/automated_actions.rst:279
 msgid ""
 "Use these actions to (un)subscribe existing contacts to/from the record."
-msgstr ""
+msgstr "이러한 작업을 통해 기존 연락처를 레코드에서 구독(구독 취소)하세요."
 
 #: ../../content/applications/studio/automated_actions.rst:282
 msgid "Create Record"
@@ -864,7 +870,7 @@ msgstr "레코드 생성"
 
 #: ../../content/applications/studio/automated_actions.rst:284
 msgid "This action is used to create a new record on any model."
-msgstr ""
+msgstr "이 작업은 모델에서 새 레코드를 생성할 때 적용됩니다."
 
 #: ../../content/applications/studio/automated_actions.rst:286
 msgid ""
@@ -913,7 +919,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:310
 msgid "`env`: environment on which the action is triggered"
-msgstr ""
+msgstr "`env`: 작업이 트리거되는 환경"
 
 #: ../../content/applications/studio/automated_actions.rst:311
 msgid ""
@@ -923,7 +929,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:312
 msgid "`record`: record on which the action is triggered; may be void"
-msgstr ""
+msgstr "`record`: 작업이 트리거되는 레코드입니다. 레코드는 무효일 수 있습니다."
 
 #: ../../content/applications/studio/automated_actions.rst:313
 msgid ""
@@ -939,21 +945,21 @@ msgstr "`time`, `datetime`, `dateutil`, `timezone`: 유용한 Python 라이브�
 msgid ""
 "`float_compare`: utility function to compare floats based on specific "
 "precision"
-msgstr ""
+msgstr "`float_compare`: 특정 정밀도를 기준으로 소수점을 비교하는 유틸리티 함수"
 
 #: ../../content/applications/studio/automated_actions.rst:317
 msgid ""
 "`log(message, level='info')`: logging function to record debug information "
 "in ir.logging table"
-msgstr ""
+msgstr "`log(message, level='info')`: ir.logging 테이블에 디버그 정보를 기록하는 로깅 함수입니다."
 
 #: ../../content/applications/studio/automated_actions.rst:319
 msgid "`_logger.info(message)`: logger to emit messages in server logs"
-msgstr ""
+msgstr "`_logger.info(message)`: 서버 로그로 메시지를 내보내는 로거"
 
 #: ../../content/applications/studio/automated_actions.rst:320
 msgid "`UserError`: exception class for raising user-facing warning messages"
-msgstr ""
+msgstr "`UserError`: 사용자에게 경고 메시지를 발생시키는 예외 클래스"
 
 #: ../../content/applications/studio/automated_actions.rst:321
 msgid "`Command`: x2many commands namespace"
@@ -967,7 +973,7 @@ msgstr "`action = {...}`: 작업을 반환합니다."
 msgid ""
 "The available variables are described both in the :guilabel:`Code` and "
 ":guilabel:`Help` tabs."
-msgstr ""
+msgstr "사용이 가능한 변수는 :guilabel:`코드` 및 :guilabel:`도움말` 탭에 모두 설명되어 있습니다."
 
 #: ../../content/applications/studio/automated_actions.rst:328
 msgid "Send Webhook Notification"
@@ -1040,13 +1046,13 @@ msgstr "간단한 필드"
 
 #: ../../content/applications/studio/fields.rst:23
 msgid "Simple fields contain basic values, such as text, numbers, files, etc."
-msgstr ""
+msgstr "단순 필드에는 기본 값이 들어가며, 텍스트, 숫자, 파일 등이 포함됩니다."
 
 #: ../../content/applications/studio/fields.rst:26
 #: ../../content/applications/studio/fields.rst:325
 msgid ""
 "Non-default widgets, when available, are presented as bullet points below."
-msgstr ""
+msgstr "가능한 경우, 기본 위젯이 아닌 위젯은 아래에 글머리 기호로 표시됩니다."
 
 #: ../../content/applications/studio/fields.rst:31
 msgid "Text (`char`)"
@@ -1072,11 +1078,11 @@ msgstr ""
 msgid ""
 ":guilabel:`Copy to Clipboard`: users can copy the value by clicking a "
 "button."
-msgstr ""
+msgstr ":guilabel:`클립보드에 복사`: 버튼을 클릭하면 값을 복사할 수 있습니다."
 
 #: ../../content/applications/studio/fields.rst:39
 msgid ":guilabel:`E-mail`: the value becomes a clickable *mailto* link."
-msgstr ""
+msgstr ":guilabel:`E-mail`: 값이 클릭 가능한 *mailto* 링크로 변환됩니다."
 
 #: ../../content/applications/studio/fields.rst:40
 msgid ""
@@ -1097,7 +1103,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:49
 msgid ":guilabel:`Phone`: the value becomes a clickable *tel* link."
-msgstr ""
+msgstr ":guilabel:`전화`: 값이 클릭 가능한 *tel* 링크로 변환됩니다."
 
 #: ../../content/applications/studio/fields.rst:52
 msgid ""
@@ -1128,7 +1134,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Multiline Text fields with different widgets"
-msgstr ""
+msgstr "다양한 위젯이 있는 다중 행 텍스트 필드의 예시"
 
 #: ../../content/applications/studio/fields.rst:82
 msgid "Integer (`integer`)"
@@ -1195,7 +1201,7 @@ msgstr ""
 #: ../../content/applications/studio/fields.rst:115
 msgid ""
 ":guilabel:`Percentage`: displays a percent character `%` after the value."
-msgstr ""
+msgstr ":guilabel:`백분율`: 값 뒤에 백분율 문자 `%`를 표시합니다."
 
 #: ../../content/applications/studio/fields.rst:116
 msgid ""
@@ -1222,7 +1228,7 @@ msgstr "통화 (`monetary`)"
 
 #: ../../content/applications/studio/fields.rst:133
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
-msgstr ""
+msgstr ":guilabel:`통화` 필드는 모든 통화 값에 사용할 수 있습니다."
 
 #: ../../content/applications/studio/fields.rst:136
 msgid ""
@@ -1237,7 +1243,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Monetary field along with its Currency field"
-msgstr ""
+msgstr "금전 필드가 통화 필드와 함께 표시되어 있는 예시"
 
 #: ../../content/applications/studio/fields.rst:149
 msgid "Html (`html`)"
@@ -1253,7 +1259,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
 "raw HTML."
-msgstr ""
+msgstr ":guilabel:`다중 행 텍스트`: Odoo HTML 편집기를 비활성화하면 원시 HTML을 편집할 수 있습니다."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Html fields with different widgets"
@@ -1265,7 +1271,7 @@ msgstr "날짜 (`date`)"
 
 #: ../../content/applications/studio/fields.rst:166
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
-msgstr ""
+msgstr ":guilabel:`날짜` 필드는 캘린더에서 날짜를 선택할 때 사용합니다."
 
 #: ../../content/applications/studio/fields.rst:168
 msgid ""
@@ -1293,7 +1299,7 @@ msgstr ""
 #: ../../content/applications/studio/fields.rst:185
 msgid ""
 ":guilabel:`Date`: used to record the time without displaying it on the UI."
-msgstr ""
+msgstr ":guilabel:`날짜`: 시간을 기록하는 데 사용하며 UI에는 표시되지 않습니다."
 
 #: ../../content/applications/studio/fields.rst:186
 msgid ""
@@ -1303,7 +1309,7 @@ msgstr ""
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date & Time fields with different widgets"
-msgstr ""
+msgstr "날짜 및 시간 필드가 다양한 위젯에 나타나 있는 예시"
 
 #: ../../content/applications/studio/fields.rst:198
 msgid "Checkbox (`boolean`)"
@@ -1345,7 +1351,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Badges`: displays all selectable values simultaneously inside "
 "rectangular shapes, organized horizontally."
-msgstr ""
+msgstr ":guilabel:`배지`: 선택할 수 있는 모든 값이 직사각형 모양 안에 가로 정렬되어 동시에 표시됩니다."
 
 #: ../../content/applications/studio/fields.rst:224
 msgid ""
@@ -1364,7 +1370,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Radio`: displays all selectable values at the same time as radio "
 "buttons."
-msgstr ""
+msgstr ":guilabel:`라디오 버튼`: 선택할 수 있는 값을 라디오 버튼으로 전부 표시합니다."
 
 #: ../../content/applications/studio/fields.rst:231
 msgid ""
@@ -1550,7 +1556,7 @@ msgstr ""
 msgid ""
 "To prevent users from opening records in a pop-up window, tick "
 ":guilabel:`Disable opening`."
-msgstr ""
+msgstr "팝업창에서 레코드를 열지 못하게 하려면 :guilabel:`열기 기능 비활성화` 에 표시합니다."
 
 #: ../../content/applications/studio/fields.rst:348
 msgid ""
@@ -1652,7 +1658,7 @@ msgstr "다대다 관계를 보여주는 다이어그램"
 #: ../../content/applications/studio/fields.rst:413
 msgid ""
 ":guilabel:`Checkboxes`: users can select several values using checkboxes."
-msgstr ""
+msgstr ":guilabel:`확인란`: 확인란을 사용하여 여러 개의 값을 선택할 수 있습니다."
 
 #: ../../content/applications/studio/fields.rst:414
 msgid ""
@@ -1685,7 +1691,7 @@ msgstr ""
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
-msgstr ""
+msgstr "태그 배경색을 다르게 표시하려면 :guilabel:`색상 사용` 을 선택합니다."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Tags field"
@@ -1761,7 +1767,7 @@ msgstr ""
 #: ../../content/applications/studio/fields.rst:477
 msgid ""
 ":guilabel:`Label`: The :guilabel:`Label` is the field's name on the UI."
-msgstr ""
+msgstr ":guilabel:`라벨`: :guilabel:`라벨` 은 UI에 있는 필드의 이름입니다."
 
 #: ../../content/applications/studio/fields.rst:480
 msgid ""
@@ -1864,7 +1870,7 @@ msgstr ""
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid ""
 "Combination of the Picture and Pipeline stages features on the Kanban view"
-msgstr ""
+msgstr "사진 및 파이프라인 단계 기능이 조합된 칸반 보기"
 
 #: ../../content/applications/studio/models_modules_apps.rst:39
 msgid "Contact details"
@@ -1971,7 +1977,7 @@ msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:105
 msgid "The :guilabel:`Pipeline stages` feature can be added at a later stage."
-msgstr ""
+msgstr ":guilabel:`파이프라인 단계` 기능은 나중에 추가할 수 있습니다."
 
 #: ../../content/applications/studio/models_modules_apps.rst:110
 msgid "Tags"
@@ -1998,7 +2004,7 @@ msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:126
 msgid "The :guilabel:`Picture` feature can be added at a later stage."
-msgstr ""
+msgstr ":guilabel:`사진` 기능은 나중에 추가할 수 있습니다."
 
 #: ../../content/applications/studio/models_modules_apps.rst:131
 msgid "Lines"
@@ -2037,7 +2043,7 @@ msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:155
 msgid "A *Currency* field is added and hidden from the view."
-msgstr ""
+msgstr "*통화* 필드가 추가되고 보기에서 숨겨집니다."
 
 #: ../../content/applications/studio/models_modules_apps.rst:160
 msgid "Company"
@@ -2052,7 +2058,7 @@ msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:167
 msgid "This is only useful if you work in a multi-company environment."
-msgstr ""
+msgstr "이 기능은 다중 회사 환경에서 작업하는 경우에만 유용합니다."
 
 #: ../../content/applications/studio/models_modules_apps.rst:172
 msgid "Custom Sorting"
@@ -2082,7 +2088,7 @@ msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:192
 msgid "The :guilabel:`Chatter` feature can be added at a later stage."
-msgstr ""
+msgstr ":guilabel:`메시지창` 기능은 나중에 스테이지에서 추가할 수 있습니다."
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Chatter feature on the Form view"
@@ -2252,7 +2258,7 @@ msgstr ":guilabel:`빈칸`: 표시되는 내용이 없습니다."
 msgid ""
 ":guilabel:`Geometric`: an image featuring geometric shapes is displayed in "
 "the background."
-msgstr ""
+msgstr ":guilabel:`기하학적`: 기하학적 도형 이미지가 배경화면에 표시됩니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:73
 msgid ":guilabel:`Custom`: upload a custom background image."
@@ -2321,6 +2327,9 @@ msgid ""
 "layout/logo>`, :ref:`tagline <studio/pdf-reports/default-layout/tagline>`, "
 "and :ref:`details <studio/pdf-reports/default-layout/details>`."
 msgstr ""
+"헤더에는 회사의 :ref:`로고 <studio/pdf-reports/default-layout/logo>`, :ref:`태그라인 "
+"<studio/pdf-reports/default-layout/tagline>` 및 :ref:`세부 정보 <studio/pdf-"
+"reports/default-layout/details>` 가 표시됩니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:114
 msgid ""
@@ -2344,7 +2353,7 @@ msgstr ""
 msgid ""
 "Once you have created the report, you can start :ref:`editing it "
 "<studio/pdf-reports/edit>`."
-msgstr ""
+msgstr "보고서 생성이 완료되면 :ref:`편집 <studio/pdf-reports/edit>` 을 시작할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:128
 msgid "Editing PDF reports"
@@ -2431,6 +2440,8 @@ msgid ""
 ":guilabel:`Edit sources`: to modify the report directly in the :ref:`XML "
 "file <studio/pdf-reports/XML-editing>`."
 msgstr ""
+":guilabel:`소스 편집`: :ref:`XML 파일 <studio/pdf-reports/XML-editing>` 에서 직접 보고서를"
+" 수정할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:165
 msgid ""
@@ -2440,7 +2451,7 @@ msgstr ""
 
 #: ../../content/applications/studio/pdf_reports.rst:167
 msgid ":guilabel:`Print preview`: to generate and download a report preview."
-msgstr ""
+msgstr ":guilabel:`인쇄 미리보기`: 보고서 미리보기를 생성한 후 다운로드합니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:170
 msgid "Report editor"
@@ -2494,7 +2505,7 @@ msgstr "블록에 적용되어 있는 조건을 확인합니다."
 #: ../../content/applications/studio/pdf_reports.rst:196
 msgid ""
 "Select a value to preview its corresponding output and edit it if necessary."
-msgstr ""
+msgstr "값을 선택하여 출력 내용을 미리 보기로 확인한 후 필요한 경우 수정할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "Preview the output of another condition."
@@ -2504,7 +2515,7 @@ msgstr "다른 조건의 출력을 미리 봅니다."
 msgid ""
 "Conditions can only be edited in :ref:`XML <studio/pdf-reports/XML-"
 "editing>`."
-msgstr ""
+msgstr "조건은 :ref:`XML <studio/pdf-reports/XML-editing>` 에서만 편집할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:205
 msgid "Other content"
@@ -2512,7 +2523,7 @@ msgstr "기타 콘텐츠"
 
 #: ../../content/applications/studio/pdf_reports.rst:207
 msgid "There are two types of text content in reports:"
-msgstr ""
+msgstr "보고서에는 두 가지 유형의 텍스트 콘텐츠가 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:209
 msgid ""
@@ -2585,7 +2596,7 @@ msgstr ""
 msgid ""
 "Only relations of type `one2many` or `many2many` can be displayed as data "
 "tables."
-msgstr ""
+msgstr "관계 유형이 `일대다` 또는 `다대다` 인 경우에만 데이터 테이블로 표시할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:245
 msgid ""
@@ -2610,7 +2621,7 @@ msgstr ""
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "List of available fields for the Tag model."
-msgstr ""
+msgstr "태그 모델에 사용 가능한 필드 목록"
 
 #: ../../content/applications/studio/pdf_reports.rst:259
 msgid ""
@@ -2627,6 +2638,8 @@ msgid ""
 "You can also add data tables by :ref:`modifying the report's XML "
 "<studio/pdf-reports/XML-editing>`."
 msgstr ""
+"또한 데이터 테이블을 추가할 수 있으며 :ref:`보고서 XML를 수정합니다 <studio/pdf-reports/XML-"
+"editing>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:265
 msgid "Formatting"
@@ -2652,11 +2665,13 @@ msgid ""
 " <../../../administration/upgrade>`. If this happens, simply copy your "
 "changes from the old database into your upgraded database."
 msgstr ""
+"XML을 직접 수정할 경우 :doc:`업그레이드 <../../../administration/upgrade>` 중에 보고서 문제가 발생할"
+" 수 있습니다. 이런 경우에는, 이전 데이터베이스에서 변경된 내용을 업그레이드된 데이터베이스로 복사만 하면 됩니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:283
 msgid ""
 "To edit the report's XML, click :guilabel:`Edit sources` in the left pane."
-msgstr ""
+msgstr "보고서에서 XML을 편집하려면 왼쪽 창에 있는 :guilabel:`소스 편집` 을 클릭합니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:286
 msgid "Examples"
@@ -2697,7 +2712,7 @@ msgstr ""
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a Product Category column in a SO."
-msgstr ""
+msgstr "판매주문서에 품목 카테고리 열을 추가합니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:376
 msgid ""
@@ -2761,7 +2776,7 @@ msgstr "태그가 있는 경우의 출력 미리보기입니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:483
 msgid "You can switch conditions using the editor to preview their output:"
-msgstr ""
+msgstr "편집기로 조건을 전환하여 출력 화면을 미리 볼 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Output preview if there are no tags."
@@ -2806,10 +2821,12 @@ msgid ""
 "product as a 64px-wide image (with an automatic height based on the image's "
 "aspect ratio)."
 msgstr ""
+"예를 들어, 다음의 코드를 통해 해당 줄에 있는 품목의 `image_128` 필드가 64px 너비의 이미지로 출력됩니다(이미지의 가로세로"
+" 비율에 따라 높이가 자동 조정)."
 
 #: ../../content/applications/studio/pdf_reports.rst:520
 msgid "The following options are available for image widgets:"
-msgstr ""
+msgstr "다음 옵션을 이미지 위젯에 사용할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:522
 msgid ""
@@ -2828,6 +2845,8 @@ msgid ""
 "`class`: CSS classes applied on the `img` tag; `Bootstrap classes "
 "<https://getbootstrap.com/docs/5.1/content/tables>`_ are available."
 msgstr ""
+"`class`: `img` 태그에 적용된 CSS 클래스입니다; `부트스트랩 클래스 "
+"<https://getbootstrap.com/docs/5.1/content/tables>`_ 를 사용할 수 있습니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:528
 msgid "`alt`: alternative text of the image"
@@ -2853,6 +2872,8 @@ msgid ""
 "directive on a `span` (for inline content) or `div` (for block content) "
 "node."
 msgstr ""
+"이미지 위젯은 `img` 태그에 사용할 수 없습니다. 대신 `span`(인라인 콘텐츠의 경우) 또는 `div`(블록 콘텐츠의 경우) "
+"노드에 `t-field` 지시문을 설정하세요."
 
 #: ../../content/applications/studio/pdf_reports.rst:539
 msgid ""
@@ -2866,10 +2887,12 @@ msgid ""
 "the Bootstrap classes used in `t-options-class` create a thumbnail-like "
 "border with rounded corners and a shadow."
 msgstr ""
+"`t-options-width` 속성으로 이미지 너비를 64픽셀로 제한하고, `t-options-class` 에서 사용되는 "
+"Bootstrap 클래스로는 모서리가 둥글고 그림자가 있는 썸네일같은 테두리를 만듭니다."
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a column with the product image in the quotation table."
-msgstr ""
+msgstr "견적서 표에 이미지 열을 추가합니다."
 
 #: ../../content/applications/studio/views.rst:3
 msgid "Views"
@@ -3023,7 +3046,7 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:75
 msgid "This view can only be modified within Studio by editing the XML code."
-msgstr ""
+msgstr "이 보기는 스튜디오 내에서만 XML 코드를 편집하여 수정할 수 있습니다."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Lead/Opportunity model's Activity view"
@@ -3058,7 +3081,7 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Search view on the Kanban view"
-msgstr ""
+msgstr "칸반 보기에 있는 프로젝트 모델의 검색 보기"
 
 #: ../../content/applications/studio/views.rst:103
 msgid "Multiple records views"
@@ -3087,7 +3110,7 @@ msgstr ""
 #: ../../content/applications/studio/views.rst:121
 msgid ""
 "To prevent users from creating new records, untick :guilabel:`Can Create`."
-msgstr ""
+msgstr "사용자가 새 레코드를 만들지 못하게 하려면 :guilabel:`만들 수 있음` 을 선택 해제합니다."
 
 #: ../../content/applications/studio/views.rst:122
 msgid ""
@@ -3135,7 +3158,7 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:149
 msgid "To edit several records at once, tick :guilabel:`Enable Mass Editing`."
-msgstr ""
+msgstr "한 번에 여러 개의 레코드를 편집하려면 :guilabel:`대량 편집 사용` 을 선택합니다."
 
 #: ../../content/applications/studio/views.rst:150
 msgid ""
@@ -3163,7 +3186,7 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Drag handle icon enabling to sort records manually in List view"
-msgstr ""
+msgstr "목록 보기에서 핸들 아이콘을 드래그하면 수동으로 레코드를 정렬할 수 있습니다."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales order model's List view"
@@ -3188,6 +3211,8 @@ msgid ""
 " the *Contact* model is required to activate the view, as the contact "
 "address is used to position records on the map."
 msgstr ""
+"*연락처* 모델에 연결된 :ref:`다대일 필드 <studio/fields/relational-fields/many2one>` 는 보기를"
+" 활성화하는 데 필요합니다. 연락처 주소는 지도에 레코드를 배치하는 데 사용되기 때문입니다."
 
 #: ../../content/applications/studio/views.rst:183
 msgid ""
@@ -3205,7 +3230,7 @@ msgstr "레코드 이름이나 주소를 숨기려면 :guilabel:`이름 숨기�
 msgid ""
 "To add information from other fields, select them under "
 ":guilabel:`Additional Fields`."
-msgstr ""
+msgstr "다른 필드에 있는 정보를 추가하려면 :guilabel:`추가 필드` 에서 선택합니다."
 
 #: ../../content/applications/studio/views.rst:188
 msgid ""
@@ -3269,6 +3294,8 @@ msgid ""
 "All the records sharing the same value for that field are displayed using "
 "the same color."
 msgstr ""
+"캘린더에 있는 레코드에 색상을 지정하려면 :guilabel:`색상` 에 있는 필드를 선택합니다. 이 필드 값이 같은 레코드는 같은 "
+"색상으로 표시됩니다. "
 
 #: ../../content/applications/studio/views.rst:230
 msgid ""
@@ -3282,6 +3309,8 @@ msgid ""
 " :ref:`Checkbox field <studio/fields/simple-fields/checkbox>` that specifies"
 " if the event lasts the whole day."
 msgstr ""
+"하루 종일 지속되는 행사를 캘린더 상단에 표시하려면, :ref:`확인란 필드 <studio/fields/simple-"
+"fields/checkbox>` 에 행사가 하루 종일 지속되는 행사인지 여부를 선택합니다."
 
 #: ../../content/applications/studio/views.rst:236
 msgid ""
@@ -3397,13 +3426,13 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:294
 msgid "To show a total row at the bottom, tick :guilabel:`Display Total row`."
-msgstr ""
+msgstr "총계 행을 하단에 표시하려면 :guilabel:`총계 행 표시` 를 선택합니다."
 
 #: ../../content/applications/studio/views.rst:295
 msgid ""
 "To collapse multiple records in a single row, tick :guilabel:`Collapse First"
 " Level`."
-msgstr ""
+msgstr "여러 개의 레코드를 한 행으로 축소하려면 :guilabel:`첫 번째 수준에서 축소` 를 선택합니다."
 
 #: ../../content/applications/studio/views.rst:296
 msgid ""
@@ -3424,6 +3453,8 @@ msgid ""
 "the records sharing the same value for that field are displayed using the "
 "same color."
 msgstr ""
+"보기에 있는 레코드에 색상을 지정하려면 :guilabel:`색상` 에 있는 필드를 선택합니다. 이 필드 값이 같은 레코드는 같은 색상으로"
+" 표시됩니다. "
 
 #: ../../content/applications/studio/views.rst:304
 msgid ""
@@ -3512,6 +3543,8 @@ msgid ""
 "To change the default chart, select :guilabel:`Bar`, :guilabel:`Line`, or "
 ":guilabel:`Pie` under :guilabel:`Type`."
 msgstr ""
+"기본 그래프를 변경하려면 :guilabel:`유형` 에서 :guilabel:`막대`, :guilabel:`선` 또는 "
+":guilabel:`원` 을 선택합니다."
 
 #: ../../content/applications/studio/views.rst:358
 msgid ""
@@ -3552,4 +3585,4 @@ msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales Analysis Report model's Bar chart on Graph view"
-msgstr ""
+msgstr "그래프 보기의 판매 분석 모델에 대한 막대그래프"

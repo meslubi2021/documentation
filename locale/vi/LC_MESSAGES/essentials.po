@@ -6,7 +6,7 @@
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
-# Thi Huong Nguyen, 2024
+# Thi Huong Nguyen, 2025
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-02 16:24+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../content/applications/essentials.rst:3
 msgid "Odoo essentials"
-msgstr "Thao tác thiết yếu của Odoo"
+msgstr "Tính năng thiết yếu của Odoo"
 
 #: ../../content/applications/essentials/activities.rst:3
 msgid "Activities"
@@ -898,6 +898,10 @@ msgid ""
 "company does business with through Odoo. A contact is a repository of vital "
 "business information, facilitating communication and business transactions."
 msgstr ""
+"Các liên hệ được tạo trong ứng dụng **Liên hệ** dành cho khách hàng mà công "
+"ty giao dịch thông qua Odoo. Liên hệ là nơi lưu trữ thông tin kinh doanh "
+"quan trọng, tạo điều kiện thuận lợi cho việc trao đổi thông tin và giao dịch"
+" kinh doanh."
 
 #: ../../content/applications/essentials/contacts.rst:12
 msgid "Contact form"
@@ -909,6 +913,9 @@ msgid ""
 "click :guilabel:`Create`. A new form appears where various contact "
 "information can be added."
 msgstr ""
+"Để tạo một liên hệ mới, đi đến :menuselection:`ứng dụng Liên hệ` và nhấp vào"
+" :guilabel:`Tạo`. Một biểu mẫu mới sẽ xuất hiện, tại đó bạn có thể thêm "
+"nhiều thông tin liên hệ khác nhau."
 
 #: ../../content/applications/essentials/contacts.rst:18
 msgid "Contact type"
@@ -920,6 +927,9 @@ msgid ""
 "contacts. Select either :guilabel:`Individual` or :guilabel:`Company`, "
 "depending on the type of contact that is being added."
 msgstr ""
+"Odoo hỗ trợ cả liên hệ :guilabel:`Cá nhân` và :guilabel:`Công tay`. Chọn "
+":guilabel:`Cá nhân` hoặc :guilabel:`Công ty`, tùy vào loại liên hệ đang được"
+" thêm."
 
 #: ../../content/applications/essentials/contacts.rst:24
 msgid "Name"
@@ -931,6 +941,8 @@ msgid ""
 ":guilabel:`Company`. This is how the name appears throughout the database. "
 "This field is **mandatory**."
 msgstr ""
+"Đầu tiên, hãy điền tên của :guilabel:`Cá nhân` hoặc :guilabel:`Công ty`. Đây"
+" là tên sẽ xuất hiện trong toàn bộ cơ sở dữ liệu. Trường này **bắt buộc**."
 
 #: ../../content/applications/essentials/contacts.rst:30
 msgid ""
@@ -938,6 +950,9 @@ msgid ""
 "linked to it. After selecting :guilabel:`Individual`, a new "
 ":guilabel:`Company Name...` field appears below the first name field."
 msgstr ""
+"Các liên hệ :guilabel:`Cá nhân` có thể liên kết với liên hệ :guilabel:`Công "
+"ty`. Sau khi chọn :guilabel:`Cá nhân`, một trường :guilabel:`Tên công ty...`"
+" mới sẽ xuất hiện bên dưới trường tên."
 
 #: ../../content/applications/essentials/contacts.rst:35
 msgid "Address"
@@ -948,6 +963,8 @@ msgid ""
 "Next, enter the :guilabel:`Address` of the :guilabel:`Company` or "
 ":guilabel:`Individual`."
 msgstr ""
+"Tiếp theo, nhập :guilabel:`Địa chỉ` của :guilabel:`Công ty` hoặc "
+":guilabel:`Cá nhân`."
 
 #: ../../content/applications/essentials/contacts.rst:40
 msgid ""
@@ -957,6 +974,10 @@ msgid ""
 ":guilabel:`Delivery Address`, :guilabel:`Other Address`, and "
 ":guilabel:`Private Address`."
 msgstr ""
+"Nếu bạn chọn tùy chọn :guilabel:`Cá nhân`, thì có thể chọn *loại địa chỉ* từ"
+" menu thả xuống. Các tùy chọn cho menu thả xuống này bao gồm: "
+":guilabel:`Liên hệ`, :guilabel:`Địa chỉ lập hóa đơn`, :guilabel:`Địa chỉ "
+"giao hàng`, :guilabel:`Địa chỉ khác` và :guilabel:`Địa chỉ riêng tư`."
 
 #: ../../content/applications/essentials/contacts.rst:46
 msgid "Additional fields"
@@ -967,6 +988,8 @@ msgid ""
 "Additional details are included on the initial form. The following fields "
 "are available:"
 msgstr ""
+"Thông tin bổ sung được bao gồm trong biểu mẫu ban đầu. Gồm có các trường sau"
+" đây:"
 
 #: ../../content/applications/essentials/contacts.rst:50
 msgid ":guilabel:`VAT`: Value Added Tax number."
@@ -977,12 +1000,16 @@ msgid ""
 ":guilabel:`Citizen Identification`: citizen or government identification "
 "number (only available on :guilabel:`Individual`)."
 msgstr ""
+":guilabel:`Định danh cá nhân`: số định danh cá nhân hoặc căn cước công dân "
+"(chỉ có trên :guilabel:`Cá nhân`)."
 
 #: ../../content/applications/essentials/contacts.rst:53
 msgid ""
 ":guilabel:`Job Position`: list the job position of the "
 ":guilabel:`Individual` (only available on :guilabel:`Individual`)."
 msgstr ""
+":guilabel:`Chức vụ`: điền chức vụ của :guilabel:`Cá nhân` (chỉ có trên "
+":guilabel:`Cá nhân`)."
 
 #: ../../content/applications/essentials/contacts.rst:55
 msgid ""
@@ -990,6 +1017,9 @@ msgid ""
 "an SMS, or WhatsApp message by hovering over the field on the saved form, "
 "and clicking the desired option."
 msgstr ""
+":guilabel:`Điện thoại`: điền số điện thoại (gồm mã quốc gia). Gọi điện, gửi "
+"tin nhắn SMS hoặc tin nhắn WhatsApp bằng cách di chuột qua trường trên biểu "
+"mẫu đã lưu và nhấp vào tùy chọn mong muốn."
 
 #: ../../content/applications/essentials/contacts.rst:57
 msgid ""
@@ -997,16 +1027,21 @@ msgid ""
 "call, send an SMS, or WhatsApp message by hovering over the field on the "
 "saved form, and clicking on the desired option."
 msgstr ""
+":guilabel:`Di động`: điền số điện thoại di động (gồm mã quốc gia). Gọi điện,"
+" gửi tin nhắn SMS hoặc tin nhắn WhatsApp bằng cách di chuột qua trường trên "
+"biểu mẫu đã lưu và nhấp vào tùy chọn mong muốn."
 
 #: ../../content/applications/essentials/contacts.rst:59
 msgid ":guilabel:`Email`: enter the email address with the domain."
-msgstr ""
+msgstr ":guilabel:`Email`: nhập địa chỉ email có chứa tên miền."
 
 #: ../../content/applications/essentials/contacts.rst:60
 msgid ""
 ":guilabel:`Website`: enter the full website address, starting with `http` or"
 " `https`."
 msgstr ""
+":guilabel:`Trang web`: nhập địa chỉ trang web đầy đủ, bắt đầu bằng `http` "
+"hoặc `https`."
 
 #: ../../content/applications/essentials/contacts.rst:61
 msgid ""
@@ -1014,6 +1049,9 @@ msgid ""
 ":guilabel:`Miss`, :guilabel:`Mister`, :guilabel:`Professor`, or create a new"
 " one directly from this field."
 msgstr ""
+":guilabel:`Danh xưng`: chọn :guilabel:`Tiến sĩ`, :guilabel:`Bà`, "
+":guilabel:`Cô`, :guilabel:`Ông`, :guilabel:`Giáo sư`, hoặc tạo một mục mới "
+"ngay từ trường này."
 
 #: ../../content/applications/essentials/contacts.rst:63
 msgid ""
@@ -1022,6 +1060,9 @@ msgid ""
 "the new tag in the field, and click :guilabel:`Create` from the resulting "
 "drop-down menu."
 msgstr ""
+":guilabel:`Thẻ`: thêm các thẻ cấu hình sẵn bằng cách nhập chúng vào trường "
+"hoặc nhấp vào menu thả xuống và chọn một thẻ. Để tạo một thẻ mới, hãy nhập "
+"thẻ mới vào trường và nhấp :guilabel:`Tạo` từ menu thả xuống."
 
 #: ../../content/applications/essentials/contacts.rst:68
 msgid "Contacts & Addresses tab"
@@ -1034,6 +1075,10 @@ msgid ""
 "associated with a :guilabel:`Company` and related addresses. For example, a "
 "specific contact person for the company can be listed here."
 msgstr ""
+"Ở cuối biểu mẫu liên hệ có một số tab. Trên tab :guilabel:`Liên hệ & Địa "
+"chỉ`, có thể thêm các liên hệ được liên kết với :guilabel:`Công ty` và các "
+"địa chỉ liên quan. Ví dụ, một người liên hệ cụ thể của công ty có thể được "
+"liệt kê ở đây."
 
 #: ../../content/applications/essentials/contacts.rst:74
 msgid ""
@@ -1042,10 +1087,14 @@ msgid ""
 ":guilabel:`Contacts & Addresses` tab. Doing so reveals a :guilabel:`Create "
 "Contact` pop-up form, in which additional addresses can be configured."
 msgstr ""
+"Có thể thêm nhiều địa chỉ vào cả liên hệ :guilabel:`Cá nhân` và "
+":guilabel:`Công ty`. Để thực hiện, nhấp vào :guilabel:`Thêm` trong tab "
+":guilabel:`Liên hệ & Địa chỉ`. Sau đó, một biểu mẫu pop-up :guilabel:`Tạo "
+"liên hệ` sẽ hiển thị và bạn có thể cấu hình thêm các địa chỉ trong đó."
 
 #: ../../content/applications/essentials/contacts.rst-1
 msgid "Add a contact/address to the contact form."
-msgstr ""
+msgstr "Thêm liên hệ/địa chỉ vào biểu mẫu liên hệ."
 
 #: ../../content/applications/essentials/contacts.rst:82
 msgid ""
@@ -1053,6 +1102,9 @@ msgid ""
 " :guilabel:`Other Address` field at the top to reveal a drop-down menu of "
 "address-related options."
 msgstr ""
+"Trên biểu mẫu pop-up :guilabel:`Tạo liên hệ`, bắt đầu bằng cách nhấp vào "
+"trường mặc định :guilabel:`Địa chỉ khác` ở trên cùng để hiển thị menu thả "
+"xuống gồm các tùy chọn liên quan đến địa chỉ."
 
 #: ../../content/applications/essentials/contacts.rst:85
 msgid "Select any of the following options:"
@@ -1062,46 +1114,59 @@ msgstr "Chọn bất kỳ tùy chọn nào sau đây:"
 msgid ""
 ":guilabel:`Contact`: adds another contact to the existing contact form."
 msgstr ""
+":guilabel:`Liên hệ`: thêm một liên hệ khác vào biểu mẫu liên hệ hiện có."
 
 #: ../../content/applications/essentials/contacts.rst:88
 msgid ""
 ":guilabel:`Invoice Address`: adds a specific invoice address to the existing"
 " contact form."
 msgstr ""
+":guilabel:`Địa chỉ lập hóa đơn`: thêm địa chỉ lập hóa đơn cụ thể vào biểu "
+"mẫu liên hệ hiện có."
 
 #: ../../content/applications/essentials/contacts.rst:89
 msgid ""
 ":guilabel:`Delivery Address`: adds a specific delivery address to the "
 "existing contact form."
 msgstr ""
+":guilabel:`Địa chỉ giao hàng`: thêm địa chỉ giao hàng cụ thể vào biểu mẫu "
+"liên hệ hiện có."
 
 #: ../../content/applications/essentials/contacts.rst:90
 msgid ""
 ":guilabel:`Other Address`: adds an alternate address to the existing contact"
 " form."
 msgstr ""
+":guilabel:`Địa chỉ khác`: thêm địa chỉ thay thế vào biểu mẫu liên hệ hiện "
+"có."
 
 #: ../../content/applications/essentials/contacts.rst:91
 msgid ""
 ":guilabel:`Private Address`: adds a private address to the existing contact "
 "form."
 msgstr ""
+":guilabel:`Địa chỉ riêng tư`: thêm địa chỉ riêng tư vào biểu mẫu liên hệ "
+"hiện có."
 
 #: ../../content/applications/essentials/contacts.rst-1
 msgid "Create a new contact/address on a contact form."
-msgstr ""
+msgstr "Tạo một liên hệ/địa chỉ mới trên biểu mẫu liên hệ."
 
 #: ../../content/applications/essentials/contacts.rst:97
 msgid ""
 "Once an option is selected, enter the corresponding contact information that"
 " should be used for the specified address type."
 msgstr ""
+"Sau khi chọn một tùy chọn, hãy nhập thông tin liên hệ tương ứng cần sử dụng "
+"cho loại địa chỉ đã chỉ định."
 
 #: ../../content/applications/essentials/contacts.rst:100
 msgid ""
 "Add the :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
 "along with the :guilabel:`Phone` and/or :guilabel:`Mobile` numbers below."
 msgstr ""
+"Thêm :guilabel:`Tên liên hệ`, :guilabel:`Địa chỉ`, :guilabel:`Email`, cùng "
+"với :guilabel:`Điện thoại` và/hoặc :guilabel:`Di động` bên dưới."
 
 #: ../../content/applications/essentials/contacts.rst:103
 msgid ""
@@ -1109,12 +1174,17 @@ msgid ""
 "address type has been selected. This is similar to the "
 ":guilabel:`Individual` contact."
 msgstr ""
+"Điền :guilabel:`Chức vụ`, trường này xuất hiện nếu loại địa chỉ "
+":guilabel:`Liên hệ` đã được chọn. Điều này tương tự như liên hệ "
+":guilabel:`Cá nhân`."
 
 #: ../../content/applications/essentials/contacts.rst:106
 msgid ""
 "To add a note, click on the text field next to :guilabel:`Notes`, and write "
 "anything that is applicable to the customer or contact."
 msgstr ""
+"Để thêm ghi chú, hãy nhấp vào trường văn bản bên cạnh :guilabel:`Ghi chú` và"
+" viết bất kỳ thông tin nào áp dụng cho khách hàng hoặc liên hệ."
 
 #: ../../content/applications/essentials/contacts.rst:109
 msgid ""
@@ -1122,6 +1192,9 @@ msgid ""
 ":guilabel:`Create Contact` window. Or, click :guilabel:`Save & New` to save "
 "the address, and immediately input another one."
 msgstr ""
+"Sau đó, nhấp vào :guilabel:`Lưu & Đóng` để lưu địa chỉ và đóng cửa sổ "
+":guilabel:`Tạo liên hệ`. Hoặc, nhấp vào :guilabel:`Lưu & Mới` để lưu địa chỉ"
+" và tạo địa chỉ khác."
 
 #: ../../content/applications/essentials/contacts.rst:113
 msgid "Sales & Purchase tab"
@@ -1132,6 +1205,8 @@ msgid ""
 "Next, is the :guilabel:`Sales & Purchases` tab, which only appears when the "
 "*Sales*, *Purchase*, **or** *Point of Sale* applications are installed."
 msgstr ""
+"Tiếp theo là tab :guilabel:`Bán hàng & Mua hàng`, chỉ xuất hiện khi các ứng "
+"dụng *Bán hàng*, *Mua hàng*, **hoặc** *Điểm bán hàng* được cài đặt."
 
 #: ../../content/applications/essentials/contacts.rst:118
 msgid ""
@@ -1139,6 +1214,8 @@ msgid ""
 "Purchases` tab. Select a :guilabel:`Fiscal Position` from the drop-down "
 "menu."
 msgstr ""
+":guilabel:`Vị trí tài chính` có thể được thiết lập trên tab :guilabel:`Bán "
+"hàng & Mua hàng`. Chọn :guilabel:`Vị trí tài chính` từ menu thả xuống."
 
 #: ../../content/applications/essentials/contacts.rst:122
 msgid "Sales section"
@@ -1151,6 +1228,11 @@ msgid ""
 "drop-down field, and select one. Create a new :guilabel:`Salesperson` by "
 "typing the user's name, and making the appropriate selection."
 msgstr ""
+"Trong tiêu đề :guilabel:`Bán hàng`, bạn có thể chỉ định một "
+":guilabel:`Chuyên viên sales` cụ thể cho một liên hệ. Để thực hiện, hãy nhấp"
+" vào trường thả xuống :guilabel:`Chuyên viên sales` và chọn một liên hệ. Tạo"
+" một :guilabel:`Chuyên viên sales` mới bằng cách nhập tên người dùng và thực"
+" hiện lựa chọn phù hợp."
 
 #: ../../content/applications/essentials/contacts.rst:128
 msgid ""
@@ -1160,12 +1242,20 @@ msgid ""
 "or :guilabel:`Create` a new one. Select the :guilabel:`Pricelist` drop-down "
 "menu to choose the appropriate :guilabel:`Pricelist`."
 msgstr ""
+"Một số :guilabel:`Điều khoản thanh toán` hoặc :guilabel:`Bảng giá` nhất định"
+" cũng có thể được thiết lập, nếu cần. Nhấp vào menu thả xuống bên cạnh "
+":guilabel:`Điều khoản thanh toán` và thay đổi thành một trong các "
+":guilabel:`Điều khoản thanh toán` đã chọn trước hoặc :guilabel:`Tạo` một "
+"điều khoản mới. Chọn menu thả xuống :guilabel:`Bảng giá` để chọn "
+":guilabel:`Bảng giá` phù hợp."
 
 #: ../../content/applications/essentials/contacts.rst:133
 msgid ""
 "Click into the :guilabel:`Delivery Method` field to select an option from "
 "the drop-down menu."
 msgstr ""
+"Nhấp vào trường :guilabel:`Phương thức giao hàng` để chọn một tùy chọn từ "
+"menu thả xuống."
 
 #: ../../content/applications/essentials/contacts.rst:136
 msgid "Point Of Sale section"
@@ -1177,6 +1267,10 @@ msgid ""
 "that can be used to identify the contact. Use the :guilabel:`Loyalty Points`"
 " field to track points the user won as part of a *Loyalty Program*."
 msgstr ""
+"Trong tiêu đề :guilabel:`Điểm bán hàng`, hãy nhập :guilabel:`Mã vạch` có thể"
+" được sử dụng để xác định liên hệ. Sử dụng trường :guilabel:`Điểm thưởng` để"
+" theo dõi điểm mà người dùng đã thu thập được khi tham gia *Chương trình "
+"khách hàng thân thiết*."
 
 #: ../../content/applications/essentials/contacts.rst:143
 msgid "Purchase section"
@@ -1188,6 +1282,9 @@ msgid ""
 "preferred :guilabel:`Payment Method` here. A :guilabel:`Receipt Reminder` "
 "can be set here, as well."
 msgstr ""
+"Chỉ định :guilabel:`Điều khoản thanh toán`, thông tin :guilabel:`Hộp 1099` "
+"và :guilabel:`Phương thức thanh toán` ưa thích tại đây. Bạn cũng có thể "
+"thiết lập :guilabel:`Nhắc nhở nhận hàng` tại đây."
 
 #: ../../content/applications/essentials/contacts.rst:149
 msgid "Misc section"
@@ -1206,6 +1303,16 @@ msgid ""
 "from the drop-down menu. Use the :guilabel:`SLA Policies` field to assign a "
 "*Helpdesk* SLA policy to this contact."
 msgstr ""
+"Trong tiêu đề :guilabel:`Thông tin khác`, sử dụng trường :guilabel:`Tham "
+"chiếu` để thêm bất kỳ thông tin bổ sung nào cho liên hệ này. Nếu chỉ một "
+"công ty trong cơ sở dữ liệu đa công ty mới có thể truy cập liên hệ này, hãy "
+"chọn liên hệ đó từ danh sách thả xuống của trường :guilabel:`Công ty`. Sử "
+"dụng menu thả xuống :guilabel:`Trang web` để giới hạn việc đăng liên hệ này "
+"chỉ cho trang web đó (nếu làm việc trên cơ sở dữ liệu có nhiều trang web). "
+"Chọn một hoặc nhiều :guilabel:`Thẻ trang web` để hỗ trợ lọc khách hàng đã "
+"đăng trên trang web `/customers`. Chọn :guilabel:`Ngành` cho liên hệ này từ "
+"menu thả xuống. Sử dụng trường :guilabel:`Chính sách SLA` để chỉ định chính "
+"sách SLA *Hỗ trợ* cho liên hệ này."
 
 #: ../../content/applications/essentials/contacts.rst:161
 msgid "Accounting tab"
@@ -1217,12 +1324,17 @@ msgid ""
 "installed. Here, a user can add any related :guilabel:`Bank Accounts`, or "
 "set default :guilabel:`Accounting entries`."
 msgstr ""
+"Tab :guilabel:`Kế toán` xuất hiện khi ứng dụng *Kế toán* được cài đặt. Tại "
+"đây, người dùng có thể thêm bất kỳ :guilabel:`Tài khoản ngân hàng` nào có "
+"liên quan hoặc đặt :guilabel:`Bút toán kế toán` mặc định."
 
 #: ../../content/applications/essentials/contacts.rst:166
 msgid ""
 "Under the :guilabel:`Miscellaneous` heading, use the :guilabel:`LEI` field "
 "to enter a Legal Entity Identifier, if necessary."
 msgstr ""
+"Trong tiêu đề :guilabel:`Thông tin khác`, hãy sử dụng trường :guilabel:`LEI`"
+" để nhập Mã định danh pháp nhân nếu cần."
 
 #: ../../content/applications/essentials/contacts.rst:170
 msgid "Internal Notes tab"
@@ -1234,6 +1346,9 @@ msgid ""
 "tab, where notes can be left on this contact form, just like on the contact "
 "form noted above."
 msgstr ""
+"Kế tiếp tab :guilabel:`Kế toán` là tab :guilabel:`Ghi chú nội bộ`, nơi bạn "
+"có thể ghi chú vào biểu mẫu liên hệ này, giống như biểu mẫu liên hệ đã ghi "
+"chú ở trên."
 
 #: ../../content/applications/essentials/contacts.rst:176
 msgid "Partner Assignment tab"
@@ -1247,6 +1362,10 @@ msgid ""
 "configurations. These are **only** present when the *Resellers* module is "
 "installed."
 msgstr ""
+"Tiếp theo là tab :guilabel:`Phân công đối tác`. Theo mặc định, tab này bao "
+"gồm phần :guilabel:`Vị trí địa lý` và các tùy chọn đối tác khác, bao gồm "
+":guilabel:`Kích hoạt đối tác` và :guilabel:`Đánh giá đối tác`. Những tùy "
+"chọn này **chỉ** có khi phân hệ *Đối tác* được cài đặt."
 
 #: ../../content/applications/essentials/contacts.rst:183
 msgid ""
@@ -1254,6 +1373,8 @@ msgid ""
 "<../sales/crm/track_leads/resellers>` for more information on publishing "
 "partners on the website."
 msgstr ""
+"Tìm hiểu :doc:`Tài liệu về đối tác <../sales/crm/track_leads/resellers>` để "
+"biết thêm thông tin về việc đăng đối tác lên trang web."
 
 #: ../../content/applications/essentials/contacts.rst:187
 msgid "Membership tab"
@@ -1266,6 +1387,10 @@ msgid ""
 "contact. It should be noted that this tab **only** appears when the "
 "*Members* application is installed."
 msgstr ""
+"Cuối cùng, có tab :guilabel:`Tư cách thành viên` trên biểu mẫu liên hệ, có "
+"thể giúp người dùng quản lý bất kỳ tư cách thành viên nào được cung cấp cho "
+"liên hệ này. Cần lưu ý rằng tab này **chỉ** xuất hiện khi ứng dụng *Thành "
+"viên* được cài đặt."
 
 #: ../../content/applications/essentials/contacts.rst:194
 msgid "Activate membership"
@@ -1279,18 +1404,29 @@ msgid ""
 "configure a :guilabel:`Member Price`. Click :guilabel:`Invoice Membership` "
 "when both fields are filled in."
 msgstr ""
+"Để kích hoạt tư cách thành viên của một liên hệ, hãy nhấp vào :guilabel:`Mua"
+" tư cách thành viên` trong tab :guilabel:`Tư cách thành viên` của biểu mẫu "
+"liên hệ. Trên cửa sổ bật lên xuất hiện, hãy chọn :guilabel:`Tư cách thành "
+"viên` từ menu thả xuống. Sau đó, cấu hình :guilabel:`Giá thành viên`. Nhấp "
+"vào :guilabel:`Lập hóa đơn tư cách thành viên` khi cả hai trường đã được "
+"điền đầy đủ."
 
 #: ../../content/applications/essentials/contacts.rst:201
 msgid ""
 "Alternatively, to offer a free membership, tick the :guilabel:`Free Member` "
 "checkbox, in the :guilabel:`Membership` tab of a contact form."
 msgstr ""
+"Ngoài ra, để cung cấp tư cách thành viên miễn phí, hãy đánh dấu vào ô "
+":guilabel:`Thành viên miễn phí` trong tab :guilabel:`Thành viên` của biểu "
+"mẫu liên hệ."
 
 #: ../../content/applications/essentials/contacts.rst:205
 msgid ""
 "Follow the :doc:`Members documentation <../sales/members>` for more "
 "information on publishing members on the website."
 msgstr ""
+"Tham khảo :doc:`Tài liệu về thành viên <../sales/members>` để biết thêm "
+"thông tin về việc đăng thành viên trên trang web."
 
 #: ../../content/applications/essentials/contacts.rst:209
 msgid "Smart buttons"
@@ -1301,6 +1437,8 @@ msgid ""
 "At the top of the contact form, there are some additional options available,"
 " known as *smart buttons*."
 msgstr ""
+"Ở đầu biểu mẫu liên hệ, có một số tùy chọn bổ sung, được gọi là *nút thông "
+"minh*."
 
 #: ../../content/applications/essentials/contacts.rst:214
 msgid ""
@@ -1308,6 +1446,9 @@ msgid ""
 " created on other apps. Odoo integrates information from every single app, "
 "so there are many smart buttons."
 msgstr ""
+"Tại đây, Odoo hiển thị nhiều bản ghi liên quan đến liên hệ này, được tạo "
+"trên các ứng dụng khác. Odoo tích hợp thông tin từ mọi ứng dụng, nên sẽ có "
+"nhiều nút thông minh."
 
 #: ../../content/applications/essentials/contacts.rst:218
 msgid ""
@@ -1315,12 +1456,16 @@ msgid ""
 "the opportunities related to this customer from the *CRM* app are "
 "accessible."
 msgstr ""
+"Ví dụ, có một nút thông minh :guilabel:`Cơ hội`, nơi có thể truy cập tất cả "
+"cơ hội liên quan đến khách hàng này từ ứng dụng *CRM*."
 
 #: ../../content/applications/essentials/contacts.rst:222
 msgid ""
 "If the corresponding applications are installed, their related smart buttons"
 " appear automatically on a contact form."
 msgstr ""
+"Nếu ứng dụng tương ứng được cài đặt, các nút thông minh liên quan sẽ tự động"
+" xuất hiện trên biểu mẫu liên hệ."
 
 #: ../../content/applications/essentials/contacts.rst:225
 msgid ""
@@ -1332,6 +1477,14 @@ msgid ""
 ":guilabel:`Invoiced` information, :guilabel:`Vendor Bills`, and the "
 ":guilabel:`Partner Ledger` connected to this contact."
 msgstr ""
+"Người dùng có thể xem mọi :guilabel:`Cuộc họp`, :guilabel:`Bán hàng`, "
+":guilabel:`Đơn hàng POS`, :guilabel:`Đăng ký`, :guilabel:`Nhiệm vụ` dự án và"
+" nút thông minh :guilabel:`Thêm` hiển thị các tùy chọn bổ sung thông qua "
+"menu thả xuống. Người dùng thậm chí có thể nhanh chóng truy cập "
+":guilabel:`Mua hàng`, nhiệm vụ :guilabel:`Hỗ trợ`, :guilabel:`Tỷ lệ đúng "
+"hạn` cho các lần giao hàng, thông tin :guilabel:`Đã lập hóa đơn`, "
+":guilabel:`Hóa đơn mua hàng` và :guilabel:`Sổ cái đối tác` được kết nối với "
+"liên hệ này."
 
 #: ../../content/applications/essentials/contacts.rst:231
 msgid ""
@@ -1339,12 +1492,18 @@ msgid ""
 " smart buttons, like this, should there be any outstanding/on-file for this "
 "contact."
 msgstr ""
+"Tương tự, các phiếu xuất kho, tài liệu, thẻ khách hàng thân thiết và lệnh "
+"ghi nợ trực tiếp *cũng* được liên kết với các nút thông minh, phòng trường "
+"hợp có bất kỳ khoản nợ nào chưa thanh toán/có trong hồ sơ của liên hệ này."
 
 #: ../../content/applications/essentials/contacts.rst:234
 msgid ""
 "If the contact is a partner, the user can visit their partner page on the "
 "Odoo-built website by clicking the :guilabel:`Go to Website` smart button."
 msgstr ""
+"Nếu liên hệ là đối tác, người dùng có thể truy cập trang đối tác của họ trên"
+" trang web tạo bằng Odoo bằng cách nhấp vào nút thông minh :guilabel:`Đi đến"
+" trang web`."
 
 #: ../../content/applications/essentials/contacts.rst:238
 msgid "Archive contacts"
@@ -1357,12 +1516,16 @@ msgid ""
 ":guilabel:`Action` menu at the top of the contact form, and click "
 ":guilabel:`Archive`."
 msgstr ""
+"Nếu quyết định không muốn liên hệ này hoạt động nữa, thì bạn có thể lưu trữ "
+"nó. Để thực hiện, hãy vào menu :icon:`fa-cog` :guilabel:`Tác vụ` ở đầu biểu "
+"mẫu liên hệ và nhấp vào :guilabel:`Lưu trữ`."
 
 #: ../../content/applications/essentials/contacts.rst:244
 msgid ""
 "Then, click :guilabel:`OK` from the resulting :guilabel:`Confirmation` pop-"
 "up window."
 msgstr ""
+"Sau đó, nhấp vào :guilabel:`OK` từ cửa sổ :guilabel:`Xác nhận` bật lên."
 
 #: ../../content/applications/essentials/contacts.rst:246
 msgid ""
@@ -1370,6 +1533,9 @@ msgid ""
 "top, they do not show up in the main contacts page, but they can still be "
 "searched for with the :guilabel:`Archived` filter."
 msgstr ""
+"Sau khi lưu trữ thành công liên hệ, nhận biết qua banner thông báo trên đầu "
+"màn hình, thì liên hệ này sẽ không hiển thị trên trang liên hệ chính, nhưng "
+"vẫn có thể tìm kiếm bằng bộ lọc :guilabel:`Đã lưu trữ`."
 
 #: ../../content/applications/essentials/contacts.rst:250
 msgid ""
@@ -1379,6 +1545,11 @@ msgid ""
 "doing so, the :guilabel:`Archived` banner is removed, and the contact is "
 "restored."
 msgstr ""
+"Nếu bạn quyết định làm việc với liên hệ một lần nữa, thì có thể *bỏ lưu trữ*"
+" liên hệ này. Để thực hiện, chỉ cần nhấp vào menu :icon:`fa-cog` "
+":guilabel:`Tác vụ` một lần nữa ở đầu biểu mẫu liên hệ đã lưu trữ và nhấp vào"
+" :guilabel:`Bỏ lưu trữ`. Sau đó, banner :guilabel:`Đã lưu trữ` sẽ bị gỡ bỏ "
+"và liên hệ sẽ được khôi phục."
 
 #: ../../content/applications/essentials/contacts.rst:256
 msgid ""
@@ -1407,6 +1578,10 @@ msgid ""
 "organized, and prevents contacts from being contacted by more than one "
 "salesperson."
 msgstr ""
+"Ứng dụng *Liên hệ* của Odoo cho phép người dùng gộp các liên hệ trùng lặp mà"
+" không làm mất bất kỳ thông tin nào trong quá trình này. Điều này giúp cơ sở"
+" dữ liệu được sắp xếp hợp lý và ngăn việc nhiều chuyên viên sales liên hệ "
+"với cùng một liên hệ."
 
 #: ../../content/applications/essentials/contacts/merge.rst:12
 msgid "Merge duplicate contacts"
@@ -1417,6 +1592,8 @@ msgid ""
 "Merging is an irreversible action. Do **not** merge contacts unless "
 "absolutely certain they should be combined."
 msgstr ""
+"Việc gộp liên hệ là một tác vụ không thể đảo ngược. **Không** gộp các liên "
+"hệ trừ khi hoàn toàn chắc chắn rằng chúng cần được gộp."
 
 #: ../../content/applications/essentials/contacts/merge.rst:18
 msgid ""
@@ -1426,10 +1603,15 @@ msgid ""
 " should be merged. Then, click the :icon:`fa-cog` :guilabel:`Actions` icon, "
 "and select :guilabel:`Merge` from the resulting drop-down menu."
 msgstr ""
+"Đi đến :menuselection:`ứng dụng Liên hệ`, và chọn biểu tượng :icon:`oi-view-"
+"list` :guilabel:`(danh sách)`. Chọn hai hoặc nhiều liên hệ trùng lặp từ danh"
+" sách và đánh dấu vào hộp kiểm (ở bên trái) của các liên hệ cần được gộp. "
+"Sau đó, nhấp vào biểu tượng :icon:`fa-cog` :guilabel:`Tác vụ`, và chọn "
+":guilabel:`Gộp` từ menu kết quả thả xuống."
 
 #: ../../content/applications/essentials/contacts/merge.rst-1
 msgid "The merge contacts option in the Contacts application."
-msgstr ""
+msgstr "Tùy chọn gộp liên hệ trong ứng dụng Liên hệ."
 
 #: ../../content/applications/essentials/contacts/merge.rst:27
 msgid ""
@@ -1438,16 +1620,21 @@ msgid ""
 "contacts in the list should **not** be merged, click the :icon:`fa-times` "
 ":guilabel:`(delete)` icon at the far right of the contact."
 msgstr ""
+"Thao tác này sẽ mở cửa sổ bật lên :guilabel:`Gộp`. Từ đây, hãy xem lại thông"
+" tin của các liên hệ trước khi xác nhận có nên gộp chúng hay không. Nếu có "
+"bất kỳ liên hệ nào trong danh sách **không** nên gộp, hãy nhấp vào biểu "
+"tượng :icon:`fa-times` :guilabel:`(xoá)` ở phía bên phải của liên hệ."
 
 #: ../../content/applications/essentials/contacts/merge.rst:32
 msgid ""
 "Click the individual contact to open the record for that contact, and view "
 "additional information."
 msgstr ""
+"Nhấp vào từng liên hệ để mở bản ghi của liên hệ đó và xem thông tin bổ sung."
 
 #: ../../content/applications/essentials/contacts/merge.rst-1
 msgid "The merge pop-up window in the Contacts application."
-msgstr ""
+msgstr "Cửa sổ bật lên để gộp trong ứng dụng Liên hệ."
 
 #: ../../content/applications/essentials/contacts/merge.rst:39
 msgid ""
@@ -1455,12 +1642,17 @@ msgid ""
 "the drop-down list. This field defaults to the contact record that was "
 "created first in the system."
 msgstr ""
+"Nhấp vào trường :guilabel:`Liên hệ đích` và chọn một tùy chọn từ danh sách "
+"thả xuống. Trường này mặc định là bản ghi liên hệ được tạo đầu tiên trong hệ"
+" thống."
 
 #: ../../content/applications/essentials/contacts/merge.rst:42
 msgid ""
 "After confirming the information on the pop-up window, click "
 ":guilabel:`Merge Contacts`."
 msgstr ""
+"Sau khi xác nhận thông tin trên cửa sổ bật lên, hãy nhấp vào :guilabel:`Gộp "
+"liên hệ`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:45
 msgid "Deduplicate contacts"
@@ -1474,18 +1666,27 @@ msgid ""
 "on selected criteria, and merges them automatically, or after manual "
 "approval."
 msgstr ""
+"Sau khi quá trình gộp hoàn tất, một cửa sổ bật lên sẽ xuất hiện để xác nhận "
+"quá trình gộp đã hoàn tất. Cửa sổ bật lên này cũng chứa nút :guilabel:`Chống"
+" trùng lặp các liên hệ khác`. Tính năng này tìm kiếm các bản ghi trùng lặp, "
+"dựa trên những tiêu chí đã chọn và tự động gộp chúng hoặc gộp sau khi phê "
+"duyệt thủ công."
 
 #: ../../content/applications/essentials/contacts/merge.rst:52
 msgid ""
 "Click the :guilabel:`Deduplicate the other Contacts` button to open the "
 ":guilabel:`Deduplicate Contacts` pop-up window."
 msgstr ""
+"Nhấp vào nút :guilabel:`Chống trùng lặp các liên hệ khác` để mở cửa sổ bật "
+"lên :guilabel:`Chống trùng lặp liên hệ`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:55
 msgid ""
 "Select one or more fields to be used in the search for duplicated records. "
 "Duplicated contacts can be searched, based on the following criteria:"
 msgstr ""
+"Chọn một hoặc nhiều trường để sử dụng trong tìm kiếm các bản ghi trùng lặp. "
+"Có thể tìm kiếm các liên hệ trùng lặp dựa trên những tiêu chí sau:"
 
 #: ../../content/applications/essentials/contacts/merge.rst:58
 msgid ":guilabel:`Email`"
@@ -1512,6 +1713,8 @@ msgid ""
 "If more than one field is selected, only records that have **all** fields in"
 " common are suggested as duplicates."
 msgstr ""
+"Nếu chọn nhiều hơn một trường, chỉ những bản ghi có **tất cả** các trường "
+"giống nhau mới được đề xuất là bản ghi trùng lặp."
 
 #: ../../content/applications/essentials/contacts/merge.rst:68
 msgid ""
@@ -1519,14 +1722,17 @@ msgid ""
 "from the search. Potential duplicates can be excluded from the search, based"
 " on the following criteria:"
 msgstr ""
+"Nếu cần, hãy chọn tiêu chí được sử dụng để loại trừ các bản sao tiềm ẩn khỏi"
+" tìm kiếm. Các bản sao tiềm ẩn có thể bị loại trừ khỏi tìm kiếm dựa trên "
+"những tiêu chí sau:"
 
 #: ../../content/applications/essentials/contacts/merge.rst:71
 msgid ":guilabel:`A user associated to the contact`"
-msgstr ""
+msgstr ":guilabel:`Người dùng liên kết với liên hệ`"
 
 #: ../../content/applications/essentials/contacts/merge.rst:72
 msgid ":guilabel:`Journal Items associated to the contact`"
-msgstr ""
+msgstr ":guilabel:`Hạng mục bút toán liên quan đến liên hệ`"
 
 #: ../../content/applications/essentials/contacts/merge.rst:74
 msgid ""
@@ -1534,12 +1740,17 @@ msgid ""
 "Manual Check`, :guilabel:`Merge Automatically`, or :guilabel:`Merge "
 "Automatically all process`."
 msgstr ""
+"Sau khi xác nhận tiêu chí tìm kiếm, hãy nhấp vào :guilabel: `Gộp thông qua "
+"kiểm tra thủ công`, :guilabel: `Gộp tự động` hoặc :guilabel: `Gộp tự động "
+"tất cả quy trình`."
 
 #: ../../content/applications/essentials/contacts/merge.rst:77
 msgid ""
 "If :guilabel:`Merge with Manual Check` is selected, complete the merge by "
 "following the :ref:`steps above <contacts/merge-duplicate>`."
 msgstr ""
+"Nếu chọn :guilabel:`Gộp thông qua kiểm tra thủ công`, hãy hoàn tất quá trình"
+" gộp bằng cách làm theo :ref:`các bước trên <contacts/merge-duplicate>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:3
 msgid "Export and import data"
@@ -1551,6 +1762,9 @@ msgid ""
 "reports, or for data modification. This document covers the export and "
 "import of data into and out of Odoo."
 msgstr ""
+"Trong Odoo, đôi khi cần phải xuất hoặc nhập dữ liệu để chạy báo cáo hoặc để "
+"sửa đổi dữ liệu. Tài liệu này đề cập đến việc xuất và nhập dữ liệu vào và ra"
+" khỏi Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:12
 msgid ""
@@ -1559,6 +1773,10 @@ msgid ""
 "import file is too large. To circumvent this limitation surrounding the size"
 " of the records, process exports or imports in smaller batches."
 msgstr ""
+"Thỉnh thoảng, người dùng gặp phải lỗi 'hết thời gian' hoặc bản ghi không xử "
+"lý được do vấn đề kích thước. Điều này có thể xảy ra trong trường hợp các "
+"tệp xuất hoặc nhập quá lớn. Để tránh giới hạn về kích thước bản ghi này, hãy"
+" tiến hành xuất hoặc nhập theo nhiều lần với kích thước nhỏ hơn."
 
 #: ../../content/applications/essentials/export_import_data.rst:19
 msgid "Export data from Odoo"
@@ -1570,6 +1788,9 @@ msgid ""
 "distinct file. Doing so can aid in reporting on activities, although, Odoo "
 "provides a precise and easy reporting tool with each available application."
 msgstr ""
+"Khi làm việc với cơ sở dữ liệu, đôi khi cần phải xuất dữ liệu trong một tệp "
+"riêng biệt. Việc này có thể hỗ trợ báo cáo về các hoạt động, dù Odoo vốn đã "
+"cung cấp một công cụ báo cáo chính xác và dễ dàng trong từng ứng dụng."
 
 #: ../../content/applications/essentials/export_import_data.rst:25
 msgid ""
@@ -1579,20 +1800,27 @@ msgid ""
 "the checkbox next to the corresponding record. Finally, click on |actions|, "
 "then :guilabel:`Export`."
 msgstr ""
+"Với Odoo, giá trị có thể được xuất từ ​​bất kỳ trường nào trong bất kỳ bản "
+"ghi nào. Để thực hiện, hãy kích hoạt chế độ xem danh sách (|list|), trên các"
+" mục cần xuất, sau đó chọn những bản ghi cần xuất. Để chọn một bản ghi, đánh"
+" dấu vào hộp kiểm bên cạnh bản ghi tương ứng. Cuối cùng, nhấp vào |actions|,"
+" sau đó :guilabel:`Xuất`."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "View of the different things to enable/click to export data."
-msgstr ""
+msgstr "Chế độ xem những mục khác nhau cần bật/nhấp để xuất dữ liệu."
 
 #: ../../content/applications/essentials/export_import_data.rst:34
 msgid ""
 "When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
 "window appears, with several options for the data to export:"
 msgstr ""
+"Khi nhấp vào :guilabel:`Xuất`, một cửa sổ :guilabel:`Xuất dữ liệu` sẽ bật "
+"lên với một số tùy chọn để xuất dữ liệu:"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Overview of options to consider when exporting data in Odoo.."
-msgstr ""
+msgstr "Tổng quan về các tùy chọn cần cân nhắc khi xuất dữ liệu trong Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:41
 msgid ""
@@ -1603,6 +1831,12 @@ msgid ""
 "unticked, gives many more field options because it shows all the fields, not"
 " just the ones that can be imported."
 msgstr ""
+"Khi tùy chọn :guilabel:`Tôi muốn cập nhật dữ liệu (xuất tương ứng nhập)` "
+"được chọn, hệ thống chỉ hiển thị các trường có thể nhập. Tính năng này hữu "
+"ích trong trường hợp :ref:`các bản ghi hiện có cần được cập nhật "
+"<essentials/update-data>` và sẽ hoạt động giống như một bộ lọc. Nếu không "
+"chọn, bạn sẽ có nhiều tùy chọn trường hơn vì tất cả các trường sẽ hiển thị "
+"mà không chỉ các trường có thể nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:46
 msgid ""
@@ -1611,6 +1845,9 @@ msgid ""
 "information about all the worksheets in a file, including both content and "
 "formatting."
 msgstr ""
+"Khi xuất, có tùy chọn xuất theo hai định dạng: `.csv` và `.xls`. Với `.csv`,"
+" các mục được phân tách bằng dấu phẩy, trong khi `.xls` chứa thông tin về "
+"tất cả bảng tính trong một tệp, bao gồm cả nội dung và định dạng."
 
 #: ../../content/applications/essentials/export_import_data.rst:49
 msgid ""
@@ -1620,12 +1857,19 @@ msgid ""
 "efficiently, click on all the :guilabel:`> (right arrows)` to display all "
 "fields."
 msgstr ""
+"Đây là các mục có thể xuất. Sử dụng biểu tượng :guilabel:`> (mũi tên hướng "
+"sang phải)` để hiển thị thêm nhiều tùy chọn trường con. Sử dụng thanh "
+":guilabel:`Tìm kiếm` để tìm các trường cụ thể. Để sử dụng tùy chọn "
+":guilabel:`Tìm kiếm` hiệu quả hơn, hãy nhấp vào tất cả :guilabel:`> (mũi tên"
+" hướng sang phải)` để hiển thị tất cả các trường."
 
 #: ../../content/applications/essentials/export_import_data.rst:53
 msgid ""
 "The :guilabel:`+ (plus sign)` icon button is present to add fields to the "
 ":guilabel:`Fields to export` list."
 msgstr ""
+"Nút biểu tượng :guilabel:`+ (dấu cộng)` có tác dụng thêm các trường vào danh"
+" sách :guilabel:`Trường cần xuất`."
 
 #: ../../content/applications/essentials/export_import_data.rst:55
 msgid ""
@@ -1634,12 +1878,18 @@ msgid ""
 "displayed in the exported file. Drag-and-drop using the :guilabel:`↕️ (up-"
 "down arrow)` icon."
 msgstr ""
+"Biểu tượng :guilabel:`↕️ (mũi tên lên-xuống)` ở bên trái các trường đã chọn "
+"có thể được sử dụng để di chuyển các trường lên và xuống, để thay đổi thứ tự"
+" hiển thị của chúng trong tệp đã xuất. Kéo và thả bằng biểu tượng "
+":guilabel:`↕️ (mũi tên lên-xuống)`."
 
 #: ../../content/applications/essentials/export_import_data.rst:58
 msgid ""
 "The :guilabel:`🗑️ (trash can)` icon is used to remove fields. Click on the "
 ":guilabel:`🗑️ (trash can)` icon to remove the field."
 msgstr ""
+"Biểu tượng :guilabel:`🗑️ (thùng rác)` được sử dụng để xóa các trường. Nhấp "
+"vào biểu tượng :guilabel:`🗑️ (thùng rác)` để xóa trường."
 
 #: ../../content/applications/essentials/export_import_data.rst:60
 msgid ""
@@ -1650,6 +1900,12 @@ msgid ""
 "configuration. The next time the same list needs to be exported, select the "
 "related template that was previously saved from the drop-down menu."
 msgstr ""
+"Đối với báo cáo định kỳ, việc lưu sẵn các cài đặt xuất dữ liệu sẽ rất hữu "
+"ích. Chọn tất cả trường cần thiết và nhấp vào menu mẫu thả xuống. Khi vào "
+"đó, nhấp vào :guilabel:`Mẫu mới` và đặt tên duy nhất cho tệp xuất vừa tạo. "
+"Nhấp vào biểu tượng :guilabel:`💾 (ổ đĩa mềm)` để lưu cấu hình. Lần tới khi "
+"cần xuất cùng một danh sách, hãy chọn mẫu liên quan đã lưu trước đó từ menu "
+"thả xuống."
 
 #: ../../content/applications/essentials/export_import_data.rst:67
 msgid ""
@@ -1658,6 +1914,10 @@ msgid ""
 "*parent_id* (external identifier). This is helpful because then, the only "
 "data exported is what should be modified and re-imported."
 msgstr ""
+"Việc nắm rõ ID ngoài của trường sẽ rất hữu ích, vì nhờ đó, dữ liệu duy nhất "
+"được xuất là dữ liệu cần được sửa đổi và nhập lại. Ví dụ: :guilabel:`Công ty"
+" liên quan` trong giao diện người dùng xuất dữ liệu tương ứng với "
+"*parent_id* (ID ngoài)."
 
 #: ../../content/applications/essentials/export_import_data.rst:74
 msgid "Import data into Odoo"
@@ -1670,6 +1930,10 @@ msgid ""
 "data>`. The following documentation covers how to import data into an Odoo "
 "database."
 msgstr ""
+"Việc nhập dữ liệu vào Odoo cực kỳ hữu ích trong quá trình triển khai hoặc "
+"trong những thời điểm dữ liệu cần được :ref:`cập nhật hàng loạt "
+"<essentials/update-data>`. Tài liệu sau đây trình bày cách nhập dữ liệu vào "
+"cơ sở dữ liệu Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:81
 msgid ""
@@ -1677,6 +1941,10 @@ msgid ""
 "use filters (`created on` or `last modified`) to identify records changed or"
 " created by the import."
 msgstr ""
+"Việc nhập dữ liệu là một hành động là vĩnh viễn và **không thể** hoàn tác. "
+"Tuy nhiên, có thể sử dụng bộ lọc (`được tạo vào` hoặc `được sửa đổi lần "
+"cuối`) để xác định các bản ghi đã thay đổi hoặc được tạo bởi lần nhập dữ "
+"liệu."
 
 #: ../../content/applications/essentials/export_import_data.rst:85
 msgid ""
@@ -1685,10 +1953,15 @@ msgid ""
 "menu. Included in this advanced menu are two options: :guilabel:`Track "
 "history during import` and :guilabel:`Allow matching with subfields`."
 msgstr ""
+"Việc kích hoạt :ref:`chế độ lập trình<developer-mode>` sẽ thay đổi cài đặt "
+"nhập có thể nhìn thấy trong menu bên trái. Việc này sẽ hiển thị menu "
+":menuselection:`Nâng cao`. Có hai tùy chọn trong menu nâng cao này: "
+":guilabel:`Theo dõi lịch sử trong quá trình nhập` và :guilabel:`Cho phép "
+"khớp với trường con`."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Advanced import options when developer mode is activated."
-msgstr ""
+msgstr "Tùy chọn nhập nâng cao khi chế độ lập trình được kích hoạt."
 
 #: ../../content/applications/essentials/export_import_data.rst:93
 msgid ""
@@ -1696,6 +1969,9 @@ msgid ""
 "option sets up subscriptions and sends notifications during the import, but "
 "leads to a slower import."
 msgstr ""
+"Nếu mô hình sử dụng openchatter, tùy chọn :guilabel:`Theo dõi lịch sử trong "
+"quá trình nhập` sẽ thiết lập đăng ký và gửi thông báo trong quá trình nhập, "
+"nhưng sẽ kéo dài thời gian nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:96
 msgid ""
@@ -1703,6 +1979,9 @@ msgid ""
 "then all subfields within a field are used to match under the "
 ":guilabel:`Odoo Field` while importing."
 msgstr ""
+"Nếu tùy chọn :guilabel:`Cho phép khớp với trường con` được chọn, thì tất cả "
+"trường con trong một trường sẽ được sử dụng để khớp với :guilabel:`Trường "
+"Odoo` khi nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:100
 msgid "Get started"
@@ -1714,16 +1993,22 @@ msgid ""
 "(`.xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
 "includes: contacts, products, bank statements, journal entries, and orders."
 msgstr ""
+"Dữ liệu có thể được nhập vào bất kỳ đối tượng kinh doanh nào trên Odoo bằng "
+"định dạng Excel (`.xlsx`) hoặc :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)`"
+" (`.csv`). Bao gồm: liên hệ, sản phẩm, sao kê ngân hàng, bút toán và đơn "
+"hàng."
 
 #: ../../content/applications/essentials/export_import_data.rst:106
 msgid ""
 "Open the view of the object to which the data should be imported/populated, "
 "and click on :menuselection:`⚙️ (Action) --> Import records`."
 msgstr ""
+"Mở chế độ xem của đối tượng mà dữ liệu cần được nhập/điền vào và nhấp "
+":menuselection: `⚙️ (Tác vụ) --> Nhập bản ghi`."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Action menu revealed with the import records option highlighted."
-msgstr ""
+msgstr "Menu hành động được hiển thị với tùy chọn nhập bản ghi được tô sáng."
 
 #: ../../content/applications/essentials/export_import_data.rst:113
 msgid ""
@@ -1733,6 +2018,11 @@ msgid ""
 "already done. To download a template click :guilabel:`Import Template for "
 "Customers` at the center of the page."
 msgstr ""
+"Sau khi nhấp vào :guilabel:`Nhập bản ghi`, Odoo sẽ hiển thị một trang riêng "
+"chứa các mẫu có thể tải xuống và điền vào bằng dữ liệu của công ty. Bạn có "
+"thể nhập các mẫu đó chỉ bằng một cú nhấp chuột, vì quá trình mapping dữ liệu"
+" đã được thực hiện. Để tải xuống một mẫu, hãy nhấp vào :guilabel:`Mẫu nhập "
+"cho khách hàng` ở giữa trang."
 
 #: ../../content/applications/essentials/export_import_data.rst:119
 msgid ""
@@ -1740,10 +2030,13 @@ msgid ""
 ":guilabel:`Formatting` options. These options do **not** appear when "
 "importing the proprietary Excel file type (`.xls`, `.xlsx`)."
 msgstr ""
+"Khi nhập tệp :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)`, Odoo cung cấp "
+"tùy chọn :guilabel:`Định dạng`. Các tùy chọn này **không** xuất hiện khi "
+"nhập loại tệp Excel riêng (`.xls`, `.xlsx`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:0
 msgid "Formatting options presented when a CVS file is imported in Odoo."
-msgstr ""
+msgstr "Các tùy chọn định dạng được hiển thị khi tệp CVS được nhập vào Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:127
 msgid ""
@@ -1751,6 +2044,9 @@ msgid ""
 "columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
 "of errors. Finally, click :guilabel:`Import` to import the data."
 msgstr ""
+"Thực hiện những điều chỉnh cần thiết cho các tùy chọn *Định dạng* và đảm bảo"
+" tất cả các cột trong :guilabel:`Trường Odoo` và :guilabel:`Cột tệp` không "
+"có lỗi. Cuối cùng, nhấp vào :guilabel:`Nhập` để nhập dữ liệu."
 
 #: ../../content/applications/essentials/export_import_data.rst:132
 msgid "Adapt a template"
@@ -1763,32 +2059,41 @@ msgid ""
 "spreadsheet software (*Microsoft Office*, *OpenOffice*, *Google Drive*, "
 "etc.)."
 msgstr ""
+"Các mẫu nhập được cung cấp trong công cụ nhập của những loại dữ liệu cần "
+"nhập phổ biến nhất (liên hệ, sản phẩm, sao kê ngân hàng,...). Mở chúng bằng "
+"bất kỳ phần mềm bảng tính nào (*Microsoft Office*, *OpenOffice*, *Google "
+"Drive*,...)."
 
 #: ../../content/applications/essentials/export_import_data.rst:138
 msgid "Once the template is downloaded, proceed to follow these steps:"
-msgstr ""
+msgstr "Sau khi tải mẫu xuống, hãy làm theo các bước sau:"
 
 #: ../../content/applications/essentials/export_import_data.rst:140
 msgid "Add, remove, and sort columns to best fit the data structure."
 msgstr ""
+"Thêm, xóa và sắp xếp các cột sao cho phù hợp nhất với cấu trúc dữ liệu."
 
 #: ../../content/applications/essentials/export_import_data.rst:141
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
 msgstr ""
+"Chúng tôi khuyên bạn **không** nên xóa cột :guilabel:`ID ngoài` (ID) (xem lý"
+" do trong phần tiếp theo)."
 
 #: ../../content/applications/essentials/export_import_data.rst:143
 msgid ""
 "Set a unique ID to every record by dragging down the ID sequencing in the "
 ":guilabel:`External ID` (ID) column."
 msgstr ""
+"Đặt ID duy nhất cho mỗi bản ghi bằng cách kéo trình tự ID xuống trong cột "
+":guilabel:`ID ngoài` (ID)."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid ""
 "An animation of the mouse dragging down the ID column, so each record has a "
 "unique ID."
-msgstr ""
+msgstr "Ảnh động về kéo chuột xuống cột ID để mỗi bản ghi có một ID duy nhất."
 
 #: ../../content/applications/essentials/export_import_data.rst:151
 msgid ""
@@ -1797,16 +2102,22 @@ msgid ""
 "mapped manually when the import is tested. Search the drop-down menu for the"
 " corresponding field."
 msgstr ""
+"Khi thêm một cột mới, Odoo có thể không tự động map được cột đó nếu nhãn của"
+" cột đó không phù hợp với bất kỳ trường nào trong Odoo. Tuy nhiên, bạn có "
+"thể map thủ công các cột mới khi kiểm thử quá trình nhập. Tìm kiếm trong "
+"menu thả xuống để tìm trường tương ứng."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Drop-down menu expanded in the initial import screen on Odoo."
-msgstr ""
+msgstr "Menu thả xuống được mở rộng trong màn hình nhập ban đầu trên Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:159
 msgid ""
 "Then, use this field's label in the import file to ensure future imports are"
 " successful."
 msgstr ""
+"Sau đó, sử dụng nhãn của trường này trong tệp nhập để đảm bảo các lần nhập "
+"trong tương lai thành công."
 
 #: ../../content/applications/essentials/export_import_data.rst:162
 msgid ""
@@ -1814,6 +2125,9 @@ msgid ""
 "export a sample file using the fields that should be imported. This way, if "
 "there is not a sample import template, the names are accurate."
 msgstr ""
+"Một cách hữu ích khác để tìm ra tên cột thích hợp cần nhập là xuất tệp mẫu "
+"bằng các trường cần nhập. Theo cách này, nếu không có mẫu nhập mẫu, tên sẽ "
+"chính xác."
 
 #: ../../content/applications/essentials/export_import_data.rst:170
 msgid "Import from another application"
@@ -1825,17 +2139,23 @@ msgid ""
 "Feel free to use one from previous software to facilitate the transition to "
 "Odoo."
 msgstr ""
+":guilabel:`ID ngoài` (ID) là mã định danh duy nhất cho mục hàng. Bạn có thể "
+"sử dụng mã định danh từ phần mềm trước đó để dễ dàng chuyển sang Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:175
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr ""
+"Việc thiết lập ID không bắt buộc khi nhập, nhưng sẽ hữu ích trong nhiều "
+"trường hợp:"
 
 #: ../../content/applications/essentials/export_import_data.rst:177
 msgid ""
 ":ref:`Update imports <essentials/update-data>`: import the same file several"
 " times without creating duplicates."
 msgstr ""
+":ref:`Cập nhật tệp nhập <essentials/update-data>`: nhập cùng một tệp nhiều "
+"lần mà không tạo bản sao."
 
 #: ../../content/applications/essentials/export_import_data.rst:179
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
@@ -1847,6 +2167,8 @@ msgid ""
 "from the original application should be used to map it to the "
 ":guilabel:`External ID` (ID) column in Odoo."
 msgstr ""
+"Để tạo lại mối quan hệ giữa các bản ghi khác nhau, cần sử dụng ID duy nhất "
+"từ ​​ứng dụng gốc để map tới cột :guilabel:`ID ngoài` (ID) trong Odoo."
 
 #: ../../content/applications/essentials/export_import_data.rst:184
 msgid ""
@@ -1854,12 +2176,17 @@ msgid ""
 "(XXX/External ID) for the original unique identifier. This record can also "
 "be found using its name."
 msgstr ""
+"Khi một bản ghi khác được nhập và liên kết đến bản ghi đầu tiên, hãy sử dụng"
+" **XXX/ID** (XXX/ID ngoài) cho ID duy nhất ban đầu. Bản ghi này cũng có thể "
+"được tìm bằng tên."
 
 #: ../../content/applications/essentials/export_import_data.rst:188
 msgid ""
 "It should be noted that conflicts occur if two (or more) records have the "
 "same *External ID*."
 msgstr ""
+"Cần lưu ý rằng xung đột sẽ xảy ra nếu hai (hoặc nhiều) bản ghi có cùng *ID "
+"ngoài*."
 
 #: ../../content/applications/essentials/export_import_data.rst:191
 msgid "Field missing to map column"
@@ -1870,12 +2197,16 @@ msgid ""
 "Odoo heuristically tries to find the type of field for each column inside "
 "the imported file, based on the first ten lines of the files."
 msgstr ""
+"Odoo sẽ cố gắng tìm loại trường cho mỗi cột bên trong tệp được nhập dựa trên"
+" mười dòng đầu tiên của tệp."
 
 #: ../../content/applications/essentials/export_import_data.rst:196
 msgid ""
 "For example, if there is a column only containing numbers, only the fields "
 "with the *integer* type are presented as options."
 msgstr ""
+"Ví dụ, nếu có một cột chỉ chứa số, thì chỉ những trường thuộc loại *số "
+"nguyên* mới được hiển thị dưới dạng tùy chọn."
 
 #: ../../content/applications/essentials/export_import_data.rst:199
 msgid ""
@@ -1883,6 +2214,9 @@ msgid ""
 "that it could fail, or the column may be mapped to a field that is not "
 "proposed by default."
 msgstr ""
+"Mặc dù hành vi này có thể hữu ích trong hầu hết các trường hợp, nhưng cũng "
+"có khả năng nó sẽ không thành công hoặc cột có thể được map tới một trường "
+"không được đề xuất theo mặc định."
 
 #: ../../content/applications/essentials/export_import_data.rst:202
 msgid ""
@@ -1890,10 +2224,13 @@ msgid ""
 "(advanced) option`, then a complete list of fields becomes available for "
 "each column."
 msgstr ""
+"Nếu điều này xảy ra, hãy kiểm tra :guilabel:`tùy chọn Hiển thị các trường "
+"của trường quan hệ (nâng cao)`, sau đó danh sách đầy đủ các trường sẽ hiển "
+"thị cho mỗi cột."
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Searching for the field to match the tax column."
-msgstr ""
+msgstr "Đang tìm kiếm trường phù hợp với cột thuế."
 
 #: ../../content/applications/essentials/export_import_data.rst:210
 msgid "Change data import format"
@@ -1908,12 +2245,21 @@ msgid ""
 "difficult to guess which part of a date format is the day, and which part is"
 " the month, in a date, such as `01-03-2016`."
 msgstr ""
+"Odoo có thể tự động phát hiện xem một cột có phải là ngày hay không và cố "
+"gắng đoán định dạng ngày từ một tập hợp các định dạng ngày được sử dụng phổ "
+"biến nhất. Mặc dù quy trình này có thể khả dụng với nhiều định dạng ngày, "
+"nhưng vẫn có một số định dạng ngày không thể nhận dạng được. Điều này có thể"
+" gây nhầm lẫn do đảo ngược ngày-tháng, nên sẽ rất khó để đoán phần nào của "
+"định dạng ngày là ngày và phần nào là tháng trong một ngày, chẳng hạn như "
+"`01-03-2016`."
 
 #: ../../content/applications/essentials/export_import_data.rst:219
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
 ":guilabel:`Formatting` options."
 msgstr ""
+"Khi nhập tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)`, Odoo cung cấp "
+"tùy chọn :guilabel:`Định dạng`."
 
 #: ../../content/applications/essentials/export_import_data.rst:222
 msgid ""
@@ -1922,6 +2268,10 @@ msgid ""
 "file selector. If this format is incorrect, change it to the preferred "
 "format using *ISO 8601* to define the format."
 msgstr ""
+"Để xem định dạng ngày nào Odoo tìm thấy từ tệp, hãy kiểm tra :guilabel:`Định"
+" dạng ngày` được hiển thị khi nhấp vào tùy chọn bên dưới trình chọn tệp. Nếu"
+" định dạng này không đúng, hãy thay đổi thành định dạng ưa thích bằng cách "
+"sử dụng *ISO 8601* để xác định định dạng."
 
 #: ../../content/applications/essentials/export_import_data.rst:227
 msgid ""
@@ -1930,6 +2280,10 @@ msgid ""
 " date format should be `YYYY-MM-DD`. So, in the case of July 24th 1981, it "
 "should be written as `1981-07-24`."
 msgstr ""
+"*ISO 8601* là một tiêu chuẩn quốc tế quy định việc trao đổi thông tin cùng "
+"với việc truyền đạt dữ liệu liên quan đến ngày và giờ trên toàn thế giới. Ví"
+" dụ, khi định dạng ngày tháng là `YYYY-MM-DD; trong trường hợp ngày 24 tháng"
+" 7 năm 1981, nó phải được viết là `1981-07-24`."
 
 #: ../../content/applications/essentials/export_import_data.rst:232
 msgid ""
@@ -1939,6 +2293,12 @@ msgid ""
 "separated Values)` file, use Odoo's :guilabel:`Formatting` section to select"
 " the date format columns to import."
 msgstr ""
+"Khi nhập tệp Excel (`.xls`, `.xlsx`), hãy cân nhắc sử dụng *ô ngày tháng* "
+"cho ngày tháng. Điều này duy trì hiển thị định dạng ngày tháng địa phương, "
+"bất kể ngày tháng được định dạng như thế nào trong Odoo. Khi nhập tệp "
+":abbr:`CSV (Giá trị phân cách bằng dấu phẩy)`, hãy sử dụng phần "
+":guilabel:`Định dạng` của Odoo để chọn các cột định dạng ngày tháng cần "
+"nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:238
 msgid "Import numbers with currency signs"
@@ -1952,6 +2312,11 @@ msgid ""
 "currency symbol unknown to Odoo is used, it might not be recognized as a "
 "number, and the import crashes."
 msgstr ""
+"Odoo hỗ trợ đầy đủ các số có dấu ngoặc đơn để biểu thị dấu âm, cũng như các "
+"số có dấu tiền tệ đi kèm. Odoo cũng tự động phát hiện dấu phân cách hàng "
+"nghìn/dấu thập phân nào được sử dụng. Nếu sử dụng ký hiệu tiền tệ mà Odoo "
+"không thể xác định, thì ký hiệu đó có thể không được nhận dạng là số và quá "
+"trình nhập sẽ bị lỗi."
 
 #: ../../content/applications/essentials/export_import_data.rst:246
 msgid ""
@@ -1959,11 +2324,14 @@ msgid ""
 ":guilabel:`Formatting` menu appears on the left-hand column. Under these "
 "options, the :guilabel:`Thousands Separator` can be changed."
 msgstr ""
+"Khi nhập tệp :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)`, menu "
+":guilabel:`Định dạng` sẽ xuất hiện ở cột bên trái. Trong các tùy chọn này, "
+"có thể thay đổi :guilabel:`Dấu phân cách hàng nghìn`."
 
 #: ../../content/applications/essentials/export_import_data.rst:250
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
-msgstr ""
+msgstr "Ví dụ về các số được hỗ trợ (sử dụng 'ba mươi hai nghìn' làm con số):"
 
 #: ../../content/applications/essentials/export_import_data.rst:252
 msgid "32.000,00"
@@ -2011,10 +2379,13 @@ msgid ""
 "is a negative value. The currency symbol **must** be placed within the "
 "parenthesis for Odoo to recognize it as a negative currency value."
 msgstr ""
+"Dấu :guilabel:`() (dấu ngoặc đơn)` xung quanh số cho biết số đó là giá trị "
+"âm. Ký hiệu tiền tệ **phải** được đặt trong dấu ngoặc đơn để Odoo nhận dạng "
+"đó là giá trị tiền tệ âm."
 
 #: ../../content/applications/essentials/export_import_data.rst:271
 msgid "Import preview table not displayed correctly"
-msgstr ""
+msgstr "Bảng xem trước nhập dữ liệu không hiển thị đúng"
 
 #: ../../content/applications/essentials/export_import_data.rst:273
 msgid ""
@@ -2025,6 +2396,12 @@ msgid ""
 ":abbr:`CSV (Comma-separated Values)` file bar after selecting the :abbr:`CSV"
 " (Comma-separated Values)` file)."
 msgstr ""
+"Theo mặc định, bản xem trước nhập dữ liệu có dấu phẩy làm dấu phân cách "
+"trường và dấu ngoặc kép làm dấu phân cách văn bản. Nếu tệp :abbr:`CSV (Giá "
+"trị phân cách bằng dấu phẩy)` không có những thiết lập này, hãy sửa đổi các "
+"tùy chọn :guilabel:`Định dạng` (hiển thị bên dưới thanh tệp :abbr:`CSV (Giá "
+"trị phân cách bằng dấu phẩy)` :guilabel:`Nhập` sau khi chọn tệp :abbr:`CSV "
+"(Giá trị phân cách bằng dấu phẩy)`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:279
 msgid ""
@@ -2033,10 +2410,14 @@ msgid ""
 " need to be modified in the spreadsheet application. See the following "
 ":ref:`Change CSV file format <export_import_data/change-csv>` section."
 msgstr ""
+"Nếu tệp :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)` có bảng phân cách, "
+"Odoo sẽ **không** phát hiện ra các phần phân cách. Các tùy chọn định dạng "
+"tệp cần được sửa đổi trong ứng dụng bảng tính. Xem phần :ref:`Thay đổi định "
+"dạng tệp CSV <export_import_data/change-csv>` sau."
 
 #: ../../content/applications/essentials/export_import_data.rst:287
 msgid "Change CSV file format in spreadsheet application"
-msgstr ""
+msgstr "Thay đổi định dạng tệp CSV trong ứng dụng bảng tính"
 
 #: ../../content/applications/essentials/export_import_data.rst:289
 msgid ""
@@ -2047,16 +2428,25 @@ msgid ""
 " (from *LibreOffice* application, go to :menuselection:`'Save As' dialog box"
 " --> Check the box 'Edit filter settings' --> Save`)."
 msgstr ""
+"Khi chỉnh sửa và lưu tệp :abbr:`CSV (Giá trị phân cách bằng dấu phẩy)` trong"
+" các ứng dụng bảng tính, cài đặt khu vực của máy tính được áp dụng cho các "
+"dấu phân cách. Odoo đề xuất sử dụng *OpenOffice* hoặc *LibreOffice*, vì cả "
+"hai ứng dụng đều cho phép sửa đổi cả ba tùy chọn (từ ứng dụng *LibreOffice*,"
+" đi đến hộp thoại :menuselection:`'Lưu dưới dạng' --> Chọn ô 'Chỉnh sửa cài "
+"đặt bộ lọc' --> Lưu`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:295
 msgid ""
 "Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
 "As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
 msgstr ""
+"Microsoft Excel có thể sửa đổi mã hóa khi lưu (hộp thoại "
+":menuselection:`'Lưu dưới dạng' --> menu 'Công cụ' thả xuống --> tab Mã "
+"hóa`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:299
 msgid "Difference between Database ID and External ID"
-msgstr ""
+msgstr "Sự khác biệt giữa ID cơ sở dữ liệu và ID ngoài"
 
 #: ../../content/applications/essentials/export_import_data.rst:301
 msgid ""
@@ -2065,38 +2455,48 @@ msgid ""
 "such fields are imported, Odoo has to recreate links between the different "
 "records. To help import such fields, Odoo provides three mechanisms."
 msgstr ""
+"Một số trường xác định mối quan hệ với một đối tượng khác. Ví dụ, quốc gia "
+"của một liên hệ là liên kết đến bản ghi của đối tượng 'Quốc gia'. Khi các "
+"trường này được nhập, Odoo phải tạo lại liên kết giữa các bản ghi khác nhau."
+" Để hỗ trợ nhập các trường như vậy, Odoo cung cấp ba cơ chế."
 
 #: ../../content/applications/essentials/export_import_data.rst:306
 msgid "**Only one** mechanism should be used per field that is imported."
-msgstr ""
+msgstr "Chỉ nên sử dụng **một** cơ chế cho mỗi trường được nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:308
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
 msgstr ""
+"Ví dụ, để tham chiếu quốc gia của một liên hệ, Odoo đề xuất ba trường khác "
+"nhau để nhập:"
 
 #: ../../content/applications/essentials/export_import_data.rst:310
 msgid ":guilabel:`Country`: the name or code of the country"
-msgstr ""
+msgstr ":guilabel:`Quốc gia`: tên hoặc mã của quốc gia"
 
 #: ../../content/applications/essentials/export_import_data.rst:311
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by"
 " the ID PostgreSQL column"
 msgstr ""
+":guilabel:`ID quốc gia/cơ sở dữ liệu`: ID Odoo duy nhất cho một bản ghi, "
+"được xác định bởi cột ID PostgreSQL"
 
 #: ../../content/applications/essentials/export_import_data.rst:313
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another"
 " application (or the `.XML` file that imported it)"
 msgstr ""
+":guilabel:`ID quốc gia/ngoài`: ID của bản ghi này được tham chiếu trong ứng "
+"dụng khác (hoặc tệp `.XML` đã nhập nó)"
 
 #: ../../content/applications/essentials/export_import_data.rst:316
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
-msgstr ""
+msgstr "Ví dụ, khi quốc gia là Bỉ, hãy sử dụng một trong ba cách sau để nhập:"
 
 #: ../../content/applications/essentials/export_import_data.rst:318
 msgid ":guilabel:`Country`: `Belgium`"
@@ -2108,7 +2508,7 @@ msgstr ":guilabel:`ID quốc gia/cơ sở dữ liệu`: `21`"
 
 #: ../../content/applications/essentials/export_import_data.rst:320
 msgid ":guilabel:`Country/External ID`: `base.be`"
-msgstr ":guilabel:`ID bên ngoài/quốc gia`: `base.be`"
+msgstr ":guilabel:`ID quốc gia/ngoài`: `base.be`"
 
 #: ../../content/applications/essentials/export_import_data.rst:322
 msgid ""
@@ -2116,12 +2516,17 @@ msgid ""
 "records in relations. Here is an example when one or the other should be "
 "used, according to the need:"
 msgstr ""
+"Theo nhu cầu của công ty, hãy sử dụng một trong ba cách sau để tham chiếu hồ"
+" sơ trong quan hệ. Sau đây là ví dụ khi nào nên sử dụng cách nào, tùy theo "
+"nhu cầu:"
 
 #: ../../content/applications/essentials/export_import_data.rst:325
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes from "
 ":abbr:`CSV (Comma-separated Values)` files that have been created manually."
 msgstr ""
+"Sử dụng :guilabel:`Quốc gia`: đây là cách dễ nhất khi dữ liệu đến từ các tệp"
+" :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` được tạo thủ công."
 
 #: ../../content/applications/essentials/export_import_data.rst:327
 msgid ""
@@ -2130,12 +2535,18 @@ msgid ""
 "(there may be several records with the same name, but they always have a "
 "unique Database ID)"
 msgstr ""
+"Sử dụng :guilabel:`ID quốc gia/cơ sở dữ liệu`: cách này hiếm khi được sử "
+"dụng. Nó chủ yếu được các lập trình viên sử dụng vì lợi thế chính là không "
+"bao giờ có xung đột (có thể có một số bản ghi có cùng tên, nhưng chúng luôn "
+"có một ID cơ sở dữ liệu duy nhất)"
 
 #: ../../content/applications/essentials/export_import_data.rst:330
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ""
+"Sử dụng :guilabel:`ID quốc gia/ngoài`: sử dụng *ID ngoài* khi nhập dữ liệu "
+"từ ứng dụng của bên thứ ba."
 
 #: ../../content/applications/essentials/export_import_data.rst:333
 msgid ""
@@ -2146,6 +2557,11 @@ msgid ""
 "(Comma-separated Values)` files provide an example for products and their "
 "categories."
 msgstr ""
+"Khi sử dụng *ID ngoài*, hãy nhập các tệp :abbr:`CSV (Giá trị phân tách bằng "
+"dấu phẩy)` với cột :guilabel:`ID ngoài` (ID) xác định *ID ngoài* của mỗi bản"
+" ghi được nhập. Sau đó, có thể tham chiếu đến bản ghi đó bằng các cột, như "
+"`Trường/ID ngoài`. Hai tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau"
+" đây cung cấp ví dụ về các sản phẩm và danh mục của chúng."
 
 #: ../../content/applications/essentials/export_import_data.rst:338
 msgid ""
@@ -2174,6 +2590,10 @@ msgid ""
 "relations, the records of the related object need to be imported first, from"
 " their own list menu."
 msgstr ""
+"Một đối tượng Odoo luôn liên quan đến nhiều đối tượng khác (VD: một sản phẩm"
+" được liên kết với danh mục sản phẩm, thuộc tính, nhà cung cấp,...). Để nhập"
+" các mối quan hệ đó, trước tiên cần nhập các bản ghi của đối tượng liên quan"
+" từ menu danh sách của riêng chúng."
 
 #: ../../content/applications/essentials/export_import_data.rst:352
 msgid ""
@@ -2182,10 +2602,14 @@ msgid ""
 " the same name. In such a case add `/ ID` at the end of the column title "
 "(e.g. for product attributes: `Product Attributes / Attribute / ID`)."
 msgstr ""
+"Điều này có thể đạt được bằng cách sử dụng tên của bản ghi liên quan hoặc ID"
+" của bản ghi đó, tùy từng trường hợp. ID được sử dụng khi hai bản ghi có "
+"cùng tên. Khi đó, hãy thêm `/ID` vào cuối tiêu đề cột (VD: đối với thuộc "
+"tính sản phẩm: `Thuộc tính sản phẩm/Thuộc tính/ID`)."
 
 #: ../../content/applications/essentials/export_import_data.rst:357
 msgid "Options for multiple matches on fields"
-msgstr ""
+msgstr "Tùy chọn cho nhiều kết quả khớp trên các trường"
 
 #: ../../content/applications/essentials/export_import_data.rst:359
 msgid ""
@@ -2197,6 +2621,13 @@ msgid ""
 "Products/Sellable`). Odoo, instead, recommends modifying one of the "
 "duplicate's values, or the product category hierarchy."
 msgstr ""
+"Ví dụ, nếu có hai danh mục sản phẩm có tên thành phần là `Có thể bán` (ví "
+"dụ: `Sản phẩm hỗn hợp/Có thể bán` & `Sản phẩm khác/Có thể bán`), thì quá "
+"trình xác thực sẽ dừng lại, nhưng dữ liệu vẫn có thể được nhập. Tuy nhiên, "
+"Odoo khuyến nghị không nhập dữ liệu vì tất cả sẽ được liên kết với danh mục "
+"`Có thể bán` đầu tiên được tìm thấy trong danh sách *Danh mục sản phẩm* "
+"(`Sản phẩm hỗn hợp/Có thể bán`). Thay vào đó, bạn nên sửa đổi một trong các "
+"giá trị trùng lặp hoặc phân cấp danh mục sản phẩm."
 
 #: ../../content/applications/essentials/export_import_data.rst:366
 msgid ""
@@ -2204,6 +2635,8 @@ msgid ""
 " categories, Odoo recommends making use of the *External ID* for this field,"
 " 'Category'."
 msgstr ""
+"Tuy nhiên, nếu công ty không muốn thay đổi cấu hình danh mục sản phẩm, Odoo "
+"khuyên bạn nên sử dụng *ID ngoài* cho trường 'Danh mục' này."
 
 #: ../../content/applications/essentials/export_import_data.rst:370
 msgid "Import many2many relationship fields"
@@ -2216,6 +2649,10 @@ msgid ""
 " then 'Manufacturer,Retailer' needs to be encoded in the same column of the "
 ":abbr:`CSV (Comma-separated Values)` file."
 msgstr ""
+"Các thẻ phải được phân tách bằng dấu phẩy, không có khoảng cách. Ví dụ, nếu "
+"khách hàng cần được liên kết đến cả hai thẻ: `Nhà sản xuất` và `Nhà bán lẻ` "
+"thì `Nhà sản xuất,Nhà bán lẻ' cần được mã hóa trong cùng một cột của tệp "
+":abbr:`CSV (Giá trị phân tách bằng dấy phẩy)`."
 
 #: ../../content/applications/essentials/export_import_data.rst:376
 msgid ""
@@ -2238,12 +2675,19 @@ msgid ""
 "additional row that does not have any information in the fields relative to "
 "the order."
 msgstr ""
+"Nếu một công ty muốn nhập đơn bán hàng có nhiều dòng, thì **phải** dành "
+"riêng một hàng cụ thể trong tệp :abbr:`CSV (Giá trị phân tách bằng dấu "
+"phẩy)` cho mỗi dòng đơn hàng. Dòng đầu tiên được nhập vào cùng một hàng với "
+"thông tin liên quan đến đơn hàng. Mọi dòng bổ sung cũng cần một hàng bổ sung"
+" không chứa bất kỳ thông tin nào trong các trường liên quan đến đơn hàng."
 
 #: ../../content/applications/essentials/export_import_data.rst:386
 msgid ""
 "As an example, here is a :abbr:`CSV (Comma-separated Values)` file of some "
 "quotations that can be imported, based on demo data:"
 msgstr ""
+"Ví dụ, đây là tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` chứa một số "
+"báo giá có thể được nhập dựa trên dữ liệu demo:"
 
 #: ../../content/applications/essentials/export_import_data.rst:389
 msgid ""
@@ -2258,18 +2702,24 @@ msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "purchase orders with their respective purchase order lines:"
 msgstr ""
+"Tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau đây hiển thị cách nhập"
+" đơn mua hàng với các dòng đơn mua hàng tương ứng:"
 
 #: ../../content/applications/essentials/export_import_data.rst:395
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 msgstr ""
+":download:`Đơn mua hàng với các dòng đơn mua hàng tương ứng "
+"<export_import_data/o2m_purchase_order_lines.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:398
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "customers and their respective contacts:"
 msgstr ""
+"Tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau đây hiển thị cách nhập"
+" khách hàng và thông tin liên hệ tương ứng của họ:"
 
 #: ../../content/applications/essentials/export_import_data.rst:401
 msgid ""
@@ -2291,22 +2741,31 @@ msgid ""
 "users to import the same :abbr:`CSV (Comma-separated Values)` file several "
 "times, while having made some changes in between two imports."
 msgstr ""
+"Nếu tệp được nhập có chứa một trong các cột: :guilabel:`ID ngoài` hoặc "
+":guilabel:`ID cơ sở dữ liệu`, thì các bản ghi đã được nhập sẽ được sửa đổi, "
+"thay vì được tạo. Điều này cực kỳ hữu ích vì nó cho phép người dùng nhập "
+"cùng một tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` nhiều lần, trong "
+"khi đã thực hiện một số thay đổi giữa hai lần nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:412
 msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new"
 " or not."
 msgstr ""
+"Odoo sẽ xử lý việc tạo hoặc sửa đổi từng bản ghi, tùy thuộc vào việc bản ghi"
+" đó có mới hay không."
 
 #: ../../content/applications/essentials/export_import_data.rst:414
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
 msgstr ""
+"Tính năng này cho phép công ty sử dụng *Công cụ nhập/xuất* trong Odoo để sửa"
+" đổi hàng loạt bản ghi trong ứng dụng bảng tính."
 
 #: ../../content/applications/essentials/export_import_data.rst:418
 msgid "Value not provided for a specific field"
-msgstr ""
+msgstr "Giá trị không được cung cấp cho một trường cụ thể"
 
 #: ../../content/applications/essentials/export_import_data.rst:420
 msgid ""
@@ -2315,10 +2774,15 @@ msgid ""
 " :abbr:`CSV (Comma-separated Values)` file, Odoo sets the empty value in the"
 " field, instead of assigning the default value."
 msgstr ""
+"Nếu tất cả các trường không được thiết lập trong tệp CSV, Odoo sẽ gán giá "
+"trị mặc định cho mọi trường không được xác định. Nhưng nếu các trường được "
+"thiết lập với giá trị trống trong tệp :abbr:`CSV (Giá trị phân tách bằng dấu"
+" phẩy)`, Odoo sẽ thiết lập giá trị trống trong trường, thay vì gán giá trị "
+"mặc định."
 
 #: ../../content/applications/essentials/export_import_data.rst:425
 msgid "Export/import different tables from an SQL application to Odoo"
-msgstr ""
+msgstr "Xuất/nhập các bảng khác nhau từ ứng dụng SQL vào Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:427
 msgid ""
@@ -2327,6 +2791,10 @@ msgid ""
 "companies and people are imported, the link between each person and the "
 "company they work for needs to be recreated."
 msgstr ""
+"Nếu dữ liệu cần được nhập từ các bảng khác nhau, cần phải tạo lại các mối "
+"quan hệ giữa những bản ghi thuộc về các bảng khác nhau. Ví dụ, nếu cần nhập "
+"công ty và người, thì bạn cần phải tạo lại liên kết giữa mỗi người và công "
+"ty mà họ làm việc."
 
 #: ../../content/applications/essentials/export_import_data.rst:431
 msgid ""
@@ -2337,6 +2805,12 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
+"Để quản lý mối quan hệ giữa các bảng, hãy sử dụng tiện ích `ID ngoài` của "
+"Odoo. `ID ngoài` của một bản ghi là mã định danh duy nhất của bản ghi này "
+"trong một ứng dụng khác. `ID ngoài` không được trùng lặp trên tất cả bản ghi"
+" của mọi đối tượng. Một phương pháp hữu ích là thêm tiền tố `ID ngoài` này "
+"bằng tên của ứng dụng hoặc bảng (như, 'company_1', 'person_1' - thay vì "
+"'1')."
 
 #: ../../content/applications/essentials/export_import_data.rst:436
 msgid ""
@@ -2344,34 +2818,44 @@ msgid ""
 "be imported: companies and people. Each person belongs to one company, so "
 "the link between a person and the company they work for must be recreated."
 msgstr ""
+"Ví dụ, giả sử có một cơ sở dữ liệu SQL với hai bảng cần nhập: công ty và "
+"người. Mỗi người thuộc về một công ty, thì liên kết giữa một người và công "
+"ty mà họ làm việc phải được tạo lại."
 
 #: ../../content/applications/essentials/export_import_data.rst:440
 msgid ""
 "Test this example, with a :download:`sample of a PostgreSQL database "
 "<export_import_data/database_import_test.sql>`."
 msgstr ""
+"Hãy kiểm thử ví dụ này bằng :download:`mẫu cơ sở dữ liệu PostgreSQL "
+"<export_import_data/database_import_test.sql>`."
 
 #: ../../content/applications/essentials/export_import_data.rst:443
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
 msgstr ""
+"Đầu tiên, xuất tất cả công ty và *ID ngoài* của chúng. Trong PSQL, hãy viết "
+"lệnh sau:"
 
 #: ../../content/applications/essentials/export_import_data.rst:449
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
 msgstr ""
+"Lệnh SQL này tạo ra tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau:"
 
 #: ../../content/applications/essentials/export_import_data.rst:458
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to"
 " companies, use the following SQL command in PSQL:"
 msgstr ""
+"Để tạo tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` cho những người "
+"được liên kết với công ty, hãy sử dụng lệnh SQL sau trong PSQL:"
 
 #: ../../content/applications/essentials/export_import_data.rst:465
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
-msgstr ""
+msgstr "Nó tạo ra tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` sau:"
 
 #: ../../content/applications/essentials/export_import_data.rst:475
 msgid ""
@@ -2382,6 +2866,12 @@ msgid ""
 " conflict of ID between people and companies (`person_1` and `company_1`, "
 "who shared the same ID 1 in the original database)."
 msgstr ""
+"Trong tệp này, Fabien và Laurence đang làm việc cho công ty Bigees "
+"(`company_1`), và Eric đang làm việc cho công ty Organi. Mối quan hệ giữa "
+"mọi người và công ty được thực hiện bằng cách sử dụng *ID ngoài* của các "
+"công ty. *ID ngoài* được thêm tiền tố là tên của bảng để tránh xung đột ID "
+"giữa người và công ty (`person_1` và `company_1`, những người có cùng một ID"
+" 1 trong cơ sở dữ liệu gốc)."
 
 #: ../../content/applications/essentials/export_import_data.rst:481
 msgid ""
@@ -2391,6 +2881,10 @@ msgid ""
 "contacts are linked to the first company). Keep in mind to first import the "
 "companies, and then the people."
 msgstr ""
+"Hai tệp được tạo ra đã sẵn sàng để nhập vào Odoo mà không cần bất kỳ sửa đổi"
+" nào. Sau khi nhập hai tệp :abbr:`CSV (Giá trị phân tách bằng dấu phẩy)` "
+"này, có bốn liên hệ và ba công ty (hai liên hệ đầu tiên được liên kết với "
+"công ty đầu tiên). Hãy nhớ nhập công ty trước, sau đó đến người."
 
 #: ../../content/applications/essentials/export_import_data.rst:489
 msgid "Update data in Odoo"
@@ -2401,6 +2895,8 @@ msgid ""
 "Existing data can be updated in bulk through a data import, as long as the "
 ":ref:`External ID <essentials/external-id>` remains consistent."
 msgstr ""
+"Dữ liệu hiện có có thể được cập nhật hàng loạt thông qua quá trình nhập dữ "
+"liệu, miễn là :ref:`ID ngoài <essentials/external-id>` vẫn nhất quán."
 
 #: ../../content/applications/essentials/export_import_data.rst:495
 msgid "Prepare data export"
@@ -2413,6 +2909,11 @@ msgid ""
 "list, tick the checkbox for any record to be updated. Then, click |actions|,"
 " and select :icon:`fa-upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
+"Để cập nhật dữ liệu thông qua quá trình nhập, trước tiên hãy điều hướng đến "
+"dữ liệu cần cập nhật và chọn |list| để kích hoạt chế độ xem danh sách. Ở "
+"phía bên trái của danh sách, đánh dấu vào hộp kiểm cho bản ghi cần cập nhật."
+" Sau đó, nhấp vào |actions| và chọn :icon:`fa-upload` :guilabel:`Xuất` từ "
+"menu thả xuống."
 
 #: ../../content/applications/essentials/export_import_data.rst:502
 msgid ""
@@ -2422,6 +2923,11 @@ msgid ""
 "limits the :guilabel:`Fields to export` list to **only** include fields that"
 " are able to be imported."
 msgstr ""
+"Trên cửa sổ :guilabel:`Xuất dữ liệu` bật lên, đánh dấu vào hộp kiểm có nhãn,"
+" :guilabel:`Tôi muốn cập nhật dữ liệu (xuất tương thích nhập)`. Thao tác này"
+" tự động bao gồm *ID ngoài* trong quá trình xuất. Ngoài ra, nó giới hạn danh"
+" sách :guilabel:`Trường cần xuất` thành **chỉ** bao gồm các trường có thể "
+"nhập."
 
 #: ../../content/applications/essentials/export_import_data.rst:508
 msgid ""
@@ -2431,6 +2937,11 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
+"Trường :guilabel:`ID ngoài` **không** xuất hiện trong danh sách "
+":guilabel:`Trường cần xuất` trừ khi được thêm thủ công, nhưng trường này vẫn"
+" có trong tệp xuất. Tuy nhiên, nếu chọn hộp kiểm :guilabel:`Tôi muốn cập "
+"nhật dữ liệu (xuất tương thích nhập)`, thì trường này sẽ tự động có trong "
+"tệp xuất."
 
 #: ../../content/applications/essentials/export_import_data.rst:512
 msgid ""
@@ -2438,6 +2949,8 @@ msgid ""
 ":ref:`options <export-data>` on the pop-up window, then click "
 ":guilabel:`Export`."
 msgstr ""
+"Chọn các trường bắt buộc để đưa vào tệp xuất bằng cách sử dụng :ref:`tuỳ "
+"chọn <export-data>` trên cửa sổ bật lên, sau đó nhấp vào :guilabel:`Xuất`."
 
 #: ../../content/applications/essentials/export_import_data.rst:516
 msgid "Import updated data"
@@ -2449,6 +2962,9 @@ msgid ""
 "is ready, it can be :ref:`imported <import-data>` by following the same "
 "process as a normal data import."
 msgstr ""
+"Sau khi xuất, thực hiện mọi thay đổi cần thiết trên tệp dữ liệu. Khi sẵn "
+"sàng, bạn có thể :ref:`nhập <import-data>` tệp bằng cách làm theo quy trình "
+"tương tự như nhập dữ liệu thông thường."
 
 #: ../../content/applications/essentials/export_import_data.rst:522
 msgid ""
@@ -2457,6 +2973,9 @@ msgid ""
 "altered, or removed, the system may add a duplicate record, instead of "
 "updating the existing one."
 msgstr ""
+"Khi cập nhật dữ liệu, điều cực kỳ quan trọng là *ID ngoài* phải nhất quán, "
+"vì đây là cách hệ thống xác định bản ghi. Nếu ID bị thay đổi hoặc xóa, hệ "
+"thống có thể thêm bản ghi trùng lặp, thay vì cập nhật bản ghi hiện có."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 msgid "In-app purchases (IAP)"
@@ -2469,10 +2988,14 @@ msgid ""
 "list of services is available on the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"Mua hàng trong ứng dụng (IAP) là các dịch vụ tùy chọn giúp nâng cao cơ sở dữ"
+" liệu Odoo. Mỗi dịch vụ cung cấp những tính năng và chức năng riêng. Danh "
+"sách đầy đủ các dịch vụ có trên `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "The IAP catalog with various services available on IAP.Odoo.com."
-msgstr ""
+msgstr "Danh mục IAP với nhiều dịch vụ khác nhau có sẵn trên IAP.Odoo.com."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:16
 msgid ""
@@ -2481,6 +3004,10 @@ msgid ""
 "scanned or PDF vendor bills, expenses, and resumes with optical character "
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
+"Dịch vụ :guilabel:`SMS` gửi tin nhắn văn bản đến liên hệ ngay từ cơ sở dữ "
+"liệu và dịch vụ :guilabel:`Số hóa tài liệu` sẽ số hóa các tệp được quét hoặc"
+" tệp PDF của hóa đơn mua hàng, chi phí và sơ yếu lý lịch bằng công nghệ nhận"
+" dạng ký tự quang học (OCR) và trí tuệ nhân tạo (AI)."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:20
 msgid ""
@@ -2489,6 +3016,10 @@ msgid ""
 "each service requires its own prepaid credits, and when they run out, users "
 "**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
 msgstr ""
+"**Không** cần cấu hình hoặc thiết lập dịch vụ |IAP| trước khi sử dụng. Người"
+" dùng Odoo chỉ cần nhấp vào dịch vụ trong ứng dụng để kích hoạt. Tuy nhiên, "
+"mỗi dịch vụ yêu cầu tín dụng trả trước riêng và khi hết, người dùng **phải**"
+" :ref:`mua thêm <iap/buying_credits>` để tiếp tục sử dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:25
 msgid ""
@@ -2497,6 +3028,10 @@ msgid ""
 "includes demo/training databases, educational databases, and one-app-free "
 "databases."
 msgstr ""
+"Người dùng Odoo Enterprise có đăng ký hợp lệ sẽ nhận được tín dụng miễn phí "
+"để kiểm thử các tính năng IAP trước khi quyết định mua thêm tín dụng cho cơ "
+"sở dữ liệu; bao gồm cơ sở dữ liệu demo/đào tạo, cơ sở dữ liệu giáo dục và cơ"
+" sở dữ liệu có một ứng dụng miễn phí."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:32
 msgid "IAP services"
@@ -2507,40 +3042,51 @@ msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
+"Các dịch vụ |IAP| được cung cấp bởi Odoo cũng như các bên thứ ba và có nhiều"
+" mục đích sử dụng khác nhau."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:36
 msgid "The following |IAP| services are offered by Odoo:"
-msgstr ""
+msgstr "Odoo cung cấp các dịch vụ |IAP| sau đây:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:38
 msgid ""
 ":guilabel:`Documents Digitization`: digitizes scanned or PDF vendor bills, "
 "expenses, and resumes with OCR and AI."
 msgstr ""
+":guilabel:`Số hóa tài liệu`: số hóa các tệp được quét hoặc tệp PDF của hóa "
+"đơn mua hàng, chi phí và sơ yếu lý lịch bằng OCR và AI."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:40
 msgid ""
 ":guilabel:`Partner Autocomplete`: automatically populates contact records "
 "with corporate data."
 msgstr ""
+":guilabel:`Tự động điền thông tin đối tác`: tự động điền dữ liệu công ty vào"
+" hồ sơ liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:41
 msgid ""
 ":guilabel:`SMS`: sends SMS text messages to contacts directly from the "
 "database."
 msgstr ""
+":guilabel:`SMS`: gửi tin nhắn văn bản SMS đến liên hệ ngay từ cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:42
 msgid ""
 ":guilabel:`Lead Generation`: generates leads based on a set of criteria, and"
 " converts web visitors into quality leads and opportunities."
 msgstr ""
+":guilabel:`Tạo lead`: tạo lead dựa trên một bộ tiêu chí và chuyển đổi khách "
+"truy cập trang web thành lead và cơ hội chất lượng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:44
 msgid ""
 ":guilabel:`Snailmail`: sends customer invoices and follow-up reports by "
 "post, worldwide."
 msgstr ""
+":guilabel:`Thư bưu điện`: gửi hóa đơn bán hàng và báo cáo follow-up qua "
+"đường bưu điện trên toàn thế giới."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:45
 msgid ""
@@ -2548,6 +3094,9 @@ msgid ""
 "Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
 "which is available in Belgium and the Netherlands."
 msgstr ""
+":guilabel:`Định danh người ký tên bằng itsme®️`: yêu cầu người ký tài liệu "
+"trong Odoo *Ký tên* cung cấp thông tin danh tính của họ bằng nền tảng định "
+"danh *itsme®*, khả dụng tại Bỉ và Hà Lan."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:49
 msgid ""
@@ -2555,6 +3104,9 @@ msgid ""
 "developers other than Odoo), visit the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"Để tìm hiểu thêm thông tin về mọi dịch vụ hiện có (do các lập trình viên "
+"ngoài Odoo cung cấp), hãy truy cập `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:53
 msgid "Use IAP services"
@@ -2566,29 +3118,40 @@ msgid ""
 "require users to configure any settings. To use a service, simply interact "
 "with it wherever it appears in the database."
 msgstr ""
+"Dịch vụ |IAP| được tích hợp tự động với Odoo và **không** yêu cầu người dùng"
+" cấu hình bất kỳ cài đặt nào. Để sử dụng dịch vụ, chỉ cần tương tác với dịch"
+" vụ đó bất cứ khi nào nó xuất hiện trong cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:59
 msgid ""
 "The following flow focuses on the *SMS* |IAP| service being used from a "
 "contact's record."
 msgstr ""
+"Chu trình sau đây tập trung vào dịch vụ |IAP| *SMS* được sử dụng từ hồ sơ "
+"của một liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:61
 msgid ""
 "This can be done by clicking the :guilabel:`📱 SMS` icon within the database."
 msgstr ""
+"Bạn có thể thực hiện việc này bằng cách nhấp vào biểu tượng :guilabel:`📱 "
+"SMS` trong cơ sở dữ liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS icon on a typical contact information form located within an Odoo "
 "database."
 msgstr ""
+"Biểu tượng SMS trên mẫu thông tin liên hệ thông thường nằm trong cơ sở dữ "
+"liệu Odoo."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:67
 msgid ""
 "One way to utilize the *SMS* |IAP| service with Odoo is showcased in the "
 "following steps:"
 msgstr ""
+"Một cách sử dụng dịch vụ |IAP| *SMS* với Odoo được trình bày theo các bước "
+"sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:69
 msgid ""
@@ -2596,6 +3159,9 @@ msgid ""
 " contact with a mobile phone number entered in either the :guilabel:`Phone` "
 "or :guilabel:`Mobile` field of the contact form."
 msgstr ""
+"Đầu tiên, đi đến :menuselection:`ứng dụng Liên hệ` và nhấp vào một số liên "
+"hệ có số điện thoại di động được nhập vào trường :guilabel:`Điện thoại` hoặc"
+" :guilabel:`Di động` của biểu mẫu liên lạc."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:73
 msgid ""
@@ -2603,6 +3169,10 @@ msgid ""
 ":guilabel:`Phone` or :guilabel:`Mobile` fields. Click the :guilabel:`📱 SMS` "
 "icon, and a :guilabel:`Send SMS Text Message` pop-up window appears."
 msgstr ""
+"Tiếp theo, tìm biểu tượng :guilabel:`📱 SMS` xuất hiện ở bên phải các trường "
+":guilabel:`Điện thoại` hoặc :guilabel:`Di động`. Nhấp vào biểu tượng "
+":guilabel:`📱 SMS` và cửa sổ :guilabel:`Gửi tin nhắn văn bản SMS` sẽ xuất "
+"hiện."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:77
 msgid ""
@@ -2611,6 +3181,10 @@ msgid ""
 " to the contact, and logs what was sent in the *chatter* of the contact's "
 "form."
 msgstr ""
+"Nhập tin nhắn vào trường :guilabel:`Tin nhắn` của cửa sổ bật lên. Tiếp theo,"
+" nhấp vào nút :guilabel:`Gửi SMS`. Sau đó, Odoo gửi tin nhắn qua SMS đến "
+"liên hệ và ghi lại những gì đã gửi trong *cửa sổ trò chuyện* của biểu mẫu "
+"liên hệ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:81
 msgid ""
@@ -2619,6 +3193,9 @@ msgid ""
 "not enough credits to send the message, Odoo prompts the user to purchase "
 "more."
 msgstr ""
+"Khi gửi tin nhắn SMS, số tín dụng trả trước cho dịch vụ |IAP| *SMS* sẽ tự "
+"động được khấu trừ khỏi số tín dụng hiện có. Nếu không đủ tín dụng để gửi "
+"tin nhắn, Odoo sẽ nhắc người dùng mua thêm."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:86
 msgid ""
@@ -2626,6 +3203,9 @@ msgid ""
 "depth instructions related to SMS functionality in Odoo, review the "
 "documentation below:"
 msgstr ""
+"Để biết thêm thông tin về cách sử dụng nhiều dịch vụ |IAP| khác nhau và "
+"hướng dẫn chi tiết hơn liên quan đến chức năng SMS trong Odoo, hãy xem tài "
+"liệu dưới đây:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:89
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
@@ -2636,6 +3216,8 @@ msgid ""
 ":doc:`Enrich your contacts base with Partner Autocomplete "
 "<../sales/crm/optimize/partner_autocomplete>`"
 msgstr ""
+":doc:`Làm giàu kho liên hệ của bạn với Tự động điền thông tin đối tác "
+"<../sales/crm/optimize/partner_autocomplete>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:92
 msgid ":doc:`SMS Marketing <../marketing/sms_marketing>`"
@@ -2652,6 +3234,10 @@ msgid ""
 "enough credits left to continue using a service. Email alerts can also be "
 "set up for when :ref:`credits are low <in_app_purchase/low-credits>`."
 msgstr ""
+"Mỗi lần sử dụng dịch vụ |IAP|, các khoản tín dụng trả trước cho dịch vụ đó "
+"sẽ được chi tiêu. Odoo nhắc mua thêm tín dụng khi không còn đủ tín dụng để "
+"tiếp tục sử dụng dịch vụ. Cảnh báo qua email cũng có thể được thiết lập khi "
+":ref:`tín dụng thấp <in_app_purchase/low-credits>`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:103
 msgid ""
@@ -2659,12 +3245,17 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_, and pricing is specific to"
 " each service."
 msgstr ""
+"Tín dụng được mua theo *Gói* từ `Danh mục IAP của Odoo "
+"<https://iap.odoo.com/iap/all-in-app-services>`_ và giá cả sẽ được áp dụng "
+"riêng cho từng dịch vụ."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:107
 msgid ""
 "The `SMS service <https://iap.odoo.com/iap/in-app-services/1>`_ has four "
 "packs available, in denominations of:"
 msgstr ""
+"`Dịch vụ SMS <https://iap.odoo.com/iap/in-app-services/1>`_ có bốn gói với "
+"giá như sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:110
 msgid ":guilabel:`Starter Pack`: 10 credits"
@@ -2684,19 +3275,23 @@ msgstr ":guilabel:`Gói chuyên gia`: 1000 tín dụng"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "Four different packs of credits for the SMS IAP service."
-msgstr ""
+msgstr "Bốn gói tín dụng khác nhau cho dịch vụ SMS IAP."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:119
 msgid ""
 "The number of credits consumed depends on the length of the SMS and the "
 "country of destination."
 msgstr ""
+"Số lượng tín dụng tiêu thụ phụ thuộc vào độ dài của tin nhắn SMS và quốc gia"
+" đích."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:121
 msgid ""
 "For more information, refer to the :doc:`SMS Pricing and FAQ "
 "<../marketing/sms_marketing/pricing_and_faq>` documentation."
 msgstr ""
+"Để tìm hiểu thêm thông tin, tham khảo :doc:`Tài liệu Giá SMS và câu hỏi "
+"thường gặp <../marketing/sms_marketing/pricing_and_faq>`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:127
 msgid "Buy credits"
@@ -2707,6 +3302,8 @@ msgid ""
 "If there are not enough credits to perform a task, the database "
 "automatically prompts the purchase of more credits."
 msgstr ""
+"Nếu không có đủ tín dụng để thực hiện nhiệm vụ, cơ sở dữ liệu sẽ tự động "
+"nhắc mua thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:132
 msgid ""
@@ -2715,6 +3312,10 @@ msgid ""
 ":menuselection:`Settings app --> Contacts section`, and beneath the "
 ":guilabel:`Odoo IAP` setting, click :guilabel:`View My Services`."
 msgstr ""
+"Người dùng có thể kiểm tra số dư tín dụng hiện tại của từng dịch vụ và mua "
+"thêm tín dụng theo cách thủ công bằng cách đi đến :menuselection:`ứng dụng "
+"Cài đặt --> phần Liên hệ` và bên dưới phần cài đặt :guilabel:`Odoo IAP`, "
+"nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:136
 msgid ""
@@ -2723,6 +3324,10 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"Sau đó, trang :guilabel:`Dịch vụ IAP` sẽ hiển thị và liệt kê các dịch vụ "
+"|IAP| khác nhau trong cơ sở dữ liệu. Từ đây, nhấp vào một dịch vụ |IAP| để "
+"mở trang :guilabel:`Thông tin tài khoản` của dịch vụ đó, nơi bạn có thể mua "
+"thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:141
 msgid "Manually buy credits"
@@ -2730,7 +3335,7 @@ msgstr "Mua tín dụng theo cách thủ công"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:143
 msgid "To manually buy credits in Odoo, follow these steps:"
-msgstr ""
+msgstr "Để mua tín dụng thủ công trong Odoo, hãy làm theo các bước sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:145
 msgid ""
@@ -2739,11 +3344,16 @@ msgid ""
 ":guilabel:`Contacts` section. Under the :guilabel:`Contacts` section, where "
 "it says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"Đầu tiên, hãy đi đến :menuselection:`ứng dụng Cài đặt` và nhập `IAP` vào "
+"thanh :guilabel:`Tìm kiếm...`. Ngoài ra, người dùng có thể cuộn xuống phần "
+":guilabel:`Liên hệ`. Trong phần :guilabel:`Liên hệ`, nơi có ghi "
+":guilabel:`Odoo IAP`, hãy nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The Settings app showing the Odoo IAP heading and View My Services button."
 msgstr ""
+"Ứng dụng Cài đặt hiển thị tiêu đề Odoo IAP và nút Xem dịch vụ của tôi."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:154
 msgid ""
@@ -2752,6 +3362,10 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"Sau đó, trang :guilabel:`Tài khoản IAP` sẽ hiển thị và liệt kê các dịch vụ "
+"|IAP| khác nhau trong cơ sở dữ liệu. Từ đây, nhấp vào một dịch vụ |IAP| để "
+"mở trang :guilabel:`Thông tin tài khoản` của dịch vụ đó, nơi bạn có thể mua "
+"thêm tín dụng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:158
 msgid ""
@@ -2761,18 +3375,25 @@ msgid ""
 "credits. Then, follow the prompts to enter payment details, and confirm the "
 "order."
 msgstr ""
+"Trên trang :guilabel:`Thông tin tài khoản`, nhấp vào nút :guilabel:`Mua tín "
+"dụng`. Thao tác này sẽ tải trang :guilabel:`Mua tín dụng cho (Tài khoản "
+"IAP)` trong một tab mới. Từ đây, nhấp vào :guilabel:`Mua` trên gói tín dụng "
+"mong muốn. Sau đó, làm theo chỉ dẫn để nhập thông tin thanh toán và xác nhận"
+" đơn hàng."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS service page on IAP.Odoo.com with four packs of credits available "
 "for purchase."
-msgstr ""
+msgstr "Trang dịch vụ SMS trên IAP.Odoo.com có ​​bốn gói tín dụng có thể mua."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:167
 msgid ""
 "Once the transaction is complete, the credits are available for use in the "
 "database."
 msgstr ""
+"Sau khi giao dịch hoàn tất, số tín dụng sẽ có sẵn để sử dụng trong cơ sở dữ "
+"liệu."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:172
 msgid "Low-credit notification"
@@ -2784,6 +3405,9 @@ msgid ""
 "running out of credits, while using an |IAP| service. To do that, follow "
 "this process:"
 msgstr ""
+"Để tránh trường hợp hết tín dụng khi sử dụng dịch vụ |IAP|, bạn có thể được "
+"thông báo trước nếu tín dụng sắp hết. Để thực hiện, hãy làm theo quy trình "
+"sau:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:177
 msgid ""
@@ -2791,6 +3415,9 @@ msgid ""
 ":guilabel:`Search...` bar. Under the :guilabel:`Contacts` section, where it "
 "says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"Đi đến :menuselection:`ứng dụng Cài đặt` và nhập `IAP` vào thanh "
+":guilabel:`Tìm kiếm...`. Trong phần :guilabel:`Liên hệ`, nơi có ghi "
+":guilabel:`Odoo IAP`, hãy nhấp vào :guilabel:`Xem dịch vụ của tôi`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:181
 msgid ""
@@ -2798,6 +3425,9 @@ msgid ""
 "Account` page. From here, click on the desired |IAP| account to view that "
 "service's :guilabel:`Account Information` page."
 msgstr ""
+"Các tài khoản |IAP| khả dụng sẽ xuất hiện trong chế độ xem danh sách trên "
+"trang :guilabel:`Tài khoản IAP`. Từ đây, hãy nhấp vào tài khoản |IAP| mong "
+"muốn để xem trang :guilabel:`Thông tin tài khoản` của dịch vụ đó."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:184
 msgid ""
@@ -2805,6 +3435,9 @@ msgid ""
 "checkbox. Doing so reveals two fields on the form: :guilabel:`Threshold` and"
 " :guilabel:`Warning Email`."
 msgstr ""
+"Trên trang :guilabel:`Thông tin tài khoản`, hãy tích vào hộp kiểm "
+":guilabel:`Cảnh báo tôi`. Thao tác này sẽ hiển thị hai trường trên biểu mẫu:"
+" :guilabel:`Ngưỡng` và :guilabel:`Email cảnh báo`."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:187
 msgid ""
@@ -2812,6 +3445,9 @@ msgid ""
 "use as the minimum threshold for this service. In the :guilabel:`Warning "
 "Email` field, enter the email address that receives the notification."
 msgstr ""
+"Trong trường :guilabel:`Ngưỡng`, nhập số tín dụng mà Odoo nên sử dụng làm "
+"ngưỡng tối thiểu cho dịch vụ này. Trong trường :guilabel:`Email cảnh báo`, "
+"nhập địa chỉ email nhận thông báo."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:191
 msgid ""
@@ -2819,6 +3455,8 @@ msgid ""
 "balance of credits falls below the amount listed as the "
 ":guilabel:`Threshold`."
 msgstr ""
+"Odoo sẽ gửi cảnh báo tín dụng thấp đến :guilabel:`Email cảnh báo` khi số dư "
+"tín dụng giảm xuống dưới số tiền được đặt làm :guilabel:`Ngưỡng`."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:3
 msgid "Keyboard shortcuts"
@@ -2829,16 +3467,20 @@ msgid ""
 "Users in Odoo can utilize several keyboard shortcuts to navigate through "
 "modules, execute actions, and manage data."
 msgstr ""
+"Người dùng Odoo có thể sử dụng một số phím tắt để điều hướng giữa các phân "
+"hệ, thực hiện tác vụ và quản lý dữ liệu."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
 "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
 "the interface."
 msgstr ""
+"Giữ :kbd:`Ctrl` để xem các phím tắt được gán cho từng thành phần trên giao "
+"diện."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
-msgstr ""
+msgstr "Một số phím tắt trong Odoo."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:16
 msgid ""
@@ -2846,6 +3488,9 @@ msgid ""
 "or effective depending on browsers, extensions, or other individual "
 "settings."
 msgstr ""
+"Một số phím tắt có thể không khả dụng trên các phiên bản Odoo khác nhau hoặc"
+" không hiệu quả tùy vào trình duyệt, tiện ích mở rộng hoặc các cài đặt riêng"
+" khác."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:20
 msgid "Keyboard shortcuts by operating system"
@@ -2856,6 +3501,8 @@ msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
 msgstr ""
+"Dưới đây là danh sách một số phím tắt được sử dụng phổ biến nhất trong Odoo,"
+" được liệt kê theo hệ điều hành."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
@@ -3029,11 +3676,11 @@ msgstr ":kbd:`Command` + :kbd:`K`"
 msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
-msgstr ""
+msgstr "Sau khi mở bảng lệnh, hãy tìm kiếm bằng các phím tắt sau:"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
 msgid ":kbd:`/`: search for menus, applications, and modules."
-msgstr ""
+msgstr ":kbd:`/`: tìm kiếm menu, ứng dụng và phân hệ."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:76
 msgid ":kbd:`@`: search for users."
@@ -3053,10 +3700,13 @@ msgid ""
 "through the available options. Then, click :kbd:`Ctrl` + :kbd:`Enter` to "
 "open the selected app, module, or menu in a new tab."
 msgstr ""
+"Nhập tên (hoặc thuật ngữ) vào thanh tìm kiếm hoặc sử dụng các phím mũi tên "
+"để cuộn qua những tùy chọn có sẵn. Sau đó, nhấp vào :kbd:`Ctrl` + "
+":kbd:`Enter` để mở ứng dụng, phân hệ hoặc menu đã chọn trong một tab mới."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "The command palette in Odoo, with the menu search option selected."
-msgstr ""
+msgstr "Bảng lệnh trong Odoo, với tùy chọn tìm kiếm trong menu được chọn."
 
 #: ../../content/applications/essentials/reporting.rst:3
 msgid "Reporting"
@@ -3428,7 +4078,7 @@ msgstr ""
 "Odoo cho phép tìm kiếm, lọc, và nhóm các bản ghi trong một chế độ xem để chỉ"
 " hiển thị các bản ghi liên quan. Thanh tìm kiếm nằm ở đầu chế độ xem, bắt "
 "đầu nhập để :ref:`tìm kiếm giá trị<search/values>`, hoặc nhấp vào biểu tượng"
-" :guilabel:🔽 (mũi tên hướng xuống)` để truy cập menu thả xuống :ref:`Bộ "
+" :guilabel:`🔽 (mũi tên hướng xuống)` để truy cập menu thả xuống :ref:`Bộ "
 "lọc<search/filters>`, :ref:`Nhóm theo<search/group>`, và :ref:`Yêu "
 "thích<search/favorites>`."
 
@@ -3570,6 +4220,10 @@ msgid ""
 " arrow)` icon in the search bar, then select :menuselection:`Filters --> Add"
 " Custom Filter`."
 msgstr ""
+"Nếu :ref:`bộ lọc cấu hình sẵn <search/preconfigured-filters>` không đủ cụ "
+"thể, hãy thêm bộ lọc tùy chỉnh. Để thực hiện, nhấp vào biểu tượng "
+":guilabel:`🔽 (mũi tên hướng xuống)` trong thanh tìm kiếm, sau đó chọn "
+":menuselection:`Bộ lọc --> Thêm bộ lọc tuỳ chỉnh`."
 
 #: ../../content/applications/essentials/search.rst:84
 msgid ""
@@ -3577,8 +4231,8 @@ msgid ""
 "option, filter rule, and a toggle to :guilabel:`Include archived` records."
 msgstr ""
 "Cửa sổ pop-up :guilabel:`Thêm bộ lọc tùy chỉnh` hiển thị tùy chọn phù hợp, "
-"quy tắc lọc và nút bật/tắt :guilabel:`Ba gồm dữ liệu đã lưu trữ` để hiển thị"
-" cả các bản ghi đã lưu trữ."
+"quy tắc lọc và nút bật/tắt :guilabel:`Bao gồm dữ liệu đã lưu trữ` để hiển "
+"thị cả các bản ghi đã lưu trữ."
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "The Add Custom Filter pop-up window."
@@ -3592,6 +4246,10 @@ msgid ""
 "following rules`, at least two filter rules must be added to the custom "
 "filter."
 msgstr ""
+"Cấu hình so khớp mặc định là :guilabel:`Khớp bất kỳ quy tắc sau`, cho biết "
+"rằng mỗi quy tắc lọc được áp dụng độc lập. Để thay đổi cấu hình so khớp "
+"thành :guilabel:`Khớp tất cả quy tắc sau`, thì ít nhất hai quy tắc lọc phải "
+"được thêm vào bộ lọc tùy chỉnh."
 
 #: ../../content/applications/essentials/search.rst:96
 msgid ""
@@ -3607,7 +4265,7 @@ msgid ""
 "can be met. Logically, this is an *OR* (`|`) operation."
 msgstr ""
 ":guilabel:`Khớp bất kỳ 🔽 quy tắc sau`: **bất kỳ** quy tắc nào trong số các "
-"quy tắc lọc phải được đáp ứng. Về mặt logic, đây là phép toán *OR* (`&`)."
+"quy tắc lọc phải được đáp ứng. Về mặt logic, đây là phép toán *OR* (`|`)."
 
 #: ../../content/applications/essentials/search.rst:101
 msgid ""
@@ -3624,6 +4282,10 @@ msgid ""
 "an :guilabel:`> (arrow)` icon beside them, which can be selected to reveal "
 "the nested fields."
 msgstr ""
+"Trường nội tuyến đầu tiên là *tên trường* để lọc theo. Một số trường có các "
+"tham số tinh chỉnh được lồng vào trong một trường khác. Các trường này có "
+"biểu tượng :guilabel:`> (mũi tên)` bên cạnh, có thể được chọn để hiển thị "
+"các trường lồng nhau."
 
 #: ../../content/applications/essentials/search.rst:107
 msgid ""
@@ -3632,8 +4294,8 @@ msgid ""
 "<reference/orm/domains>` are specific to the field's data type."
 msgstr ""
 "Trường nội tuyến thứ hai là *toán tử* có điều kiện được sử dụng để so sánh "
-"tên trường với giá trị. :ref:`các toán tử có điều kiện khả dụng "
-"<reference/orm/domains>` dành riêng cho kiểu dữ liệu của trường."
+"tên trường với giá trị. :ref:`Các toán tử có điều kiện khả dụng "
+"<reference/orm/domains>` được áp dụng riêng theo kiểu dữ liệu của trường."
 
 #: ../../content/applications/essentials/search.rst:110
 msgid ""
@@ -3642,6 +4304,10 @@ msgid ""
 "date/time input, a boolean selector, or it may be blank, depending on the "
 "operator used and the field's data type."
 msgstr ""
+"Trường nội tuyến thứ ba là biến *giá trị* của tên trường. Giá trị đầu vào có"
+" thể xuất hiện dưới dạng menu thả xuống, đầu vào dạng văn bản, đầu vào dạng "
+"số, đầu vào dạng ngày/giờ, bộ chọn boolean hoặc có thể được để trống, tùy "
+"thuộc vào toán tử được sử dụng và kiểu dữ liệu của trường."
 
 #: ../../content/applications/essentials/search.rst:114
 msgid ""
@@ -3663,6 +4329,11 @@ msgid ""
 "matching option is set to the same as the parent group, the fields are moved"
 " to join the parent group."
 msgstr ""
+":guilabel:`(Thêm nhánh)`: thêm một nhóm quy tắc mới bên dưới quy tắc hiện "
+"tại, đồng thời chứa các tùy chọn so khớp :guilabel:`bất kỳ` và "
+":guilabel:`tất cả` để xác định cách áp dụng từng quy tắc trong nhánh này cho"
+" bộ lọc. Nếu tùy chọn so khớp được đặt giống như nhóm chính, các trường sẽ "
+"được di chuyển vào nhóm chính."
 
 #: ../../content/applications/essentials/search.rst:123
 msgid ""
@@ -3671,6 +4342,10 @@ msgid ""
 ":guilabel:`any 🔽 of` to :guilabel:`all 🔽 of`, the newly-added branch "
 "disappears, and its group of rules are moved to the parent group."
 msgstr ""
+"Nếu tùy chọn so khớp được đặt thành :guilabel:`Khớp tất cả 🔽 quy tắc sau` và"
+" một nhánh mới được thêm vào với tùy chọn so khớp được thay đổi từ "
+":guilabel:`bất kỳ 🔽` thành :guilabel:`tất cả 🔽`, thì nhánh mới được thêm vào"
+" sẽ biến mất và nhóm quy tắc của nhánh đó sẽ được chuyển đến nhóm chính."
 
 #: ../../content/applications/essentials/search.rst:128
 msgid ""
@@ -3720,7 +4395,7 @@ msgstr ":guilabel:`Doanh thu dự kiến` :guilabel:`>` `1000`"
 
 #: ../../content/applications/essentials/search.rst:143
 msgid ":guilabel:`any 🔽 (down arrow)` :guilabel:`of:`"
-msgstr ":guilabel:`bất kỳ dấu 🔽 (mũi tên hướng xuống)` :guilabel:`của:`"
+msgstr ":guilabel:`Bất kỳ dấu 🔽 (mũi tên hướng xuống)` :guilabel:`của:`"
 
 #: ../../content/applications/essentials/search.rst:145
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
@@ -3740,6 +4415,9 @@ msgid ""
 "data type, as well as the :guilabel:`# Code editor` text area below the "
 "filter rules, to view and edit the domain manually."
 msgstr ""
+"Kích hoạt :ref:`developer-mode` để hiển thị tên kỹ thuật và kiểu dữ liệu của"
+" từng trường, cũng như vùng văn bản :guilabel:`# Trình chỉnh sửa mã` bên "
+"dưới các quy tắc lọc để xem và chỉnh sửa miền theo cách thủ công."
 
 #: ../../content/applications/essentials/search.rst:160
 msgid "Group records"
@@ -3752,6 +4430,10 @@ msgid ""
 "arrow)` icon in the search bar, then select one of the :guilabel:`Group By` "
 "options from the drop-down menu."
 msgstr ""
+"Có thể nhóm các bản ghi được hiển thị trong chế độ xem lại với nhau theo một"
+" trong các *nhóm cấu hình sẵn*. Để thực hiện, hãy nhấp vào biểu tượng "
+":guilabel:`🔽 (mũi tên hướng xuống)` trong thanh tìm kiếm, sau đó chọn một "
+"trong các tùy chọn :guilabel:`Nhóm theo` từ menu thả xuống."
 
 #: ../../content/applications/essentials/search.rst:167
 msgid ""
@@ -3761,6 +4443,11 @@ msgid ""
 " The view changes to group the records by salesperson, without filtering out"
 " any records."
 msgstr ""
+"Để nhóm các bản ghi theo chuyên viên sales trên báo cáo *Phân tích bán hàng*"
+" (:menuselection:`Ứng dụng Bán hàng --> Báo cáo --> Bán hàng`), hãy nhấp vào"
+" tùy chọn :guilabel:`Chuyên viên sales` từ menu :guilabel:`Nhóm theo` thả "
+"xuống. Chế độ xem sẽ thay đổi để nhóm các bản ghi theo chuyên viên sales, mà"
+" không lọc bất kỳ bản ghi nào."
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Grouping records on the Sales Analysis report"
@@ -3783,6 +4470,10 @@ msgid ""
 " main group's categories, and so on. Furthermore, filters and groups can be "
 "used together to refine the view even more."
 msgstr ""
+"Bạn có thể sử dụng nhiều nhóm cùng lúc. Nhóm đầu tiên được chọn là nhóm "
+"chính, nhóm tiếp theo được thêm vào sẽ chia nhỏ các danh mục của nhóm "
+"chính,... Ngoài ra, có thể sử dụng bộ lọc và nhóm cùng nhau để tinh chỉnh "
+"chế độ xem hơn nữa."
 
 #: ../../content/applications/essentials/search.rst:187
 msgid "Comparison"
@@ -3798,6 +4489,12 @@ msgid ""
 "<../inventory_and_mrp/purchase/advanced/analyze>` report for the *Purchase* "
 "app, among others."
 msgstr ""
+"Một số trang chủ báo cáo có chứa phần :guilabel:`So sánh` trong menu thả "
+"xuống của thanh :guilabel:`Tìm kiếm...`. Trong số đó có báo cáo :doc:`Hiệu "
+"suất thiết bị tổng thể <../inventory_and_mrp/manufacturing/reporting/oee>` "
+"cho ứng dụng *Sản xuất* và báo cáo :doc:`Mua hàng "
+"<../inventory_and_mrp/purchase/advanced/analyze>` cho ứng dụng *Mua hàng*, "
+"cũng như các báo cáo khác."
 
 #: ../../content/applications/essentials/search.rst:195
 msgid ""
@@ -3806,6 +4503,10 @@ msgid ""
 "options to choose from: :guilabel:`(Time Filter): Previous Period` and "
 ":guilabel:`(Time Filter): Previous Year`."
 msgstr ""
+"Các tùy chọn trong phần :icon:`fa-adjust` :guilabel:`So sánh` được sử dụng "
+"để so sánh dữ liệu từ hai khoảng thời gian khác nhau. Có hai tùy chọn so "
+"sánh để lựa chọn: :guilabel:`(Bộ lọc thời gian): Giai đoạn trước` và "
+":guilabel:`(Bộ lọc thời gian): Năm trước`."
 
 #: ../../content/applications/essentials/search.rst:200
 msgid ""
@@ -3814,6 +4515,10 @@ msgid ""
 " been selected in the :guilabel:`Filters` column. This is because, if no "
 "time period is specified, there is nothing to compare."
 msgstr ""
+"Đối với một số báo cáo, phần :guilabel:`So sánh` **chỉ** xuất hiện trong "
+"menu thả xuống của thanh :guilabel:`Tìm kiếm...` nếu một (hoặc nhiều) khoảng"
+" thời gian đã được chọn trong cột :guilabel:`Bộ lọc`. Lý do là vì nếu không "
+"xác định khoảng thời gian nào thì không có gì để so sánh."
 
 #: ../../content/applications/essentials/search.rst:205
 msgid ""
@@ -3824,6 +4529,11 @@ msgid ""
 "enabled, but doing so does **not** change the way data is displayed on the "
 "report."
 msgstr ""
+"Ngoài ra, một số báo cáo chỉ cho phép sử dụng tính năng :guilabel:`So sánh` "
+"khi chọn loại biểu đồ :icon:`fa-pie-chart` :guilabel:`(biểu đồ tròn)` hoặc "
+"chế độ xem :icon:`oi-view-pivot` :guilabel:`(pivot)`. Dù bạn có thể chọn tùy"
+" chọn :guilabel:`So sánh` ngay cả khi chế độ xem khác được bật, nhưng việc "
+"này **không** thay đổi cách hiển thị dữ liệu trên báo cáo."
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "The Search... bar for the production analysis report."
@@ -3837,6 +4547,11 @@ msgid ""
 "Period` or :guilabel:`(Time Filter): Previous Year` in the "
 ":guilabel:`Comparison` section."
 msgstr ""
+"Để xem dữ liệu bằng một trong hai phép so sánh, hãy bắt đầu bằng cách chọn "
+"một giai đoạn trong cột :guilabel:`Bộ lọc` trên menu thả xuống của thanh "
+":guilabel:`Tìm kiếm...`. Sau đó, chọn :guilabel:`(Bộ lọc thời gian): Giai "
+"đoạn trước` hoặc :guilabel:`(Bộ lọc thời gian): Năm trước` trong phần "
+":guilabel:`So sánh`."
 
 #: ../../content/applications/essentials/search.rst:220
 msgid ""
@@ -3845,6 +4560,10 @@ msgid ""
 "(month, quarter, year), one period or year prior. The way the data is "
 "displayed depends on the selected view:"
 msgstr ""
+"Nếu bạn bật một trong các tùy chọn :guilabel:`So sánh`, thì báo cáo sẽ so "
+"sánh dữ liệu cho giai đoạn đã chọn với dữ liệu cho cùng một đơn vị thời gian"
+" (tháng, quý, năm) thuộc về một giai đoạn hoặc năm trước đó. Cách dữ liệu "
+"được hiển thị phụ thuộc vào chế độ xem đã chọn:"
 
 #: ../../content/applications/essentials/search.rst:224
 msgid ""
@@ -3853,6 +4572,9 @@ msgid ""
 "represents the selected time period, while the right bar represents the "
 "previous time period."
 msgstr ""
+":icon:`fa-bar-chart` :guilabel:`(Biểu đồ cột)` hiển thị hai cột, cạnh nhau, "
+"cho mỗi đơn vị thời gian trong giai đoạn đã chọn. Cột bên trái biểu thị giai"
+" đoạn đã chọn, trong khi cột bên phải biểu thị giai đoạn trước đó."
 
 #: ../../content/applications/essentials/search.rst:227
 msgid ""
@@ -3860,9 +4582,9 @@ msgid ""
 "lines, one representing the selected time period, and the other representing"
 " the previous time period."
 msgstr ""
-":icon:`fa-line-chart` :guilabel:`(biểu đồ đường)` được hiển thị với hai "
-"đường, một đường biểu thị khoảng thời gian đã chọn và đường còn lại biểu thị"
-" khoảng thời gian trước đó."
+":icon:`fa-line-chart` :guilabel:`(Biểu đồ đường)` được hiển thị với hai "
+"đường, một đường biểu thị giai đoạn đã chọn và đường còn lại biểu thị giai "
+"đoạn trước đó."
 
 #: ../../content/applications/essentials/search.rst:229
 msgid ""
@@ -3870,6 +4592,9 @@ msgid ""
 "with a smaller circle inside. The larger circle represents the selected time"
 " period, while the smaller circle represents the previous time period."
 msgstr ""
+":icon:`fa-pie-chart` :guilabel:`(Biểu đồ tròn)` xuất hiện dưới dạng một vòng"
+" tròn lớn và một vòng tròn nhỏ hơn bên trong. Vòng tròn lớn biểu thị giai "
+"đoạn đã chọn, trong khi vòng tròn nhỏ biểu thị giai đoạn trước đó."
 
 #: ../../content/applications/essentials/search.rst:232
 msgid ""
@@ -3878,6 +4603,9 @@ msgid ""
 "selected time period, while the left column represents the previous time "
 "period."
 msgstr ""
+":icon:`oi-view-pivot` :guilabel:`(Bảng pivot)` được hiển thị dưới dạng mỗi "
+"cột được chia thành hai cột nhỏ hơn. Cột bên phải biểu thị giai đoạn đã "
+"chọn, trong khi cột bên trái biểu thị giai đoạn trước đó."
 
 #: ../../content/applications/essentials/search.rst:237
 msgid ""
@@ -3981,6 +4709,11 @@ msgid ""
 ":guilabel:`Favorites` drop-down menu. To remove a saved favorite, click the "
 ":guilabel:`🗑️ (garbage can)` icon next to the favorited search."
 msgstr ""
+"Bạn có thể truy cập danh sách yêu thích đã lưu bằng cách nhấp vào biểu tượng"
+" :guilabel:`🔽 (mũi tên hướng xuống)` trên thanh tìm kiếm, sau đó chọn bộ lọc"
+" đã lưu trong menu thả xuống :guilabel:`Danh sách yêu thích`. Để xóa mục yêu"
+" thích đã lưu, hãy nhấp vào biểu tượng :guilabel:`🗑️ (thùng rác)` bên cạnh "
+"tìm kiếm đã đánh dấu là mục yêu thích."
 
 #: ../../content/applications/essentials/search.rst:281
 msgid ""
@@ -3989,3 +4722,7 @@ msgid ""
 "User-defined Filters`. From here, all favorited searches can be viewed, "
 "edited, archived, or deleted."
 msgstr ""
+"Để xem *tất cả* tìm kiếm yêu thích, trước tiên hãy kích hoạt "
+":ref:`developer-mode` và điều hướng đến :menuselection:`ứng dụng Cài đặt -->"
+" Kỹ thuật --> Giao diện người dùng: Bộ lọc người dùng tạo`. Từ đây, bạn có "
+"thể xem, chỉnh sửa, lưu trữ hoặc xóa tất cả tìm kiếm yêu thích."

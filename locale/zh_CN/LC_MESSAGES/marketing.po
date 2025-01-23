@@ -13,16 +13,16 @@
 # Datasource International <Hennessy@datasourcegroup.com>, 2024
 # Mandy Choy <mnc@odoo.com>, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2024
-# Chloe Wang, 2024
+# Chloe Wang, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-05 09:20+0000\n"
+"POT-Creation-Date: 2024-12-31 16:01+0000\n"
 "PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1645,194 +1645,350 @@ msgid ""
 "In order to properly understand the success or failure of an email marketing"
 " campaign, it is necessary to monitor several key metrics. The insights "
 "gained from these metrics can then be used to optimize future campaigns. "
-"Odoo's *Email Marketing* application tracks several :ref:`key metrics "
-"<email-marketing/key-metrics>`, that can be interpreted to improve future "
-"campaigns."
+"Odoo's **Email Marketing** application tracks several :ref:`key metrics "
+"<email-marketing/view-metrics>`, that can be interpreted through "
+":ref:`reports <email_marketing/create_reports>` to improve future campaigns."
 msgstr ""
-"为了正确理解电子邮件营销活动的成败，有必要监控几个关键指标。从这些指标中获得的见解可用于优化未来的营销活动。Odoo 的 *电子邮件营销* "
-"应用程序可跟踪多个 :ref:`关键指标 <email-marketing/key-metrics>`，通过解读这些指标，可改进未来的营销活动。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:13
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:16
 msgid "View metrics"
 msgstr "查看指标"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:15
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
 msgid ""
 "After a mass mail has been sent, the results for that particular mailing are"
 " displayed in multiple locations."
 msgstr "群发邮件发出后，该邮件的结果会显示在多个位置。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:21
 msgid ""
 "To access the metrics for an individual mailing, navigate to "
 ":menuselection:`Email Marketing app --> Mailings`. Locate the specific "
 "mailing in the list view, and use the column headings to view the results "
 "for that mailing. Click on one of the mailings in the list to open the "
-"record. At the top of the record, detailed metrics are displayed as smart "
-"buttons."
+"record."
 msgstr ""
-"要访问单个邮件的指标，请导航至 :menuselection:`电子邮件营销应用程序 --> "
-"邮件`。在列表视图中找到特定邮件，使用列标题查看该邮件的结果。点击列表中的邮件之一，打开记录。在记录顶部，详细指标以智能按钮的形式显示。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:25
+msgid ""
+"At the top of the record, detailed metrics are displayed as smart buttons."
+msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst-1
 msgid ""
 "The smart buttons on a mass mailing, displaying the results of the message."
 msgstr "群发邮件上的智能按钮，显示邮件结果。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:28
-msgid ""
-"Click on the smart buttons to see the recipient records for each metric."
-msgstr "点击智能按钮，查看每个指标的收件人记录。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:33
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:32
 msgid "Opened rate"
 msgstr "打开率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:35
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:34
 msgid ""
-"The *Opened* rate measures the percentage of emails opened by recipients "
-"against the total number of sent emails."
-msgstr "*打开*率衡量的是收件人打开的邮件占发送邮件总数的百分比。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:38
-msgid ""
-"A high open rate may indicate that the subject line was timely, compelling, "
-"and successfully prompted the recipients to view the message."
-msgstr "打开率高可能表明，主题发送及时、引人注目，成功吸引收件人查看邮件。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:41
-msgid ""
-"A low open rate may indicate the subject line failed to capture the "
-"recipients' interest. It could also indicate the email ended up in a spam or"
-" junk folder due to having a poor sender reputation or failing to "
-":doc:`configure the proper DNS records "
-"<../../general/email_communication/email_domain>`."
+"The percentage of emails opened by recipients, against the total number of "
+"sent emails."
 msgstr ""
-"打开率低可能表明主题行未能引起收件人的兴趣。这也可能表明，由于发件人信誉不佳或未能 :doc:`配置适当的 DNS 记录 "
-"<.../../general/email_communication/email_domain>`，电子邮件最终被放入垃圾邮件文件夹。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:36
+msgid ""
+"In cases where a reply is expected, such as cold outreach emails, high open "
+"rate may indicate the subject line was timely, compelling, and successfully "
+"prompted the recipients to view the message."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:39
+msgid ""
+"In cases where a reply is not expected, such as promotional emails, it may "
+"indicate an issue with the email, such as incorrect product links or coupon "
+"codes."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:42
+msgid ""
+"In cases where a reply is expected, a low open rate may indicate the subject"
+" line failed to capture the recipients' interest or the message ended up in "
+"a spam or junk folder. It could also indicate the email ended up in a spam "
+"or junk folder."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:47
+msgid ""
+"Emails that consistently land in recipient spam folders could be due to "
+"having a poor sender reputation (i.e. high unsubscribe rate, high percentage"
+" of past emails marked as spam, etc.), or failing to :doc:`configure the "
+"proper DNS records <../../general/email_communication/email_domain>`."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:53
 msgid "Replied rate"
 msgstr "回复率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:48
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:55
 msgid ""
-"The *Replied* rate measures the percentage of recipients who responded to "
-"the email directly against the total number of sent emails."
-msgstr "*已回复*率衡量的是直接回复邮件的收件人占发送邮件总数的百分比。"
+"The percentage of recipients who responded to the email, against the total "
+"number of sent emails."
+msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:51
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:57
 msgid ""
 "A high replied rate may indicate the email resonated with recipients, "
 "prompting them to take action or provide feedback."
 msgstr "回复率高可能表明电子邮件引起了收件人的共鸣，促使他们采取行动或提供反馈。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:54
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
 msgid ""
-"A low replied rate may suggest that the message lacked relevance or did not "
-"contain a clear call to action."
-msgstr "回复率低可能表明信息缺乏相关性，或没有明确的行动号召。"
+"A low replied rate may suggest the message lacked relevance or did not "
+"contain a clear call-to-action."
+msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:58
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:64
 msgid "Clicked rate"
 msgstr "点击率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
 msgid ""
-"The *Clicked* through rate (CTR), measures the percentage of recipients who "
-"clicked on a link within the email against the total number of sent emails."
-msgstr "*点击*率（CTR）衡量的是点击邮件中链接的收件人占发送邮件总数的百分比。"
+"This represents the *Clicked through rate (CTR)*, which measures the "
+"percentage of recipients who clicked on a link within the email, against the"
+" total number of sent emails."
+msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:63
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:70
 msgid ""
 "A high |CTR| may indicate the email content was relevant and appropriately "
 "targeted. Recipients were motivated to click the links provided, and likely "
 "found the content engaging."
 msgstr "高点击率 |CTR| 表明电子邮件内容相关性强，目标受众准确。收件人产生兴趣并点击提供的链接，并且很可能觉得内容吸引人。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
 msgid ""
 "A low |CTR| may indicate issues with either the targeting, or the content "
-"itself. Recipients may have been unmotivated by the calls to action, if "
+"itself. Recipients may have been unmotivated by the calls-to-action, if "
 "there were any, or the message itself may have been directed toward the "
 "wrong audience."
-msgstr "低点击率 |CTR| 可能表明定位或内容本身存在问题。收件人可能没有被吸引，或者信息本身的目标受众不对。"
+msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:71
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:78
 msgid "Received rate"
 msgstr "接收率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:80
 msgid ""
-"The *Received* rate measures the percentage of emails that were successfully"
-" delivered against the total number of sent emails."
-msgstr "*接收*率衡量的是成功送达的邮件占发送邮件总数的百分比。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:76
-msgid ""
-"A high received rate can indicate that the mailing list used is up to date "
-"and the sender authentication is trusted by email providers."
-msgstr "高接收率表明所使用的邮件列表是最新的，发件人认证也得到了电子邮件提供商的信任。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:79
-msgid ""
-"A low received rate may indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication. View the :ref:`email-"
-"marketing/deliverability-issues` section for more information."
+"This rate measures the percentage of emails that were **successfully** "
+"delivered, against the total number of sent emails."
 msgstr ""
-"接收率低可能表明邮件使用的邮件列表或发件人身份验证存在问题。请查看 :ref:`email-marketing/deliverability-"
-"issues` 部分了解更多信息。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:84
-msgid "Bounced rate"
-msgstr "退回率"
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:83
+msgid ""
+"A high received rate can indicate the mailing list used is up-to-date, and "
+"the sender authentication is trusted by email providers."
+msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
 msgid ""
-"The *Bounced* rate measures the percentage of emails that were "
-"unsuccessfully delivered, against the total number of sent emails."
-msgstr "*退回*率衡量的是发送失败的邮件占发送邮件总数的百分比。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:89
-msgid ""
-"A high bounce rate could indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication."
-msgstr "高退回率可能表明邮件列表或发件人身份验证存在问题。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:92
-msgid ""
-"A low bounce rate may indicate that the mailing list used is up to date and "
-"the sender authentication is trusted by email providers. View the "
-":ref:`email-marketing/deliverability-issues` section for more information."
+"A low received rate may indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication. View the :ref:`email-"
+"marketing/deliverability-issues` section for more information."
 msgstr ""
-"退回率低表明所使用的邮件列表是最新的，发件人验证也得到了电子邮件提供商的信任。请查看 :ref:`email-"
-"marketing/deliverability-issues` 部分了解更多信息。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:91
+msgid "Bounced rate"
+msgstr "退回率"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:93
+msgid ""
+"This rate measures the percentage of emails that were **unsuccessfully** "
+"delivered, and did not enter a recipient's inbox, against the total number "
+"of sent emails."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:96
+msgid ""
+"A high bounce rate could indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication."
+msgstr ""
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
+msgid ""
+"A low bounce rate may indicate that the mailing list used is up-to-date, and"
+" the sender authentication is trusted by email providers. View the "
+":ref:`email-marketing/deliverability-issues` section for more information."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:104
+msgid ""
+"Click on the respective smart buttons to see all the corresponding recipient"
+" records that are attributed to each metric. When these filtered records are"
+" in view, multiple types of reports can be run for further analysis."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:111
+msgid "Create metrics reports"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+msgid ""
+"Individual metrics can be analyzed by creating a report. To begin, click on "
+"the smart button of the desired metric."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:116
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
+"of the search bar to see a drop-down menu of filtering and grouping "
+"parameters."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:119
+msgid ""
+":guilabel:`Filters`, located in the left column of the search options, can "
+"be used to keep only the results that fit the filter. For example, selecting"
+" the *Bounced* filter only shows emails that could not be delivered."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:123
+msgid ""
+":guilabel:`Group By`, found in the middle column, is used to organize the "
+"results into groups, and can be used with or without filters."
+msgstr ":guilabel:`分组方式` 位于中间列，用于将结果组织成组，并且可以使用或不使用筛选器。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:127
+msgid ""
+"Setting multiple :guilabel:`Group By` options creates nested groups, "
+"according to which option is selected first. For example, selecting "
+":guilabel:`Sent Period`, followed by :guilabel:`Add Custom Group --> "
+"Responsible`, in the :guilabel:`Group By` column, sorts all results *first* "
+"by the sent period, *then* by the team member responsible. This is a useful "
+"metric for analyzing who on the team is sending in volume or quantity over a"
+" set time period."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:133
+msgid ""
+"This can be verified by looking at the direction, and order, of the "
+"selections in the group tile that appears in the search bar after the "
+"selections are made."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:137
+msgid ""
+"A monthly newsletter has been sent out, and 6.9% of the sent emails were "
+"bounced."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The metrics smart buttons of the newsletter."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:143
+msgid ""
+"To see what these bounced recipients have in common, the records are grouped"
+" using a custom group targeting :guilabel:`Mailing Lists`, which groups all "
+"records by the mailing lists they are on. The records are then filtered "
+"using a custom filter with the rule `Created on >= 07/01/2024 00:00:00`, to "
+"filter by when the mailing list was last checked. This filter only includes "
+"recipients that have been created on, or after, July 1st, 2024, in the "
+"report."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The custom filter creation form."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:153
+msgid ""
+"Using these configurations, it is evident that all the recipients with "
+"bounced emails were added after the list was last checked. Looking closer at"
+" the domains, it is evident that each recipient has a malformed email domain"
+" (i.e: @yaoo.com instead of @yahoo.com), likely due to a manual entry error "
+"while updating the database."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "A list of bounced email addresses with malformed email domains."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:163
+msgid ""
+"View :doc:`../../essentials/search` for more information about making custom"
+" groups and filters."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:169
+msgid "Mass mailing analysis"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:171
+msgid ""
+"It is also possible to analyze the success between mailing campaigns by "
+"creating a *Mass Mailing Analysis* report. To begin, navigate to "
+":menuselection:`Email Marketing app --> Reporting --> Mass Mailing "
+"Analysis`."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:175
+msgid ""
+"A dashboard appears displaying a bar chart containing each mailing campaign."
+" By default, :guilabel:`Sent` is selected, displaying the number of sent "
+"records on the y-axis. To change the measure, click the :guilabel:`Measures`"
+" button, and select the desired measure from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:181
+msgid ""
+"The following chart displays the number of opened emails from two different "
+"mass mailings."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:183
+msgid ""
+"In this view, it can be seen that the first mass mailing led to a higher "
+"opened rate than the second. Because a lower opened rate can sometimes be "
+"attributed to a subject line that failed to capture readers' attention, the "
+"subject line of each mass mailing can be a good place to begin looking."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid ""
+"A bar chart displaying the different opened rate between two mass mailing "
+"campaigns."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:192
+msgid ""
+"Comparing the two subject lines, it is clear the newsletter's subject line "
+"was less engaging, which may have led to the lower opened rate, when "
+"compared to the other mass mailing."
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "alt text"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:200
 msgid "Deliverability issues"
 msgstr "送达问题"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:101
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:202
 msgid ""
 "The following define possible reasons for a high bounce rate or low received"
 " rate:"
 msgstr "以下是退回率高或接收率低的可能原因："
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:103
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:204
 msgid ""
 "Using a mailing list that contains outdated contact information, or "
 "malformed email addresses are likely to result in a high bounce rate and/or "
 "a low received rate."
 msgstr "使用包含过时联系信息或畸形电子邮件地址的邮件列表，很可能会导致高退回率和/或低接收率。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:105
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:206
 msgid ""
 "Mailings sent using a *From* email address that differs from the sender's "
 "domain are likely to bounce with certain email providers due to failing "
 ":ref:`DMARC authentication <email-domain-dmarc>`."
 msgstr ""
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:108
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:209
 msgid ""
 "Failing to :doc:`configure the proper DNS records "
 "<../../general/email_communication/email_domain>` can also result in a high "
@@ -1841,11 +1997,11 @@ msgstr ""
 "未能 :doc:`配置正确的 DNS 记录 <../../general/email_communication/email_domain>` "
 "也会导致高退回率。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:213
 msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
 msgstr ":ref:`邮件活动 <email_marketing/mailing-campaigns>`"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:214
 msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
 msgstr ":doc:`管理取消订阅<unsubscriptions>`"
 
@@ -6124,37 +6280,38 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst:226
 msgid "Add Quiz button"
-msgstr ""
+msgstr "添加测验按钮"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:228
 msgid ""
 "The :guilabel:`Add Quiz` button **only** appears on event track forms if the"
 " *Event Gamification* setting is enabled in the Odoo *Events* settings."
 msgstr ""
+"如果在 Odoo *活动* 设置中启用了 *活动游戏化* 设置，则 :guilabel:`添加测验` 按钮 **仅** 会出现在活动跟踪表单中。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:231
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so reveals a separate page where an event track quiz can be created "
 "and configured."
-msgstr ""
+msgstr "要在活动追踪中添加测验，请点击 :guilabel:`添加测验` 按钮。这样就会显示一个单独的页面，在此可以创建和配置事件追踪测验。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Add Quiz page in the Odoo Events application for an event track."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中为活动轨迹添加测验页面。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:238
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page. Then, if participants should be allowed to try the quiz multiple "
 "times, tick the checkbox beside :guilabel:`Allow multiple tries`."
-msgstr ""
+msgstr "首先，在页面顶部的空白区域输入测验标题。然后，如果允许参与者多次尝试测验，请勾选 :guilabel:`允许多次尝试` 旁边的复选框。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:242
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are non-modifiable,"
 " and show the corresponding event and track this quiz is associated with."
-msgstr ""
+msgstr ":guilabel:`活动`和 :guilabel:`活动轨迹` 字段不可修改，并显示此测验关联的相应事件和轨迹。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:245
 msgid ""
@@ -6162,16 +6319,18 @@ msgid ""
 ":guilabel:`Question` column. Doing so reveals a :guilabel:`Create Questions`"
 " pop-up window."
 msgstr ""
+"要在测验中添加问题，请点击 :guilabel:`问题` 栏下的 :guilabel:`添加一行`。这样会弹出一个 :guilabel:`创建问题` "
+"窗口。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Create Questions pop-up window on an event-specific track quiz in the "
 "Odoo Events app."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中，创建问题弹出窗口出现在特定活动轨迹测验上。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:253
 msgid "**All** track quiz questions are multiple choice."
-msgstr ""
+msgstr "**所有** 轨道测验题均为多选题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:255
 msgid ""
@@ -6180,41 +6339,43 @@ msgid ""
 ":guilabel:`Add a line`, a new line appears, in which an answer option can be"
 " entered."
 msgstr ""
+"在弹出的窗口中，在顶部的空白区域输入问题。然后点击 :guilabel:`添加一行` 添加答案选项。点击 :guilabel:`添加一行` "
+"后，会出现一行新内容，可在其中输入答案选项。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:259
 msgid ""
 "Once an answer option has been entered, proceed to designate whether it is "
 "the :guilabel:`Correct` response, by ticking the checkbox in the "
 ":guilabel:`Correct` column."
-msgstr ""
+msgstr "输入答案选项后，请勾选 :guilabel:`正确` 栏中的复选框，指定该选项是否为 :guilabel:`正确` 答案。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:262
 msgid ""
 "Then, there is the option to add a point value in the :guilabel:`Points` "
 "column."
-msgstr ""
+msgstr "然后，可以选择在 :guilabel:`积点` 列中添加点值。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:264
 msgid ""
 "And, if there are any additional comments that should accompany an answer "
 "option, type them into the :guilabel:`Extra Comment` field."
-msgstr ""
+msgstr "如果答案选项有任何附加注释，请在 :guilabel:`附加评论` 字段中输入。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Correct`, :guilabel:`Points`, and :guilabel:`Extra Comment` "
 "fields are all optional."
-msgstr ""
+msgstr "guilabel:`正确`、:guilabel:`点数` 和 :guilabel:`附加评论` 字段都是可选的。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:271
 msgid "Repeat this process for all the answer options."
-msgstr ""
+msgstr "对所有答案选项重复此过程。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:273
 msgid ""
 "To remove an answer option, click the :icon:`fa-trash-o` :guilabel:`(trash "
 "can)` icon on the far-right."
-msgstr ""
+msgstr "要删除答案选项，请点击最右侧的 :icon:`fa-trash-o` :guilabel:`（垃圾桶）` 图标。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:276
 msgid ""
@@ -6235,7 +6396,7 @@ msgstr "要从测验中删除任何问题，请点击问题行最右侧的 :icon
 
 #: ../../content/applications/marketing/events/event_tracks.rst:285
 msgid "Publish event track"
-msgstr ""
+msgstr "发布活动轨迹"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:287
 msgid ""
@@ -6250,7 +6411,7 @@ msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
 "appropriate Kanban stage."
-msgstr ""
+msgstr "还可以通过 :guilabel:`活动轨迹` 页面更改轨道的阶段，在该页面中可以将所需的轨道卡拖放到相应的看板阶段。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:295
 msgid ""
@@ -6318,12 +6479,13 @@ msgid ""
 ":menuselection:`Events app --> Registration Desk`, and selecting the "
 ":guilabel:`Scan a badge` option."
 msgstr ""
+"通过导航至 :menuselection:`活动应用程序 --> 登记处` 并选择 :guilabel:`扫描胸卡` 选项，扫描活动参与者胸卡上的代码。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:28
 msgid ""
 "Odoo **must** be granted access to the camera being used for the "
 ":guilabel:`Scan a badge` option to work."
-msgstr ""
+msgstr "必须授予 Odoo 访问所用相机的权限，:guilabel:`扫描胸卡` 选项才能工作。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:31
 msgid ""
@@ -6332,12 +6494,14 @@ msgid ""
 "specified view finder box present, whose size can be manually modified, "
 "accordingly, using the :icon:`fa-crop` :guilabel:`(crop)` icon."
 msgstr ""
+"一旦 Odoo 可以访问摄像机，就会出现一个 :guilabel:`条形码扫描器` 弹出窗口，显示摄像机的视角。此外，还会出现一个指定的取景框，可使用 "
+":icon:`fa-crop`(裁剪)` 图标手动修改取景框的大小。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst-1
 msgid ""
 "The Barcode Scanner window of the Registration Desk in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 活动应用程序中登记处的条形码扫描器窗口。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:39
 msgid ""
@@ -10819,6 +10983,8 @@ msgid ""
 "away from the completed automation rule, or manually save (by clicking the "
 ":guilabel:`☁️ (cloud)` icon), to implement the change."
 msgstr ""
+"在 :guilabel:`说明` 选项卡下添加任何必要的注释。最后，导航离开已完成的自动化规则，或手动保存（通过点击 :guilabel:`☁️ "
+"(云朵)` 图标）以执行更改。"
 
 #: ../../content/applications/marketing/social_marketing.rst:5
 msgid "Social Marketing"
@@ -11371,13 +11537,13 @@ msgstr "Odoo *社媒营销* 应用程序与其他 Odoo 应用程序整合，如*
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:3
 msgid "Social posts"
-msgstr ""
+msgstr "社交贴文"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:5
 msgid ""
 "The Odoo *Social Marketing* application provides various ways to create "
 "posts for any type of social media outlet."
-msgstr ""
+msgstr "Odoo *社媒营销* 应用程序提供了为任何类型的社交媒体渠道创建贴文的各种方法。"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:9
 msgid "Posts page"
@@ -12125,7 +12291,7 @@ msgstr "规则下方显示的 :guilabel:`记录` 数量代表指定目标受众�
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:395
 msgid ":doc:`social_campaigns`"
-msgstr ""
+msgstr ":doc:`social_campaigns`"
 
 #: ../../content/applications/marketing/surveys.rst:5
 msgid "Surveys"
@@ -12135,7 +12301,7 @@ msgstr "调查"
 msgid ""
 "Companies gather valuable insights from customers and employees through "
 "surveys, aiding informed decision-making."
-msgstr ""
+msgstr "公司通过调查从客户和员工那里收集宝贵的意见，从而帮助做出明智决策。"
 
 #: ../../content/applications/marketing/surveys.rst:10
 msgid ""
@@ -12527,7 +12693,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys.rst:222
 msgid ":doc:`surveys/create`"
-msgstr ""
+msgstr ":doc:`调查/创建`"
 
 #: ../../content/applications/marketing/surveys.rst:225
 #: ../../content/applications/marketing/surveys/scoring.rst:3
@@ -12539,11 +12705,11 @@ msgid ""
 "Discover how to measure a survey participant's performance, or overall "
 "satisfaction, with Odoo's detailed (and fully customizable) survey scoring "
 "options."
-msgstr ""
+msgstr "了解如何利用 Odoo 详细（完全自定义）调查问卷评分选项来衡量调查问卷参与者的绩效或总体满意度。"
 
 #: ../../content/applications/marketing/surveys.rst:231
 msgid ":doc:`surveys/scoring`"
-msgstr ""
+msgstr ":doc:`调查/评分`"
 
 #: ../../content/applications/marketing/surveys.rst:234
 #: ../../content/applications/marketing/surveys/questions.rst:3
@@ -12556,11 +12722,11 @@ msgid ""
 "With Odoo *Surveys*, there are many question types and options to choose "
 "from, providing the ability to create any kind of unique survey, "
 "questionnarire, and/or certification."
-msgstr ""
+msgstr "借助 Odoo *调查问卷*，有许多问题类型和选项可供选择，从而能够创建任何类型的独特调查、问卷和/或认证。"
 
 #: ../../content/applications/marketing/surveys.rst:240
 msgid ":doc:`surveys/questions`"
-msgstr ""
+msgstr ":doc:`调查/问题`"
 
 #: ../../content/applications/marketing/surveys.rst:243
 #: ../../content/applications/marketing/surveys/live_session.rst:3
@@ -13214,6 +13380,8 @@ msgid ""
 "Then, select :guilabel:`Mandatory Answer` from the drop-down menu to reveal "
 "the :guilabel:`Mandatory Answer` column in the :guilabel:`Questions` tab."
 msgstr ""
+"点击列标题最右侧的 :guilabel:`（可选列）` 图标，说明问题是否需要必答。然后，从下拉菜单中选择 :guilabel:`必答题`，以显示 "
+":guilabel:`问题` 选项卡中的 :guilabel:`必答题` 栏。"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
@@ -13326,7 +13494,7 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/create.rst:123
 #: ../../content/applications/marketing/surveys/live_session.rst:66
 msgid "Questions section"
-msgstr ""
+msgstr "问题部分"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
