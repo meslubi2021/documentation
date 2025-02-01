@@ -36,6 +36,10 @@ page. When you :guilabel:`Save`, the product page is automatically published.
      :guilabel:`Go to Website` smart button to access the product page, then toggle the switch from
      :guilabel:`Unpublished` to :guilabel:`Published`.
 
+.. seealso::
+   :doc:`Create new products using the Barcode Lookup database
+   </applications/general/integrations/barcodelookup>`.
+
 .. _ecommerce/products/import-products:
 
 Import products
@@ -116,6 +120,8 @@ To customize the layout of the main :guilabel:`Shop` page or modify its content,
   - Select the :icon:`fa-shopping-cart` (:guilabel:`Shopping cart`) option to display an
     :icon:`fa-shopping-cart` (:guilabel:`Add to cart`) icon on each product's image, which takes the
     customer to the checkout page.
+
+.. _ecommerce/products/wishlist:
 
   - Select the :icon:`fa-heart-o` (:guilabel:`Wishlist`) option to display an
     :icon:`fa-shopping-cart` (:guilabel:`Add to wishlist`) icon on each product's image allowing
